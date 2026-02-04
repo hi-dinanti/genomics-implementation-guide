@@ -1,0 +1,52 @@
+# Temporary folders #
+#####################
+temp
+template
+output
+fsh-generated
+genomics-reporting
+tools
+
+# Don't commit this because it's so large #
+###########################################
+/input-cache
+
+# Windows generated files #
+###########################
+Thumbs.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+**/.index.json
+
+# backup files #
+################
+*.bak
+
+# java settings 
+################
+
+
+.vscode/
+.idea/
+.idea/*
+.jar
+
+# word #
+########
+~$*
+
+
+# emacs #
+#########
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.swp

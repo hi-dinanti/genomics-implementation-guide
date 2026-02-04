@@ -1,0 +1,9 @@
+Extension: TransportedPerson
+Id: TransportedPerson
+Title: "Transported Person"
+Description: "Extension for person who transported the specimen."
+* ^url = "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedPerson"
+* ^status = #draft
+* ^publisher = "Ministry of Health Indonesia"
+* value[x] 1..1
+* value[x] only Reference(Practitioner or PractitionerRole or Patient or RelatedPerson)
