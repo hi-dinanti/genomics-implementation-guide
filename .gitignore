@@ -1,11 +1,11 @@
 # Temporary folders #
 #####################
-temp
-template
-output
-fsh-generated
-genomics-reporting
-tools
+/temp
+/template
+/output
+/fsh-generated
+/genomics-reporting
+/tools
 
 # Don't commit this because it's so large #
 ###########################################
@@ -50,3 +50,4 @@ auto-save-list
 tramp
 .\#*
 .swp
+publisher.jar
