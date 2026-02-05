@@ -1,0 +1,96 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitioner.html" : "Satu Sehat Practitioner"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/iso3166-1-2",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Iso3166-1-2",
+      "title" : "Iso 3166 Part 1: 2 Letter Codes",
+      "description" : "This value set defines the ISO 3166 Part 1 2-letter codes",
+      "systems" : ["urn:iso:std:iso:3166"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthPlace.html" : "Birth Place"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-answers-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireResponseStatus",
+      "title" : "QuestionnaireResponseStatus",
+      "description" : "Lifecycle status of the questionnaire response.",
+      "systems" : ["http://hl7.org/fhir/questionnaire-answers-status"],
+      "oids" : ["required"],
+      "sources" : ["required"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatQuestionnaireResponse.html" : "Satu Sehat Questionnaire Response"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ReligiousAffiliation",
+      "title" : "ReligiousAffiliation",
+      "description" : "Assigment of spiritual faith affiliation",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.19185"],
+      "sources" : ["2.16.840.1.113883.1.11.19185"],
+      "uses" : {
+      },
+      "StructureDefinition-Religion.html" : "religion"
+    },
+    {
+      "url" : "https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AntimicrobialResistanceVS",
+      "title" : "Antimicrobial Resistance ValueSet",
+      "description" : "Comprehensive value set for antimicrobial resistance testing including drugs, antibiotics, susceptibility results, and resistance patterns",
+      "systems" : ["http://loinc.org", "http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-genomic-report.html" : "Genomic Report"
+    },
+    {
+      "url" : "https://fhir.gsilab.id//ValueSet/hgvs-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "HGVSVS",
+      "title" : "Human Genome Variation Society (HGVS) Nomenclature",
+      "description" : "HGVS-nomenclature is used to report and exchange information regarding variants found in DNA, RNA and protein sequences and serves as an international standard. (source: varnomen.hgvs.org)",
+      "systems" : ["http://varnomen.hgvs.org"],
+      "uses" : {
+      },
+      "StructureDefinition-variant.html" : "Variant"
+    },
+    {
+      "url" : "https://fhir.gsilab.id//ValueSet/tbd-codes-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TBDCodesVS",
+      "title" : "To Be Determined Value Set",
+      "description" : "Value Set for codes yet to be defined in LOINC",
+      "systems" : [
+        "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs"
+      ]
+    }
+  ]
+}

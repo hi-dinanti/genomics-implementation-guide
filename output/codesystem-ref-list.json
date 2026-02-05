@@ -1,0 +1,61 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/questionnaire-answers-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireResponseStatus",
+      "title" : "QuestionnaireResponseStatus",
+      "description" : "Lifecycle status of the questionnaire response.",
+      "oids" : ["2.16.840.1.113883.4.642.4.448"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-questionnaire-answers-status.html" : "QuestionnaireResponseStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TbdCodesCS",
+      "title" : "To Be Determined Codes",
+      "description" : "To Be Determined codes from Genomics Reporting",
+      "uses" : {
+      },
+      "ValueSet-tbd-codes-vs.html" : "To Be Determined Value Set"
+    },
+    {
+      "url" : "http://loinc.org",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LOINCCodesCS",
+      "title" : "LOINC Codes Collection",
+      "description" : "Collection of LOINC codes used in the system",
+      "uses" : {
+      },
+      "ValueSet-antimicrobial-resistance-vs.html" : "Antimicrobial Resistance ValueSet"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTCS",
+      "title" : "SNOMED CT Codes",
+      "description" : "SNOMED Clinical Terms codes",
+      "uses" : {
+      },
+      "ValueSet-antimicrobial-resistance-vs.html" : "Antimicrobial Resistance ValueSet"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ReligiousAffiliation",
+      "title" : "Religious Affiliation",
+      "description" : "Assigment of spiritual faith affiliation",
+      "oids" : ["2.16.840.1.113883.5.1076"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/7.0.1/ValueSet-v3-ReligiousAffiliation.html" : "ReligiousAffiliation"
+    }
+  ]
+}

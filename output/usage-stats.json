@@ -1,0 +1,1171 @@
+{
+  "package": "hl7.fhir.r4.id.gsilab",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/AdministrativeCode",
+      "title": "Administrative Code",
+      "types": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/BillingStatus",
+      "title": "Billing Status",
+      "types": [
+        "Identifier",
+        "code",
+        "Reference",
+        "Reference",
+        "Reference",
+        "Reference",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ChargeItemResponse",
+      "title": "Charge Item Response",
+      "types": [
+        "integer",
+        "Reference",
+        "string",
+        "Reference",
+        "CodeableConcept",
+        "Money",
+        "decimal",
+        "string",
+        "decimal",
+        "Money",
+        "Money",
+        "Money",
+        "Money",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/CollectorOrganization",
+      "title": "Collector Organization",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ConditionHistory",
+      "title": "Condition History",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/DocumentStatus",
+      "title": "Document Status",
+      "types": [
+        "CodeableConcept",
+        "dateTime",
+        "Reference",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Education",
+      "title": "Education",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/EligibilityStatus",
+      "title": "Eligibility Status",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ExcessPolicyClass",
+      "title": "Excess Policy Class",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ExcessStatement",
+      "title": "Excess Statement",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationType",
+      "title": "Medication Type",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/PolicyClass",
+      "title": "Policy Class",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/PrimaryCareProvider",
+      "title": "Primary Care Provider",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/PurificationDecision",
+      "title": "Purification Decision",
+      "types": [
+        "Identifier",
+        "CodeableConcept",
+        "Reference",
+        "Reference",
+        "Reference",
+        "dateTime",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ReceivedPerson",
+      "title": "Received Person",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ServiceClass",
+      "title": "Service Class",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/TotalPrice",
+      "title": "Total Price",
+      "types": [
+        "Money"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedPerson",
+      "title": "Transported Person",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedTime",
+      "title": "Transported Time",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/UnitPrice",
+      "title": "Unit Price",
+      "types": [
+        "Money"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusIdentifier",
+      "title": "Billing Status Identifier",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusInsurer",
+      "title": "Billing Status Insurer",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusRecipient",
+      "title": "Billing Status Recipient",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusRequest",
+      "title": "Billing Status Request",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusStatus",
+      "title": "Billing Status",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusSubject",
+      "title": "Billing Status Subject",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/citizenshipStatus",
+      "title": "CitizenshipStatus",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/city",
+      "title": "City",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/district",
+      "title": "District",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-birthPlace",
+      "title": "Birth Place",
+      "types": [
+        "Address",
+        "string",
+        "Extension",
+        "Extension",
+        "code",
+        "code",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "Period"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-birthTime",
+      "title": "Birth Time",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-citizenship",
+      "title": "citizenship",
+      "types": [
+        "CodeableConcept",
+        "Period",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-disability",
+      "title": "disability",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-religion",
+      "title": "religion",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/province",
+      "title": "Province",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-claim-response",
+      "title": "Purification Decision Claim Response",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-created",
+      "title": "Purification Decision Created",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-identifier",
+      "title": "Purification Decision Identifier",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-insurer",
+      "title": "Purification Decision Insurer",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-provider",
+      "title": "Purification Decision Provider",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-status",
+      "title": "Purification Decision Status",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/rt",
+      "title": "RT (Rukun Tetangga)",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/rw",
+      "title": "RW (Rukun Warga)",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/statusAssigner",
+      "title": "Status Assigner",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/statusCode",
+      "title": "Status Code",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/statusTime",
+      "title": "Status Time",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/village",
+      "title": "Village",
+      "types": [
+        "string"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Observation",
+        "title": "Satu Sehat Observation"
+      }
+    ],
+    "DiagnosticReport": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/DiagnosticReport",
+        "title": "Satu Sehat Diagnostic Report"
+      }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ServiceRequest",
+        "title": "Satu Sehat Service Request"
+      }
+    ],
+    "Account": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Account",
+        "title": "SatuSehatAccount"
+      }
+    ],
+    "AllergyIntolerance": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/AllergyIntolerance",
+        "title": "Satu Sehat Allergy Intolerance"
+      }
+    ],
+    "CarePlan": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/CarePlan",
+        "title": "Satu Sehat Care Plan"
+      }
+    ],
+    "ChargeItem": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ChargeItem",
+        "title": "Satu Sehat Charge Item"
+      }
+    ],
+    "ChargeItemDefinition": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ChargeItemDefinition",
+        "title": "Satu Sehat Charge Item Definition"
+      }
+    ],
+    "Claim": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Claim",
+        "title": "Satu Sehat Claim"
+      }
+    ],
+    "ClaimResponse": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ClaimResponse",
+        "title": "Satu Sehat Claim Response"
+      }
+    ],
+    "ClinicalImpression": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ClinicalImpression",
+        "title": "Satu Sehat Clinical Impression"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Composition",
+        "title": "Satu Sehat Composition"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Condition",
+        "title": "Satu Sehat Condition"
+      }
+    ],
+    "Coverage": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Coverage",
+        "title": "Satu Sehat Coverage"
+      }
+    ],
+    "CoverageEligibilityRequest": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/CoverageEligibilityRequest",
+        "title": "Satu Sehat Coverage Eligibility Request"
+      }
+    ],
+    "CoverageEligibilityResponse": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/CoverageEligibilityResponse",
+        "title": "Satu Sehat Coverage Eligibility Response"
+      }
+    ],
+    "DocumentReference": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/DocumentReference",
+        "title": "Satu Sehat Document Reference"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Encounter",
+        "title": "Satu Sehat Encounter"
+      }
+    ],
+    "EpisodeOfCare": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/EpisodeOfCare",
+        "title": "Satu Sehat Episode of Care"
+      }
+    ],
+    "FamilyMemberHistory": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/FamilyMemberHistory",
+        "title": "Satu Sehat Family Member History"
+      }
+    ],
+    "Goal": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Goal",
+        "title": "Satu Sehat Goal"
+      }
+    ],
+    "HealthcareService": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/HealthcareService",
+        "title": "Satu Sehat Healthcare Service"
+      }
+    ],
+    "ImagingStudy": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ImagingStudy",
+        "title": "Satu Sehat Imaging Study"
+      }
+    ],
+    "Immunization": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Immunization",
+        "title": "Satu Sehat Immunization"
+      }
+    ],
+    "Invoice": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Invoice",
+        "title": "Satu Sehat Invoice"
+      }
+    ],
+    "List": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/List",
+        "title": "Satu Sehat List"
+      }
+    ],
+    "Location": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Location",
+        "title": "Satu Sehat Location"
+      }
+    ],
+    "Medication": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Medication",
+        "title": "Satu Sehat Medication"
+      }
+    ],
+    "MedicationAdministration": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationAdministration",
+        "title": "Satu Sehat Medication Administration"
+      }
+    ],
+    "MedicationDispense": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationDispense",
+        "title": "Satu Sehat Medication Dispense"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationRequest",
+        "title": "Satu Sehat Medication Request"
+      }
+    ],
+    "MedicationStatement": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationStatement",
+        "title": "Satu Sehat Medication Statement"
+      }
+    ],
+    "NutritionOrder": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/NutritionOrder",
+        "title": "Satu Sehat Nutrition Order"
+      }
+    ],
+    "OperationOutcome": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/OperationOutcome",
+        "title": "Satu Sehat Operation Outcome"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Organization",
+        "title": "Satu Sehat Organization"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient",
+        "title": "Satu Sehat Patient"
+      }
+    ],
+    "PaymentNotice": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/PaymentNotice",
+        "title": "Satu Sehat Payment Notice"
+      }
+    ],
+    "PaymentReconciliation": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/PaymentReconciliation",
+        "title": "Satu Sehat Payment Reconciliation"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Practitioner",
+        "title": "Satu Sehat Practitioner"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/PractitionerRole",
+        "title": "Satu Sehat Practitioner Role"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Procedure",
+        "title": "Satu Sehat Procedure"
+      }
+    ],
+    "Questionnaire": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Questionnaire",
+        "title": "Satu Sehat Questionnaire"
+      }
+    ],
+    "QuestionnaireResponse": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/QuestionnaireResponse",
+        "title": "Satu Sehat Questionnaire Response"
+      }
+    ],
+    "RelatedPerson": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/RelatedPerson",
+        "title": "Satu Sehat Related Person"
+      }
+    ],
+    "RiskAssessment": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/RiskAssessment",
+        "title": "Satu Sehat Risk Assessment"
+      }
+    ],
+    "Specimen": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Specimen",
+        "title": "Satu Sehat Specimen"
+      }
+    ],
+    "Substance": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Substance",
+        "title": "Satu Sehat Substance"
+      }
+    ],
+    "Task": [
+      {
+        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/Task",
+        "title": "Satu Sehat Task"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.resource.profile": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/AdministrativeCode": [
+      "Address",
+      "Extension.value[x]",
+      "Patient.address",
+      "Practitioner.address"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/ChargeItemResponse": [
+      "ChargeItem"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/CollectorOrganization": [
+      "Specimen.collection"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/ConditionHistory": [
+      "Specimen"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/DocumentStatus": [
+      "Composition"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/Education": [
+      "Patient"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/EligibilityStatus": [
+      "CoverageEligibilityResponse"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/ExcessPolicyClass": [
+      "CoverageEligibilityResponse"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/ExcessStatement": [
+      "CoverageEligibilityResponse"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationType": [
+      "Medication"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/PolicyClass": [
+      "CoverageEligibilityResponse"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/PrimaryCareProvider": [
+      "Coverage"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/ReceivedPerson": [
+      "Specimen"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/ServiceClass": [
+      "Encounter.location",
+      "Location"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/TotalPrice": [
+      "ChargeItem",
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedPerson": [
+      "Specimen"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedTime": [
+      "Specimen"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/UnitPrice": [
+      "ChargeItem",
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusIdentifier": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusInsurer": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusRecipient": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusRequest": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusStatus": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusSubject": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/citizenshipStatus": [
+      "Patient"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/city": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/district": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.differential.element.binding",
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-birthPlace": [
+      "Patient"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-birthTime": [
+      "Patient.birthDate"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-citizenship": [
+      "Patient"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-disability": [
+      "Patient"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-religion": [
+      "Patient"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/province": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-claim-response": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-created": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-identifier": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-insurer": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-provider": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-status": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/rt": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/rw": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/statusAssigner": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/statusCode": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/statusTime": [
+      "Extension"
+    ],
+    "https://fhir.kemkes.go.id/r4/StructureDefinition/village": [
+      "Extension"
+    ]
+  }
+}

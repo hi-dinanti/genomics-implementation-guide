@@ -1,0 +1,26 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ncbi-refseq-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ncbi-refseq-cs</b></p><a name=\"ncbi-refseq-cs\"> </a><a name=\"hcncbi-refseq-cs\"> </a><p>This case-sensitive code system <code>http://www.ncbi.nlm.nih.gov/refseq</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
+  },
+  "url" : "http://www.ncbi.nlm.nih.gov/refseq",
+  "version" : "0.1.0",
+  "name" : "NCBIRefSeqCS",
+  "title" : "NCBI RefSeq Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "NCBI Reference Sequence codes",
+  "caseSensitive" : true,
+  "content" : "complete"
+}

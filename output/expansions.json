@@ -1,0 +1,563 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "c83e0dc5-51a7-4465-b398-c6fcb280689e",
+  "meta" : {
+    "lastUpdated" : "2026-02-05T14:03:15.466+07:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>Loinc v0.1.0<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li>SNOMED CT version 0.1.0<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 65 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-89484-0\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89484-0\">89484-0</a></td><td>Amikacin [Susceptibility] by Genotype method</td><td>Amikacin [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89484-0&quot;, &quot;display&quot;: &quot;Amikacin [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89484-0&quot;&gt;&lt;display value=&quot;Amikacin [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-89481-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89481-6\">89481-6</a></td><td>Gentamicin [Susceptibility] by Genotype method</td><td>Gentamicin [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89481-6&quot;, &quot;display&quot;: &quot;Gentamicin [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89481-6&quot;&gt;&lt;display value=&quot;Gentamicin [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18996-9\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18996-9\">18996-9</a></td><td>Tobramycin [Susceptibility]</td><td>Tobramycin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18996-9&quot;, &quot;display&quot;: &quot;Tobramycin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18996-9&quot;&gt;&lt;display value=&quot;Tobramycin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-89482-4\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89482-4\">89482-4</a></td><td>Kanamycin [Susceptibility] by Genotype method</td><td>Kanamycin [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89482-4&quot;, &quot;display&quot;: &quot;Kanamycin [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89482-4&quot;&gt;&lt;display value=&quot;Kanamycin [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-32373-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-32373-3\">32373-3</a></td><td>Arbekacin [Susceptibility]</td><td>Arbekacin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;32373-3&quot;, &quot;display&quot;: &quot;Arbekacin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;32373-3&quot;&gt;&lt;display value=&quot;Arbekacin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18979-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18979-5\">18979-5</a></td><td>Sisomicin [Susceptibility]</td><td>Sisomicin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18979-5&quot;, &quot;display&quot;: &quot;Sisomicin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18979-5&quot;&gt;&lt;display value=&quot;Sisomicin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-32381-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-32381-6\">32381-6</a></td><td>Isepamicin [Susceptibility]</td><td>Isepamicin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;32381-6&quot;, &quot;display&quot;: &quot;Isepamicin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;32381-6&quot;&gt;&lt;display value=&quot;Isepamicin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-96114-4\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96114-4\">96114-4</a></td><td>Streptomycin [Susceptibility] by Genotype method</td><td>Streptomycin [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;96114-4&quot;, &quot;display&quot;: &quot;Streptomycin [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;96114-4&quot;&gt;&lt;display value=&quot;Streptomycin [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18980-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18980-3\">18980-3</a></td><td>Spectinomycin [Susceptibility]</td><td>Spectinomycin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18980-3&quot;, &quot;display&quot;: &quot;Spectinomycin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18980-3&quot;&gt;&lt;display value=&quot;Spectinomycin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18861-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18861-5\">18861-5</a></td><td>Amoxicillin [Susceptibility]</td><td>Amoxicillin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18861-5&quot;, &quot;display&quot;: &quot;Amoxicillin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18861-5&quot;&gt;&lt;display value=&quot;Amoxicillin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18862-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18862-3\">18862-3</a></td><td>Amoxicillin+Clavulanate [Susceptibility]</td><td>Amoxicillin+Clavulanate [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18862-3&quot;, &quot;display&quot;: &quot;Amoxicillin+Clavulanate [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18862-3&quot;&gt;&lt;display value=&quot;Amoxicillin+Clavulanate [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18864-9\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18864-9\">18864-9</a></td><td>Ampicillin [Susceptibility]</td><td>Ampicillin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18864-9&quot;, &quot;display&quot;: &quot;Ampicillin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18864-9&quot;&gt;&lt;display value=&quot;Ampicillin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18868-0\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18868-0\">18868-0</a></td><td>Aztreonam [Susceptibility]</td><td>Aztreonam [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18868-0&quot;, &quot;display&quot;: &quot;Aztreonam [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18868-0&quot;&gt;&lt;display value=&quot;Aztreonam [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18879-7\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18879-7\">18879-7</a></td><td>Cefepime [Susceptibility]</td><td>Cefepime [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18879-7&quot;, &quot;display&quot;: &quot;Cefepime [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18879-7&quot;&gt;&lt;display value=&quot;Cefepime [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18886-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18886-2\">18886-2</a></td><td>Cefotaxime [Susceptibility]</td><td>Cefotaxime [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18886-2&quot;, &quot;display&quot;: &quot;Cefotaxime [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18886-2&quot;&gt;&lt;display value=&quot;Cefotaxime [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18888-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18888-8\">18888-8</a></td><td>cefOXitin [Susceptibility]</td><td>cefOXitin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18888-8&quot;, &quot;display&quot;: &quot;cefOXitin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18888-8&quot;&gt;&lt;display value=&quot;cefOXitin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18893-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18893-8\">18893-8</a></td><td>cefTAZidime [Susceptibility]</td><td>cefTAZidime [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18893-8&quot;, &quot;display&quot;: &quot;cefTAZidime [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18893-8&quot;&gt;&lt;display value=&quot;cefTAZidime [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18895-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18895-3\">18895-3</a></td><td>cefTRIAXone [Susceptibility]</td><td>cefTRIAXone [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18895-3&quot;, &quot;display&quot;: &quot;cefTRIAXone [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18895-3&quot;&gt;&lt;display value=&quot;cefTRIAXone [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-35802-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-35802-8\">35802-8</a></td><td>Ertapenem [Susceptibility]</td><td>Ertapenem [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;35802-8&quot;, &quot;display&quot;: &quot;Ertapenem [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;35802-8&quot;&gt;&lt;display value=&quot;Ertapenem [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18932-4\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18932-4\">18932-4</a></td><td>Imipenem [Susceptibility]</td><td>Imipenem [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18932-4&quot;, &quot;display&quot;: &quot;Imipenem [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18932-4&quot;&gt;&lt;display value=&quot;Imipenem [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18943-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18943-1\">18943-1</a></td><td>Meropenem [Susceptibility]</td><td>Meropenem [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18943-1&quot;, &quot;display&quot;: &quot;Meropenem [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18943-1&quot;&gt;&lt;display value=&quot;Meropenem [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18969-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18969-6\">18969-6</a></td><td>Piperacillin [Susceptibility]</td><td>Piperacillin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18969-6&quot;, &quot;display&quot;: &quot;Piperacillin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18969-6&quot;&gt;&lt;display value=&quot;Piperacillin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18970-4\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18970-4\">18970-4</a></td><td>Piperacillin+Tazobactam [Susceptibility]</td><td>Piperacillin+Tazobactam [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18970-4&quot;, &quot;display&quot;: &quot;Piperacillin+Tazobactam [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18970-4&quot;&gt;&lt;display value=&quot;Piperacillin+Tazobactam [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18994-4\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18994-4\">18994-4</a></td><td>Ticarcillin [Susceptibility]</td><td>Ticarcillin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18994-4&quot;, &quot;display&quot;: &quot;Ticarcillin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18994-4&quot;&gt;&lt;display value=&quot;Ticarcillin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18995-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18995-1\">18995-1</a></td><td>Ticarcillin+Clavulanate [Susceptibility]</td><td>Ticarcillin+Clavulanate [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18995-1&quot;, &quot;display&quot;: &quot;Ticarcillin+Clavulanate [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18995-1&quot;&gt;&lt;display value=&quot;Ticarcillin+Clavulanate [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18900-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18900-1\">18900-1</a></td><td>Cephalothin [Susceptibility]</td><td>Cephalothin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18900-1&quot;, &quot;display&quot;: &quot;Cephalothin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18900-1&quot;&gt;&lt;display value=&quot;Cephalothin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-25596-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-25596-8\">25596-8</a></td><td>Fosfomycin [Susceptibility]</td><td>Fosfomycin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;25596-8&quot;, &quot;display&quot;: &quot;Fosfomycin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;25596-8&quot;&gt;&lt;display value=&quot;Fosfomycin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18903-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18903-5\">18903-5</a></td><td>Chloramphenicol [Susceptibility]</td><td>Chloramphenicol [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18903-5&quot;, &quot;display&quot;: &quot;Chloramphenicol [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18903-5&quot;&gt;&lt;display value=&quot;Chloramphenicol [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18906-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18906-8\">18906-8</a></td><td>Ciprofloxacin [Susceptibility]</td><td>Ciprofloxacin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18906-8&quot;, &quot;display&quot;: &quot;Ciprofloxacin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18906-8&quot;&gt;&lt;display value=&quot;Ciprofloxacin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18985-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18985-2\">18985-2</a></td><td>Sulfamethoxazole [Susceptibility]</td><td>Sulfamethoxazole [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18985-2&quot;, &quot;display&quot;: &quot;Sulfamethoxazole [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18985-2&quot;&gt;&lt;display value=&quot;Sulfamethoxazole [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18917-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18917-5\">18917-5</a></td><td>Doxycycline [Susceptibility]</td><td>Doxycycline [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18917-5&quot;, &quot;display&quot;: &quot;Doxycycline [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18917-5&quot;&gt;&lt;display value=&quot;Doxycycline [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18993-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18993-6\">18993-6</a></td><td>Tetracycline [Susceptibility]</td><td>Tetracycline [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18993-6&quot;, &quot;display&quot;: &quot;Tetracycline [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18993-6&quot;&gt;&lt;display value=&quot;Tetracycline [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18997-7\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18997-7\">18997-7</a></td><td>Trimethoprim [Susceptibility]</td><td>Trimethoprim [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;18997-7&quot;, &quot;display&quot;: &quot;Trimethoprim [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;18997-7&quot;&gt;&lt;display value=&quot;Trimethoprim [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-89487-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89487-3\">89487-3</a></td><td>Fluoroquinolone [Susceptibility] by Genotype method</td><td>Fluoroquinolone [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89487-3&quot;, &quot;display&quot;: &quot;Fluoroquinolone [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89487-3&quot;&gt;&lt;display value=&quot;Fluoroquinolone [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-88462-7\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-88462-7\">88462-7</a></td><td>Carbapenem [Susceptibility]</td><td>Carbapenem [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;88462-7&quot;, &quot;display&quot;: &quot;Carbapenem [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;88462-7&quot;&gt;&lt;display value=&quot;Carbapenem [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-89486-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89486-5\">89486-5</a></td><td>Mycobacterial susceptibility panel Qualitative by Genotype method</td><td>Mycobacterial susceptibility panel Qualitative by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89486-5&quot;, &quot;display&quot;: &quot;Mycobacterial susceptibility panel Qualitative by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89486-5&quot;&gt;&lt;display value=&quot;Mycobacterial susceptibility panel Qualitative by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-614-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-614-8\">614-8</a></td><td>Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping</td><td>Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;614-8&quot;, &quot;display&quot;: &quot;Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;614-8&quot;&gt;&lt;display value=&quot;Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-89489-9\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89489-9\">89489-9</a></td><td>rifAMPin [Susceptibility] by Genotype method</td><td>rifAMPin [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89489-9&quot;, &quot;display&quot;: &quot;rifAMPin [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89489-9&quot;&gt;&lt;display value=&quot;rifAMPin [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-89488-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89488-1\">89488-1</a></td><td>Isoniazid [Susceptibility] by Genotype method</td><td>Isoniazid [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89488-1&quot;, &quot;display&quot;: &quot;Isoniazid [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89488-1&quot;&gt;&lt;display value=&quot;Isoniazid [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-89491-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89491-5\">89491-5</a></td><td>Ethambutol [Susceptibility] by Genotype method</td><td>Ethambutol [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89491-5&quot;, &quot;display&quot;: &quot;Ethambutol [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89491-5&quot;&gt;&lt;display value=&quot;Ethambutol [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-92242-7\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-92242-7\">92242-7</a></td><td>Pyrazinamide [Susceptibility] by Genotype method</td><td>Pyrazinamide [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;92242-7&quot;, &quot;display&quot;: &quot;Pyrazinamide [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;92242-7&quot;&gt;&lt;display value=&quot;Pyrazinamide [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-96112-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96112-8\">96112-8</a></td><td>Moxifloxacin [Susceptibility] by Genotype method</td><td>Moxifloxacin [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;96112-8&quot;, &quot;display&quot;: &quot;Moxifloxacin [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;96112-8&quot;&gt;&lt;display value=&quot;Moxifloxacin [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-20629-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-20629-2\">20629-2</a></td><td>levoFLOXacin [Susceptibility]</td><td>levoFLOXacin [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;20629-2&quot;, &quot;display&quot;: &quot;levoFLOXacin [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;20629-2&quot;&gt;&lt;display value=&quot;levoFLOXacin [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-96107-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96107-8\">96107-8</a></td><td>Bedaquiline [Susceptibility] by Genotype method</td><td>Bedaquiline [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;96107-8&quot;, &quot;display&quot;: &quot;Bedaquiline [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;96107-8&quot;&gt;&lt;display value=&quot;Bedaquiline [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-96109-4\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96109-4\">96109-4</a></td><td>Delamanid [Susceptibility] by Genotype method</td><td>Delamanid [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;96109-4&quot;, &quot;display&quot;: &quot;Delamanid [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;96109-4&quot;&gt;&lt;display value=&quot;Delamanid [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-93850-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-93850-6\">93850-6</a></td><td>Pretomanid [Susceptibility]</td><td>Pretomanid [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;93850-6&quot;, &quot;display&quot;: &quot;Pretomanid [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;93850-6&quot;&gt;&lt;display value=&quot;Pretomanid [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-96111-0\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96111-0\">96111-0</a></td><td>Linezolid [Susceptibility] by Genotype method</td><td>Linezolid [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;96111-0&quot;, &quot;display&quot;: &quot;Linezolid [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;96111-0&quot;&gt;&lt;display value=&quot;Linezolid [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-89483-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89483-2\">89483-2</a></td><td>Capreomycin [Susceptibility] by Genotype method</td><td>Capreomycin [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;89483-2&quot;, &quot;display&quot;: &quot;Capreomycin [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;89483-2&quot;&gt;&lt;display value=&quot;Capreomycin [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-96108-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96108-6\">96108-6</a></td><td>Clofazimine [Susceptibility] by Genotype method</td><td>Clofazimine [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;96108-6&quot;, &quot;display&quot;: &quot;Clofazimine [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;96108-6&quot;&gt;&lt;display value=&quot;Clofazimine [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-96110-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96110-2\">96110-2</a></td><td>Ethionamide [Susceptibility] by Genotype method</td><td>Ethionamide [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;96110-2&quot;, &quot;display&quot;: &quot;Ethionamide [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;96110-2&quot;&gt;&lt;display value=&quot;Ethionamide [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-23629-9\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-23629-9\">23629-9</a></td><td>Para aminosalicylate [Susceptibility]</td><td>Para aminosalicylate [Susceptibility]</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;23629-9&quot;, &quot;display&quot;: &quot;Para aminosalicylate [Susceptibility]&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;23629-9&quot;&gt;&lt;display value=&quot;Para aminosalicylate [Susceptibility]&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-103959-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-103959-3\">103959-3</a></td><td>cycloSERINE [Susceptibility] by Genotype method</td><td>cycloSERINE [Susceptibility] by Genotype method</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;103959-3&quot;, &quot;display&quot;: &quot;cycloSERINE [Susceptibility] by Genotype method&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;103959-3&quot;&gt;&lt;display value=&quot;cycloSERINE [Susceptibility] by Genotype method&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-LA24225-7\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-LA24225-7\">LA24225-7</a></td><td>Susceptible</td><td>Susceptible</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LA24225-7&quot;, &quot;display&quot;: &quot;Susceptible&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LA24225-7&quot;&gt;&lt;display value=&quot;Susceptible&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-LA6676-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-LA6676-6\">LA6676-6</a></td><td>Resistant</td><td>Resistant</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LA6676-6&quot;, &quot;display&quot;: &quot;Resistant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LA6676-6&quot;&gt;&lt;display value=&quot;Resistant&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-413852006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-413852006\">413852006</a></td><td>Ciprofloxacin resistant tuberculosis</td><td>Ciprofloxacin resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;413852006&quot;, &quot;display&quot;: &quot;Ciprofloxacin resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;413852006&quot;&gt;&lt;display value=&quot;Ciprofloxacin resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-414146004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414146004\">414146004</a></td><td>Ethambutol resistant tuberculosis</td><td>Ethambutol resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;414146004&quot;, &quot;display&quot;: &quot;Ethambutol resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;414146004&quot;&gt;&lt;display value=&quot;Ethambutol resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-414149006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414149006\">414149006</a></td><td>Ethionamide resistant tuberculosis</td><td>Ethionamide resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;414149006&quot;, &quot;display&quot;: &quot;Ethionamide resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;414149006&quot;&gt;&lt;display value=&quot;Ethionamide resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-414546009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414546009\">414546009</a></td><td>Isoniazid resistant tuberculosis</td><td>Isoniazid resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;414546009&quot;, &quot;display&quot;: &quot;Isoniazid resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;414546009&quot;&gt;&lt;display value=&quot;Isoniazid resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-415222009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415222009\">415222009</a></td><td>Pyrazinamide resistant tuberculosis</td><td>Pyrazinamide resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;415222009&quot;, &quot;display&quot;: &quot;Pyrazinamide resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;415222009&quot;&gt;&lt;display value=&quot;Pyrazinamide resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-415345001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415345001\">415345001</a></td><td>Rifampicin resistant tuberculosis</td><td>Rifampicin resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;415345001&quot;, &quot;display&quot;: &quot;Rifampicin resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;415345001&quot;&gt;&lt;display value=&quot;Rifampicin resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-415622003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415622003\">415622003</a></td><td>Streptomycin resistant tuberculosis</td><td>Streptomycin resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;415622003&quot;, &quot;display&quot;: &quot;Streptomycin resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;415622003&quot;&gt;&lt;display value=&quot;Streptomycin resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-710106005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-710106005\">710106005</a></td><td>Extensively drug resistant tuberculosis</td><td>Extensively drug resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;710106005&quot;, &quot;display&quot;: &quot;Extensively drug resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;710106005&quot;&gt;&lt;display value=&quot;Extensively drug resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-423092005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-423092005\">423092005</a></td><td>Multidrug resistant tuberculosis</td><td>Multidrug resistant tuberculosis</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;423092005&quot;, &quot;display&quot;: &quot;Multidrug resistant tuberculosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;423092005&quot;&gt;&lt;display value=&quot;Multidrug resistant tuberculosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1098201000112100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-1098201000112100\">1098201000112100</a></td><td>Carbapenemase-producing Klebsiella pneumoniae</td><td>Carbapenemase-producing Klebsiella pneumoniae</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;1098201000112100&quot;, &quot;display&quot;: &quot;Carbapenemase-producing Klebsiella pneumoniae&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;1098201000112100&quot;&gt;&lt;display value=&quot;Carbapenemase-producing Klebsiella pneumoniae&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-714315002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-714315002\">714315002</a></td><td>Multidrug-resistant Klebsiella pneumoniae</td><td>Multidrug-resistant Klebsiella pneumoniae</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;714315002&quot;, &quot;display&quot;: &quot;Multidrug-resistant Klebsiella pneumoniae&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;714315002&quot;&gt;&lt;display value=&quot;Multidrug-resistant Klebsiella pneumoniae&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs",
+      "version" : "0.1.0",
+      "name" : "AntimicrobialResistanceVS",
+      "title" : "Antimicrobial Resistance ValueSet",
+      "status" : "draft",
+      "date" : "2026-02-04T20:03:04+07:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:26cf0c92-662e-4c51-bcc0-e99d61e03463",
+        "timestamp" : "2026-02-04T13:26:03.201Z",
+        "total" : 65,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|0.1.0"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "89484-0",
+          "display" : "Amikacin [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89481-6",
+          "display" : "Gentamicin [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18996-9",
+          "display" : "Tobramycin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89482-4",
+          "display" : "Kanamycin [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "32373-3",
+          "display" : "Arbekacin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18979-5",
+          "display" : "Sisomicin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "32381-6",
+          "display" : "Isepamicin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "96114-4",
+          "display" : "Streptomycin [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18980-3",
+          "display" : "Spectinomycin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18861-5",
+          "display" : "Amoxicillin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18862-3",
+          "display" : "Amoxicillin+Clavulanate [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18864-9",
+          "display" : "Ampicillin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18868-0",
+          "display" : "Aztreonam [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18879-7",
+          "display" : "Cefepime [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18886-2",
+          "display" : "Cefotaxime [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18888-8",
+          "display" : "cefOXitin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18893-8",
+          "display" : "cefTAZidime [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18895-3",
+          "display" : "cefTRIAXone [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "35802-8",
+          "display" : "Ertapenem [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18932-4",
+          "display" : "Imipenem [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18943-1",
+          "display" : "Meropenem [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18969-6",
+          "display" : "Piperacillin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18970-4",
+          "display" : "Piperacillin+Tazobactam [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18994-4",
+          "display" : "Ticarcillin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18995-1",
+          "display" : "Ticarcillin+Clavulanate [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18900-1",
+          "display" : "Cephalothin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "25596-8",
+          "display" : "Fosfomycin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18903-5",
+          "display" : "Chloramphenicol [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18906-8",
+          "display" : "Ciprofloxacin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18985-2",
+          "display" : "Sulfamethoxazole [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18917-5",
+          "display" : "Doxycycline [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18993-6",
+          "display" : "Tetracycline [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "18997-7",
+          "display" : "Trimethoprim [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89487-3",
+          "display" : "Fluoroquinolone [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "88462-7",
+          "display" : "Carbapenem [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89486-5",
+          "display" : "Mycobacterial susceptibility panel Qualitative by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "614-8",
+          "display" : "Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89489-9",
+          "display" : "rifAMPin [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89488-1",
+          "display" : "Isoniazid [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89491-5",
+          "display" : "Ethambutol [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "92242-7",
+          "display" : "Pyrazinamide [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "96112-8",
+          "display" : "Moxifloxacin [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "20629-2",
+          "display" : "levoFLOXacin [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "96107-8",
+          "display" : "Bedaquiline [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "96109-4",
+          "display" : "Delamanid [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "93850-6",
+          "display" : "Pretomanid [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "96111-0",
+          "display" : "Linezolid [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89483-2",
+          "display" : "Capreomycin [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "96108-6",
+          "display" : "Clofazimine [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "96110-2",
+          "display" : "Ethionamide [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "23629-9",
+          "display" : "Para aminosalicylate [Susceptibility]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "103959-3",
+          "display" : "cycloSERINE [Susceptibility] by Genotype method"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA24225-7",
+          "display" : "Susceptible"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA6676-6",
+          "display" : "Resistant"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "413852006",
+          "display" : "Ciprofloxacin resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "414146004",
+          "display" : "Ethambutol resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "414149006",
+          "display" : "Ethionamide resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "414546009",
+          "display" : "Isoniazid resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "415222009",
+          "display" : "Pyrazinamide resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "415345001",
+          "display" : "Rifampicin resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "415622003",
+          "display" : "Streptomycin resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "710106005",
+          "display" : "Extensively drug resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "423092005",
+          "display" : "Multidrug resistant tuberculosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1098201000112100",
+          "display" : "Carbapenemase-producing Klebsiella pneumoniae"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "714315002",
+          "display" : "Multidrug-resistant Klebsiella pneumoniae"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.gsilab.id//ValueSet/hgvs-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on codesystem varnomen.hgvs.org version 2.0<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://varnomen.hgvs.org|2.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "https://fhir.gsilab.id//ValueSet/hgvs-vs",
+      "version" : "0.1.0",
+      "name" : "HGVSVS",
+      "title" : "Human Genome Variation Society (HGVS) Nomenclature",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-02-05T14:03:15+07:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:e34ac498-e8cb-4ac1-b75c-5522e6b207a4",
+        "timestamp" : "2026-02-05T14:19:04+07:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://varnomen.hgvs.org|2.0"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.gsilab.id//ValueSet/tbd-codes-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-tbd-codes-cs.html\">codesystem To Be Determined Codes v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 18 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-GE\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-GE\">GE</a></td><td>Genetics</td><td>Genetics</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;GE&quot;, &quot;display&quot;: &quot;Genetics&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;GE&quot;&gt;&lt;display value=&quot;Genetics&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-associated-therapy\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-associated-therapy\">associated-therapy</a></td><td>Associated Therapy</td><td>The non-medication therapy (procedure) associated with this implication.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;associated-therapy&quot;, &quot;display&quot;: &quot;Associated Therapy&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;associated-therapy&quot;&gt;&lt;display value=&quot;Associated Therapy&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-molecular-consequence\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-molecular-consequence\">molecular-consequence</a></td><td>Molecular Consequence</td><td>The calculated or observed effect of a DNA variant on its downstream transcript and, if applicable, ensuing protein sequence.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;molecular-consequence&quot;, &quot;display&quot;: &quot;Molecular Consequence&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;molecular-consequence&quot;&gt;&lt;display value=&quot;Molecular Consequence&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-feature-consequence\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-feature-consequence\">feature-consequence</a></td><td>Feature Consequence</td><td>The structural implications of a variant (e.g. the variant disrupts a regulatory region, the variant is an inframe insertion).</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;feature-consequence&quot;, &quot;display&quot;: &quot;Feature Consequence&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;feature-consequence&quot;&gt;&lt;display value=&quot;Feature Consequence&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-diagnostic-implication\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-diagnostic-implication\">diagnostic-implication</a></td><td>Diagnostic Implication</td><td>An observation linking a genomic finding with a knowledge base, providing context that may aid in diagnosing a patient with a particular phenotype or condition.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;diagnostic-implication&quot;, &quot;display&quot;: &quot;Diagnostic Implication&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;diagnostic-implication&quot;&gt;&lt;display value=&quot;Diagnostic Implication&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-therapeutic-implication\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-therapeutic-implication\">therapeutic-implication</a></td><td>Therapeutic Implication</td><td>An observation linking a genomic finding with a knowledge base, providing potential evidence of an interaction with a specified medication or non-medicinal therapy. Ramifications may include alterations in drug metabolism (or pharmacokinetics) that determine the concentration of the drug, prodrug, and/or break-down products over time; alterations in drug efficacy (or pharmacodynamics) that determine how effective a drug is at a given concentration; alterations that alter the risk of adverse drug events, or other types of implications that indicate altered responsiveness to other types of therapies.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;therapeutic-implication&quot;, &quot;display&quot;: &quot;Therapeutic Implication&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;therapeutic-implication&quot;&gt;&lt;display value=&quot;Therapeutic Implication&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-genomic-annotation\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-genomic-annotation\">genomic-annotation</a></td><td>Genomic Annotation</td><td>Profile for communicating the genome annotation derived from a genomic finding. Annotations are obtained from different databases (Clinvar,gnomad3,thousandgenomes etc.). NOTE: The bound Annotation Module value set is extensible. New annotation programs are being developed and old programs are being upodated/revised, meaning some annotation modules are outside the value set.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;genomic-annotation&quot;, &quot;display&quot;: &quot;Genomic Annotation&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;genomic-annotation&quot;&gt;&lt;display value=&quot;Genomic Annotation&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-functional-effect\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-functional-effect\">functional-effect</a></td><td>Functional Effect</td><td>The effect of a variant on downstream biological products or pathways (from Sequence Ontology).</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;functional-effect&quot;, &quot;display&quot;: &quot;Functional Effect&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;functional-effect&quot;&gt;&lt;display value=&quot;Functional Effect&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-conclusion-string\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-conclusion-string\">conclusion-string</a></td><td>Conclusion Text</td><td>Clinical conclusion (interpretation) of the observation.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;conclusion-string&quot;, &quot;display&quot;: &quot;Conclusion Text&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;conclusion-string&quot;&gt;&lt;display value=&quot;Conclusion Text&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-condition-inheritance\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-condition-inheritance\">condition-inheritance</a></td><td>Condition Inheritance</td><td>The transmission pattern of the condition/phenotype in a pedigree.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;condition-inheritance&quot;, &quot;display&quot;: &quot;Condition Inheritance&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;condition-inheritance&quot;&gt;&lt;display value=&quot;Condition Inheritance&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-variant-confidence-status\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-variant-confidence-status\">variant-confidence-status</a></td><td>Variant Confidence Status</td><td>The confidence of a true positive variant call.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;variant-confidence-status&quot;, &quot;display&quot;: &quot;Variant Confidence Status&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;variant-confidence-status&quot;&gt;&lt;display value=&quot;Variant Confidence Status&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-repeat-motif\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-repeat-motif\">repeat-motif</a></td><td>Repeat Expansion Motif</td><td>Nucleotides of a repeat expansion motif.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;repeat-motif&quot;, &quot;display&quot;: &quot;Repeat Expansion Motif&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;repeat-motif&quot;&gt;&lt;display value=&quot;Repeat Expansion Motif&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-repeat-number\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-repeat-number\">repeat-number</a></td><td>Number of Repeat Expansions</td><td>Number of repeats of a repeat expansion.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;repeat-number&quot;, &quot;display&quot;: &quot;Number of Repeat Expansions&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;repeat-number&quot;&gt;&lt;display value=&quot;Number of Repeat Expansions&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-biomarker-category\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-biomarker-category\">biomarker-category</a></td><td>A characterization of a given biomarker observation.</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;biomarker-category&quot;, &quot;display&quot;: &quot;A characterization of a given biomarker observation.&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;biomarker-category&quot;&gt;&lt;display value=&quot;A characterization of a given biomarker observation.&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-protein-ref-seq\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-protein-ref-seq\">protein-ref-seq</a></td><td>An identifier for the protein reference sequence.</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;protein-ref-seq&quot;, &quot;display&quot;: &quot;An identifier for the protein reference sequence.&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;protein-ref-seq&quot;&gt;&lt;display value=&quot;An identifier for the protein reference sequence.&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-conservation-score\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-conservation-score\">conservation-score</a></td><td>Conservation Score</td><td>The conservation score calculated</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;conservation-score&quot;, &quot;display&quot;: &quot;Conservation Score&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;conservation-score&quot;&gt;&lt;display value=&quot;Conservation Score&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-annotation-pipeline\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-annotation-pipeline\">annotation-pipeline</a></td><td>Annotation Pipeline</td><td>The name of the data pipeline that processed the genomic data file</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;annotation-pipeline&quot;, &quot;display&quot;: &quot;Annotation Pipeline&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;annotation-pipeline&quot;&gt;&lt;display value=&quot;Annotation Pipeline&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs-knowledge-base\"> </a><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tbd-codes-cs.html#tbd-codes-cs-knowledge-base\">knowledge-base</a></td><td>Knowledge Base</td><td>The database from which the annotation is derived</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;knowledge-base&quot;, &quot;display&quot;: &quot;Knowledge Base&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;knowledge-base&quot;&gt;&lt;display value=&quot;Knowledge Base&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://fhir.gsilab.id//ValueSet/tbd-codes-vs",
+      "version" : "0.1.0",
+      "name" : "TBDCodesVS",
+      "title" : "To Be Determined Value Set",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-02-05T14:03:15+07:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:db7f01ba-d844-44a7-9d43-eb6cde493488",
+        "timestamp" : "2026-02-05T14:19:54+07:00",
+        "total" : 18,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "GE",
+          "display" : "Genetics"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "associated-therapy",
+          "display" : "Associated Therapy"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "molecular-consequence",
+          "display" : "Molecular Consequence"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "feature-consequence",
+          "display" : "Feature Consequence"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "diagnostic-implication",
+          "display" : "Diagnostic Implication"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "therapeutic-implication",
+          "display" : "Therapeutic Implication"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "genomic-annotation",
+          "display" : "Genomic Annotation"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "functional-effect",
+          "display" : "Functional Effect"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "conclusion-string",
+          "display" : "Conclusion Text"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "condition-inheritance",
+          "display" : "Condition Inheritance"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "variant-confidence-status",
+          "display" : "Variant Confidence Status"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "repeat-motif",
+          "display" : "Repeat Expansion Motif"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "repeat-number",
+          "display" : "Number of Repeat Expansions"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "biomarker-category",
+          "display" : "A characterization of a given biomarker observation."
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "protein-ref-seq",
+          "display" : "An identifier for the protein reference sequence."
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "conservation-score",
+          "display" : "Conservation Score"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "annotation-pipeline",
+          "display" : "Annotation Pipeline"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+          "code" : "knowledge-base",
+          "display" : "Knowledge Base"
+        }]
+      }
+    }
+  }]
+}

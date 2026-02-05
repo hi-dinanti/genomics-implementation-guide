@@ -1,0 +1,13 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/sid/icd-10,0.1.0,active,,ICD10,ICD-10 Codes (2010),"Set of ICD-10 Codes (2010) used in SATUSEHAT",
+http://hl7.org/fhir/sid/icd-9-cm,0.1.0,active,,ICD9CM,ICD-9-CM Codes (2010),"Set of ICD-9-CM Codes (2010) used in SATUSEHAT",
+http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs,0.1.0,draft,,TbdCodesCS,To Be Determined Codes,"To Be Determined codes from Genomics Reporting",
+http://loinc.org,0.1.0,draft,,LOINCCodesCS,LOINC Codes Collection,"Collection of LOINC codes used in the system",
+http://snomed.info/sct,0.1.0,draft,,SNOMEDCTCS,SNOMED CT Codes,"SNOMED Clinical Terms codes",
+http://tb-lineage.org,0.1.0,draft,,TBLineageCS,TB Lineage Codes,"Codes for tuberculosis lineages",
+http://terminology.hl7.org/CodeSystem/observation-category,0.1.0,draft,,HL7ObservationCategoryCS,HL7 Observation Category Codes,"HL7 Observation Category codes",
+http://terminology.hl7.org/CodeSystem/v2-0074,0.1.0,draft,,HL7v20074CS,HL7 v2 Table 0074 Codes,"Diagnostic service section ID",
+http://terminology.kemkes.go.id/sp,0.1.0,draft,,KemkesObservationCategoryCS,Kemkes Observation Category Codes,"Codes for observation categories from Indonesian Ministry of Health terminology",
+http://unitsofmeasure.org,0.1.0,draft,,UCUMCS,UCUM Units,"Unified Code for Units of Measure",
+http://www.ncbi.nlm.nih.gov/refseq,0.1.0,draft,,NCBIRefSeqCS,NCBI RefSeq Codes,"NCBI Reference Sequence codes",
+https://terminology.kemkes.go.id/CodeSystem/episodeofcare-type,0.1.0,draft,,KemkesEpisodeOfCareTypeCS,Kemkes Episode of Care Type Codes,"Episode of care type codes from Indonesian Ministry of Health",

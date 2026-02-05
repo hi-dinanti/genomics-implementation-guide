@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "tbd-codes-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet tbd-codes-vs</b></p><a name=\"tbd-codes-vs\"> </a><a name=\"hctbd-codes-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-tbd-codes-cs.html\"><code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "https://fhir.gsilab.id//ValueSet/tbd-codes-vs",
+  "version" : "0.1.0",
+  "name" : "TBDCodesVS",
+  "title" : "To Be Determined Value Set",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "Value Set for codes yet to be defined in LOINC",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs"
+    }]
+  }
+}

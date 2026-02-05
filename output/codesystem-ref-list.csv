@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/questionnaire-answers-status,4.0.1,draft,"2.16.840.1.113883.4.642.4.448",QuestionnaireResponseStatus,QuestionnaireResponseStatus,"Lifecycle status of the questionnaire response.","ValueSet/questionnaire-answers-status"
+http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs,0.1.0,draft,,TbdCodesCS,To Be Determined Codes,"To Be Determined codes from Genomics Reporting","ValueSet/tbd-codes-vs"
+http://loinc.org,0.1.0,draft,,LOINCCodesCS,LOINC Codes Collection,"Collection of LOINC codes used in the system","ValueSet/antimicrobial-resistance-vs"
+http://snomed.info/sct,0.1.0,draft,,SNOMEDCTCS,SNOMED CT Codes,"SNOMED Clinical Terms codes","ValueSet/antimicrobial-resistance-vs"
+http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation,3.0.0,active,"2.16.840.1.113883.5.1076",ReligiousAffiliation,Religious Affiliation,"Assigment of spiritual faith affiliation","ValueSet/v3-ReligiousAffiliation"

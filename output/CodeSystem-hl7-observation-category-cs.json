@@ -1,0 +1,32 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hl7-observation-category-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hl7-observation-category-cs</b></p><a name=\"hl7-observation-category-cs\"> </a><a name=\"hchl7-observation-category-cs\"> </a><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/observation-category</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">laboratory<a name=\"hl7-observation-category-cs-laboratory\"> </a></td><td>Laboratory</td><td>Laboratory</td></tr></table></div>"
+  },
+  "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+  "version" : "0.1.0",
+  "name" : "HL7ObservationCategoryCS",
+  "title" : "HL7 Observation Category Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "HL7 Observation Category codes",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "laboratory",
+    "display" : "Laboratory",
+    "definition" : "Laboratory"
+  }]
+}

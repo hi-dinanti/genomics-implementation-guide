@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="snomed-ct-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem snomed-ct-cs</b></p><a name="snomed-ct-cs"> </a><a name="hcsnomed-ct-cs"> </a><p>This case-sensitive code system <code>http://snomed.info/sct</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">108252007<a name="snomed-ct-cs-108252007"> </a></td><td>Laboratory procedure</td><td>Laboratory procedure</td></tr><tr><td style="white-space:nowrap">413852006<a name="snomed-ct-cs-413852006"> </a></td><td>Ciprofloxacin resistant tuberculosis</td><td>Ciprofloxacin resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">414146004<a name="snomed-ct-cs-414146004"> </a></td><td>Ethambutol resistant tuberculosis</td><td>Ethambutol resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">414149006<a name="snomed-ct-cs-414149006"> </a></td><td>Ethionamide resistant tuberculosis</td><td>Ethionamide resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">414546009<a name="snomed-ct-cs-414546009"> </a></td><td>Isoniazid resistant tuberculosis</td><td>Isoniazid resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">415222009<a name="snomed-ct-cs-415222009"> </a></td><td>Pyrazinamide resistant tuberculosis</td><td>Pyrazinamide resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">415345001<a name="snomed-ct-cs-415345001"> </a></td><td>Rifampicin resistant tuberculosis</td><td>Rifampicin resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">415622003<a name="snomed-ct-cs-415622003"> </a></td><td>Streptomycin resistant tuberculosis</td><td>Streptomycin resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">710106005<a name="snomed-ct-cs-710106005"> </a></td><td>Extensively drug resistant tuberculosis</td><td>Extensively drug resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">423092005<a name="snomed-ct-cs-423092005"> </a></td><td>Multidrug resistant tuberculosis</td><td>Multidrug resistant tuberculosis</td></tr><tr><td style="white-space:nowrap">1098201000112100<a name="snomed-ct-cs-1098201000112100"> </a></td><td>Carbapenemase-producing Klebsiella pneumoniae</td><td>Carbapenemase-producing Klebsiella pneumoniae</td></tr><tr><td style="white-space:nowrap">714315002<a name="snomed-ct-cs-714315002"> </a></td><td>Multidrug-resistant Klebsiella pneumoniae</td><td>Multidrug-resistant Klebsiella pneumoniae</td></tr></table></div>
+  </text>
+  <url value="http://snomed.info/sct"/>
+  <version value="0.1.0"/>
+  <name value="SNOMEDCTCS"/>
+  <title value="SNOMED CT Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-05T14:03:15+07:00"/>
+  <publisher value="Diana Wijayanti"/>
+  <contact>
+    <name value="Diana Wijayanti"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/hi-dinanti"/>
+    </telecom>
+  </contact>
+  <description value="SNOMED Clinical Terms codes"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="12"/>
+  <concept>
+    <code value="108252007"/>
+    <display value="Laboratory procedure"/>
+    <definition value="Laboratory procedure"/>
+  </concept>
+  <concept>
+    <code value="413852006"/>
+    <display value="Ciprofloxacin resistant tuberculosis"/>
+    <definition value="Ciprofloxacin resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="414146004"/>
+    <display value="Ethambutol resistant tuberculosis"/>
+    <definition value="Ethambutol resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="414149006"/>
+    <display value="Ethionamide resistant tuberculosis"/>
+    <definition value="Ethionamide resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="414546009"/>
+    <display value="Isoniazid resistant tuberculosis"/>
+    <definition value="Isoniazid resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="415222009"/>
+    <display value="Pyrazinamide resistant tuberculosis"/>
+    <definition value="Pyrazinamide resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="415345001"/>
+    <display value="Rifampicin resistant tuberculosis"/>
+    <definition value="Rifampicin resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="415622003"/>
+    <display value="Streptomycin resistant tuberculosis"/>
+    <definition value="Streptomycin resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="710106005"/>
+    <display value="Extensively drug resistant tuberculosis"/>
+    <definition value="Extensively drug resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="423092005"/>
+    <display value="Multidrug resistant tuberculosis"/>
+    <definition value="Multidrug resistant tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="1098201000112100"/>
+    <display value="Carbapenemase-producing Klebsiella pneumoniae"/>
+    <definition value="Carbapenemase-producing Klebsiella pneumoniae"/>
+  </concept>
+  <concept>
+    <code value="714315002"/>
+    <display value="Multidrug-resistant Klebsiella pneumoniae"/>
+    <definition value="Multidrug-resistant Klebsiella pneumoniae"/>
+  </concept>
+</CodeSystem>

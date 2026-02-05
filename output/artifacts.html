@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary - FHIR Implementation Guide Genomics Reporting (Draft) v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Implementation Guide Genomics Reporting (Draft)</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Implementation Guide Genomics Reporting (Draft) - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.gsilab.id/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Abstract Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#3">Structures: Data Type Profiles</a>
+      </li>
+      <li>
+         <a href="#4">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#6">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#7">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Abstract Profiles </h3>
+    <p>These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles <em>based</em> on these abstract profiles but do not declare conformance to the abstract profiles themselves.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-genomic-base.html"
+                  title="StructureDefinition/genomic-base">Genomic Base</a>
+            </td>
+            <td>
+<p>Base profile that defines characteristics shared by all genetic observations.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Structures: Resource Profiles </h3>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-amrphenotype.html"
+                  title="StructureDefinition/amrphenotype">AMR Phenotype</a>
+            </td>
+            <td>
+<p>Antimicrobial resistance profile that defines characteristics based on phenotype observations.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-dna-variant.html"
+                  title="StructureDefinition/dna-variant">DNA Variant</a>
+            </td>
+            <td>
+<p>Base profile that defines characteristics shared by all DNA variant observations.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-gene-variant.html"
+                  title="StructureDefinition/gene-variant">Gene Variant</a>
+            </td>
+            <td>
+<p>Base profile that defines characteristics shared by all gene variant observations.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-genomic-report.html"
+                  title="StructureDefinition/genomic-report">Genomic Report</a>
+            </td>
+            <td>
+<p>Genomic profile of DiagnosticReport.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-genomics-service-request.html"
+                  title="StructureDefinition/genomics-service-request">Genomics Service Request</a>
+            </td>
+            <td>
+<p>Profile for ServiceRequest specifically for genomics testing requests, such as genetic variant assessments.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-protein-variant.html"
+                  title="StructureDefinition/protein-variant">Protein Variant</a>
+            </td>
+            <td>
+<p>Base profile that defines characteristics shared by all protein variant observations.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatAllergyIntolerance.html"
+                  title="StructureDefinition/SatuSehatAllergyIntolerance">Satu Sehat Allergy Intolerance</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the AllergyIntolerance resource for the minimal set of data to query and retrieve allergy information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatCarePlan.html"
+                  title="StructureDefinition/SatuSehatCarePlan">Satu Sehat Care Plan</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the CarePlan resource for the minimal set of data to query and retrieve care plan information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatChargeItem.html"
+                  title="StructureDefinition/SatuSehatChargeItem">Satu Sehat Charge Item</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the ChargeItem resource for the minimal set of data to query and retrieve Charged Items information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatChargeItemDefinition.html"
+                  title="StructureDefinition/SatuSehatChargeItemDefinition">Satu Sehat Charge Item Definition</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the ChargeItemDefinition resource for billing item definitions.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatClaim.html"
+                  title="StructureDefinition/SatuSehatClaim">Satu Sehat Claim</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Claim resource for the minimal set of data to query and retrieve claim information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatClaimResponse.html"
+                  title="StructureDefinition/SatuSehatClaimResponse">Satu Sehat Claim Response</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the ClaimResponse resource for the minimal set of data to query and retrieve claim information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatClinicalImpression.html"
+                  title="StructureDefinition/SatuSehatClinicalImpression">Satu Sehat Clinical Impression</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extension on the record of a clinical assessment performed to determine what problem(s) may affect the patient and before planning the treatments or management strategies that are best to manage a patient's condition.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatComposition.html"
+                  title="StructureDefinition/SatuSehatComposition">Satu Sehat Composition</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Composition resource to enable a generic and flexible approach to FHIR document structures.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatCondition.html"
+                  title="StructureDefinition/SatuSehatCondition">Satu Sehat Condition</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Condition resource for the minimal set of data to query and retrieve problems and health concerns information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatCoverage.html"
+                  title="StructureDefinition/SatuSehatCoverage">Satu Sehat Coverage</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Coverage resource for the minimal set of data to state the coverage information for patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatCoverageEligibilityRequest.html"
+                  title="StructureDefinition/SatuSehatCoverageEligibilityRequest">Satu Sehat Coverage Eligibility Request</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the CoverageEligibilityRequest resource for the minimal set of data to retrieve coverage information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatCoverageEligibilityResponse.html"
+                  title="StructureDefinition/SatuSehatCoverageEligibilityResponse">Satu Sehat Coverage Eligibility Response</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the CoverageEligibilityResponse resource for the minimal set of data to communicate coverage information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatDiagnosticReport.html"
+                  title="StructureDefinition/SatuSehatDiagnosticReport">Satu Sehat Diagnostic Report</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the DiagnosticReport resource for the minimal set of data to query and retrieve diagnostic reports associated with laboratory results for a patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatDocumentReference.html"
+                  title="StructureDefinition/SatuSehatDocumentReference">Satu Sehat Document Reference</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the DocumentReference resource for document references.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatEncounter.html"
+                  title="StructureDefinition/SatuSehatEncounter">Satu Sehat Encounter</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Encounter resource for the minimal set of data to query and retrieve encounter information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatEpisodeOfCare.html"
+                  title="StructureDefinition/SatuSehatEpisodeOfCare">Satu Sehat Episode of Care</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the EpisodeOfCare resource for the minimal set of data to query and retrieve episode of care information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatFamilyMemberHistory.html"
+                  title="StructureDefinition/SatuSehatFamilyMemberHistory">Satu Sehat Family Member History</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the FamilyMemberHistory resource for significant health conditions for a person related to the patient relevant in the context of care for the patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatGoal.html"
+                  title="StructureDefinition/SatuSehatGoal">Satu Sehat Goal</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the Goal resource for patient goals and objectives.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatHealthcareService.html"
+                  title="StructureDefinition/SatuSehatHealthcareService">Satu Sehat Healthcare Service</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the HealthcareService resource for the minimal set of data to query and retrieve healthcare services.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatImagingStudy.html"
+                  title="StructureDefinition/SatuSehatImagingStudy">Satu Sehat Imaging Study</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the ImagingStudy resource for the minimal set of data to send and retrieve an radiologic image (based on Accession number).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatImmunization.html"
+                  title="StructureDefinition/SatuSehatImmunization">Satu Sehat Immunization</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Immunization resource for the minimal set of data to query and retrieve an individual's immunisation information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatInvoice.html"
+                  title="StructureDefinition/SatuSehatInvoice">Satu Sehat Invoice</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Invoice resource for the minimal set of data to query and retrieve the invoices charged to patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatList.html"
+                  title="StructureDefinition/SatuSehatList">Satu Sehat List</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the List resource for the minimal set of data to query and retrieve a list of information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatLocation.html"
+                  title="StructureDefinition/SatuSehatLocation">Satu Sehat Location</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Location resource for the minimal set of data to query and retrieve location information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatMedication.html"
+                  title="StructureDefinition/SatuSehatMedication">Satu Sehat Medication</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Medication resource for the minimal set of data to query and retrieve medication information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatMedicationAdministration.html"
+                  title="StructureDefinition/SatuSehatMedicationAdministration">Satu Sehat Medication Administration</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the MedicationAdministration resource for the minimal set of data to query and retrieve medication administration information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatMedicationDispense.html"
+                  title="StructureDefinition/SatuSehatMedicationDispense">Satu Sehat Medication Dispense</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the MedicationDispense resource for the minimal set of data to query and retrieve dispensed medication information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatMedicationRequest.html"
+                  title="StructureDefinition/SatuSehatMedicationRequest">Satu Sehat Medication Request</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the MedicationRequest resource for the minimal set of data to query and retrieve prescription information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatMedicationStatement.html"
+                  title="StructureDefinition/SatuSehatMedicationStatement">Satu Sehat Medication Statement</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the MedicationStatement resource for the minimal set of data to query and retrieve medication statement information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatNutritionOrder.html"
+                  title="StructureDefinition/SatuSehatNutritionOrder">Satu Sehat Nutrition Order</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the NutritionOrder resource for nutrition orders and dietary requirements.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatObservation.html"
+                  title="StructureDefinition/SatuSehatObservation">Satu Sehat Observation</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Observation resource for the minimal set of data to query and retrieve observation value associated with laboratory results for a patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatOperationOutcome.html"
+                  title="StructureDefinition/SatuSehatOperationOutcome">Satu Sehat Operation Outcome</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the OperationOutcome resource for the minimal set of data to query and retrieve information about the outcome of an attempted system operation.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatOrganization.html"
+                  title="StructureDefinition/SatuSehatOrganization">Satu Sehat Organization</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Organization resource for the minimal set of data to query and retrieve organisation information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatPatient.html"
+                  title="StructureDefinition/SatuSehatPatient">Satu Sehat Patient</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Patient resource for the minimal set of data to query and retrieve demographics and other administrative information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatPaymentNotice.html"
+                  title="StructureDefinition/SatuSehatPaymentNotice">Satu Sehat Payment Notice</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the PaymentNotice resource for payment notifications.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatPaymentReconciliation.html"
+                  title="StructureDefinition/SatuSehatPaymentReconciliation">Satu Sehat Payment Reconciliation</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the PaymentReconciliation resource for payment reconciliation.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatPractitioner.html"
+                  title="StructureDefinition/SatuSehatPractitioner">Satu Sehat Practitioner</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Practitioner resource for the minimal set of data to query and retrieve practitioner information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatPractitionerRole.html"
+                  title="StructureDefinition/SatuSehatPractitionerRole">Satu Sehat Practitioner Role</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the PractitionerRole resource for the minimal set of data to query and retrieve practitioner role information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatProcedure.html"
+                  title="StructureDefinition/SatuSehatProcedure">Satu Sehat Procedure</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Procedure resource for the minimal set of data to query and retrieve the patient's procedure information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatQuestionnaire.html"
+                  title="StructureDefinition/SatuSehatQuestionnaire">Satu Sehat Questionnaire</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Questionnaire resource for the minimal set of data to query and retrieve questionnaire information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatQuestionnaireResponse.html"
+                  title="StructureDefinition/SatuSehatQuestionnaireResponse">Satu Sehat Questionnaire Response</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the QuestionnaireResponse resource for the minimal set of data to query and retrieve a complete or partial list of answers to a set of questions.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatRelatedPerson.html"
+                  title="StructureDefinition/SatuSehatRelatedPerson">Satu Sehat Related Person</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the RelatedPerson resource for the minimal set of data to query and retrieve related person information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatRiskAssessment.html"
+                  title="StructureDefinition/SatuSehatRiskAssessment">Satu Sehat Risk Assessment</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the RiskAssessment resource for risk assessments.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatServiceRequest.html"
+                  title="StructureDefinition/SatuSehatServiceRequest">Satu Sehat Service Request</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the ServiceRequest resource for the minimal set of data to query and retrieve record of a proposal/plan or order for a service to be performed.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatSpecimen.html"
+                  title="StructureDefinition/SatuSehatSpecimen">Satu Sehat Specimen</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Specimen resource for the minimal set of data to query and retrieve specimen information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatSubstance.html"
+                  title="StructureDefinition/SatuSehatSubstance">Satu Sehat Substance</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the Substance resource for substances.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatTask.html"
+                  title="StructureDefinition/SatuSehatTask">Satu Sehat Task</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints on the Task resource for tasks.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatAccount.html"
+                  title="StructureDefinition/SatuSehatAccount">SatuSehatAccount</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Account resource for the minimal set of data to query and retrieve the guarantor information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-tb-lineage-observation.html"
+                  title="StructureDefinition/tb-lineage-observation">TB Lineage Observation</a>
+            </td>
+            <td>
+<p>Profile for tuberculosis lineage typing observations</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-tb-phenotype-observation.html"
+                  title="StructureDefinition/tb-phenotype-observation">TB Phenotype Observation</a>
+            </td>
+            <td>
+<p>Profile for tuberculosis phenotype AMR observations</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-variant.html"
+                  title="StructureDefinition/variant">Variant</a>
+            </td>
+            <td>
+<p>Details about a set of changes in the tested sample compared to a reference sequence.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Structures: Data Type Profiles </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SatuSehatAddress.html"
+                  title="StructureDefinition/SatuSehatAddress">Satu Sehat Address</a>
+            </td>
+            <td>
+<p>Defines the ID Core constraints and extensions on the Address resource for the minimal set of data to query and retrieve address information.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
+   <h3>Structures: Extension Definitions </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-AdministrativeCode.html"
+                  title="StructureDefinition/AdministrativeCode">Administrative Code</a>
+            </td>
+            <td>
+<p>The administrative code of the address, represented in six levels: province, city/regency, district, village, rt and rw.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BillingStatus.html"
+                  title="StructureDefinition/BillingStatus">Billing Status</a>
+            </td>
+            <td>
+<p>Extension for billing status information</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-billingStatusStatus.html"
+                  title="StructureDefinition/billingStatusStatus">Billing Status</a>
+            </td>
+            <td>
+<p>Status billing</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-billingStatusIdentifier.html"
+                  title="StructureDefinition/billingStatusIdentifier">Billing Status Identifier</a>
+            </td>
+            <td>
+<p>ID lokal yang ditetapkan untuk status billing</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-billingStatusInsurer.html"
+                  title="StructureDefinition/billingStatusInsurer">Billing Status Insurer</a>
+            </td>
+            <td>
+<p>Pihak yang menjadi penjamin</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-billingStatusRecipient.html"
+                  title="StructureDefinition/billingStatusRecipient">Billing Status Recipient</a>
+            </td>
+            <td>
+<p>Pihak yang menerima informasi status billing</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-billingStatusRequest.html"
+                  title="StructureDefinition/billingStatusRequest">Billing Status Request</a>
+            </td>
+            <td>
+<p>Permintaan eligibilitas peserta</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-billingStatusSubject.html"
+                  title="StructureDefinition/billingStatusSubject">Billing Status Subject</a>
+            </td>
+            <td>
+<p>Subjek yang menerima layanan medis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BirthPlace.html"
+                  title="StructureDefinition/BirthPlace">Birth Place</a>
+            </td>
+            <td>
+<p>The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BirthTime.html"
+                  title="StructureDefinition/BirthTime">Birth Time</a>
+            </td>
+            <td>
+<p>The time of day that the Patient was born. This includes the date to ensure that the timezone information can be communicated effectively.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ChargeItemResponse.html"
+                  title="StructureDefinition/ChargeItemResponse">Charge Item Response</a>
+            </td>
+            <td>
+<p>Extension containing pricing information for charge item responses.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-CitizenshipStatus.html"
+                  title="StructureDefinition/CitizenshipStatus">CitizenshipStatus</a>
+            </td>
+            <td>
+<p>Information that describe whether the patient is an Indonesian citizen or a foreign citizen by law.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-city.html" title="StructureDefinition/city">City</a>
+            </td>
+            <td>
+<p>City (Kota)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-CollectorOrganization.html"
+                  title="StructureDefinition/CollectorOrganization">Collector Organization</a>
+            </td>
+            <td>
+<p>Extension for organization that collected the specimen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ConditionHistory.html"
+                  title="StructureDefinition/ConditionHistory">Condition History</a>
+            </td>
+            <td>
+<p>Extension for specimen condition history.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-district.html"
+                  title="StructureDefinition/district">District</a>
+            </td>
+            <td>
+<p>District (Kecamatan)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-DocumentStatus.html"
+                  title="StructureDefinition/DocumentStatus">Document Status</a>
+            </td>
+            <td>
+<p>Extension for document status information including status code, time, and assigner.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Education.html"
+                  title="StructureDefinition/Education">Education</a>
+            </td>
+            <td>
+<p>Extension for education level information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-EligibilityStatus.html"
+                  title="StructureDefinition/EligibilityStatus">Eligibility Status</a>
+            </td>
+            <td>
+<p>Extension containing eligibility status information for insurance participant eligibility requests.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ExcessPolicyClass.html"
+                  title="StructureDefinition/ExcessPolicyClass">Excess Policy Class</a>
+            </td>
+            <td>
+<p>Extension containing excess policy class information for insurance participants.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ExcessStatement.html"
+                  title="StructureDefinition/ExcessStatement">Excess Statement</a>
+            </td>
+            <td>
+<p>Extension containing excess statement information, such as details of what is guaranteed first.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-MedicationType.html"
+                  title="StructureDefinition/MedicationType">Medication Type</a>
+            </td>
+            <td>
+<p>Extension for medication type classification.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-PolicyClass.html"
+                  title="StructureDefinition/PolicyClass">Policy Class</a>
+            </td>
+            <td>
+<p>Extension containing policy class information for insurance participants.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-PrimaryCareProvider.html"
+                  title="StructureDefinition/PrimaryCareProvider">Primary Care Provider</a>
+            </td>
+            <td>
+<p>Extension for primary care provider reference.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-province.html"
+                  title="StructureDefinition/province">Province</a>
+            </td>
+            <td>
+<p>Province (Provinsi)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-PurificationDecision.html"
+                  title="StructureDefinition/PurificationDecision">Purification Decision</a>
+            </td>
+            <td>
+<p>Extension for purification decision information</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-claimResponse.html"
+                  title="StructureDefinition/claimResponse">Purification Decision Claim Response</a>
+            </td>
+            <td>
+<p>Respon klaim terkait dengan hasil purifikasi</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-created.html"
+                  title="StructureDefinition/created">Purification Decision Created</a>
+            </td>
+            <td>
+<p>Tanggal dan waktu pembuatan tindak lanjut hasil purifikasi</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-identifier.html"
+                  title="StructureDefinition/identifier">Purification Decision Identifier</a>
+            </td>
+            <td>
+<p>ID lokal yang ditetapkan untuk respons klaim</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-insurer.html"
+                  title="StructureDefinition/insurer">Purification Decision Insurer</a>
+            </td>
+            <td>
+<p>Organisasi yang mengeluarkan hasil purifikasi</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-provider.html"
+                  title="StructureDefinition/provider">Purification Decision Provider</a>
+            </td>
+            <td>
+<p>Provider yang memberikan tindak lanjut atas hasil purifikasi</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-status.html"
+                  title="StructureDefinition/status">Purification Decision Status</a>
+            </td>
+            <td>
+<p>Status purifikasi</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-rt.html" title="StructureDefinition/rt">RT (Rukun Tetangga)</a>
+            </td>
+            <td>
+<p>RT (Rukun Tetangga) / Neighborhood Unit</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-rw.html" title="StructureDefinition/rw">RW (Rukun Warga)</a>
+            </td>
+            <td>
+<p>RW (Rukun Warga) / Community Unit</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ReceivedPerson.html"
+                  title="StructureDefinition/ReceivedPerson">Received Person</a>
+            </td>
+            <td>
+<p>Extension for person who received the specimen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ServiceClass.html"
+                  title="StructureDefinition/ServiceClass">Service Class</a>
+            </td>
+            <td>
+<p>Extension for service class information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-statusAssigner.html"
+                  title="StructureDefinition/statusAssigner">Status Assigner</a>
+            </td>
+            <td>
+<p>Document status assigner extension</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-statusCode.html"
+                  title="StructureDefinition/statusCode">Status Code</a>
+            </td>
+            <td>
+<p>Document status code extension</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-statusTime.html"
+                  title="StructureDefinition/statusTime">Status Time</a>
+            </td>
+            <td>
+<p>Document status time extension</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-TotalPrice.html"
+                  title="StructureDefinition/TotalPrice">Total Price</a>
+            </td>
+            <td>
+<p>Total price extension for ChargeItem.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-TransportedPerson.html"
+                  title="StructureDefinition/TransportedPerson">Transported Person</a>
+            </td>
+            <td>
+<p>Extension for person who transported the specimen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-TransportedTime.html"
+                  title="StructureDefinition/TransportedTime">Transported Time</a>
+            </td>
+            <td>
+<p>Extension for specimen transported time.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-UnitPrice.html"
+                  title="StructureDefinition/UnitPrice">Unit Price</a>
+            </td>
+            <td>
+<p>Unit price extension for ChargeItem.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-village.html"
+                  title="StructureDefinition/village">Village</a>
+            </td>
+            <td>
+<p>Village (Desa/Kelurahan)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Citizenship.html"
+                  title="StructureDefinition/Citizenship">citizenship</a>
+            </td>
+            <td>
+<p>The patient's legal status as citizen of a country.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Disability.html"
+                  title="StructureDefinition/Disability">disability</a>
+            </td>
+            <td>
+<p>Value(s) identifying physical or mental condition(s) that limits a person's movements, senses, or activities.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Religion.html"
+                  title="StructureDefinition/Religion">religion</a>
+            </td>
+            <td>
+<p>The patient's professed religious affiliations.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="5"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-antimicrobial-resistance-vs.html"
+                  title="ValueSet/antimicrobial-resistance-vs">Antimicrobial Resistance ValueSet</a>
+            </td>
+            <td>
+<p>Comprehensive value set for antimicrobial resistance testing including drugs, antibiotics, susceptibility results, and resistance patterns</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hgvs-vs.html" title="ValueSet/hgvs-vs">Human Genome Variation Society (HGVS) Nomenclature</a>
+            </td>
+            <td>
+<p>HGVS-nomenclature is used to report and exchange information regarding variants found in DNA, RNA and protein sequences and serves as an international standard. (source: varnomen.hgvs.org)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-tbd-codes-vs.html" title="ValueSet/tbd-codes-vs">To Be Determined Value Set</a>
+            </td>
+            <td>
+<p>Value Set for codes yet to be defined in LOINC</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="6"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hl7-observation-category-cs.html"
+                  title="CodeSystem/hl7-observation-category-cs">HL7 Observation Category Codes</a>
+            </td>
+            <td>
+<p>HL7 Observation Category codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hl7-v2-0074-cs.html" title="CodeSystem/hl7-v2-0074-cs">HL7 v2 Table 0074 Codes</a>
+            </td>
+            <td>
+<p>Diagnostic service section ID</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ICD10.html" title="CodeSystem/ICD10">ICD-10 Codes (2010)</a>
+            </td>
+            <td>
+<p>Set of ICD-10 Codes (2010) used in SATUSEHAT</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ICD9CM.html" title="CodeSystem/ICD9CM">ICD-9-CM Codes (2010)</a>
+            </td>
+            <td>
+<p>Set of ICD-9-CM Codes (2010) used in SATUSEHAT</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-kemkes-episode-of-care-type-cs.html"
+                  title="CodeSystem/kemkes-episode-of-care-type-cs">Kemkes Episode of Care Type Codes</a>
+            </td>
+            <td>
+<p>Episode of care type codes from Indonesian Ministry of Health</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-kemkes-observation-category-cs.html"
+                  title="CodeSystem/kemkes-observation-category-cs">Kemkes Observation Category Codes</a>
+            </td>
+            <td>
+<p>Codes for observation categories from Indonesian Ministry of Health terminology</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-loinc-codes-cs.html" title="CodeSystem/loinc-codes-cs">LOINC Codes Collection</a>
+            </td>
+            <td>
+<p>Collection of LOINC codes used in the system</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ncbi-refseq-cs.html" title="CodeSystem/ncbi-refseq-cs">NCBI RefSeq Codes</a>
+            </td>
+            <td>
+<p>NCBI Reference Sequence codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-snomed-ct-cs.html" title="CodeSystem/snomed-ct-cs">SNOMED CT Codes</a>
+            </td>
+            <td>
+<p>SNOMED Clinical Terms codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-tb-lineage-cs.html" title="CodeSystem/tb-lineage-cs">TB Lineage Codes</a>
+            </td>
+            <td>
+<p>Codes for tuberculosis lineages</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-tbd-codes-cs.html" title="CodeSystem/tbd-codes-cs">To Be Determined Codes</a>
+            </td>
+            <td>
+<p>To Be Determined codes from Genomics Reporting</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ucum-cs.html" title="CodeSystem/ucum-cs">UCUM Units</a>
+            </td>
+            <td>
+<p>Unified Code for Units of Measure</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="7"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-Dengue-Gene-Variant.html"
+                  title="Observation/Dengue-Gene-Variant">Dengue Virus Genetic Variant Example</a>
+            </td>
+            <td>
+<p>Example of a genetic variant observation for Dengue Virus</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-TB-Drug-Panel.html" title="Observation/TB-Drug-Panel">TB Drug Susceptibility Panel Example</a>
+            </td>
+            <td>
+<p>Example of a mycobacterial tuberculosis susceptibility panel by genotype method</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-TB-Gene-Variant.html"
+                  title="Observation/TB-Gene-Variant">TB Genetic Variant Example</a>
+            </td>
+            <td>
+<p>Example of a genetic variant observation for Mycobacterial tuberculosis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-TB-Lineage.html" title="Observation/TB-Lineage">TB Lineage Example</a>
+            </td>
+            <td>
+<p>Example of a tuberculosis lineage observation</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/hi-dinanti">Diana Wijayanti</a>.  Package hl7.fhir.r4.id.gsilab#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Feb 5, 2026 14:03+0700">2026-02-05</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

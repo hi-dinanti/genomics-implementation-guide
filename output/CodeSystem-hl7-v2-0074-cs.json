@@ -1,0 +1,32 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hl7-v2-0074-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hl7-v2-0074-cs</b></p><a name=\"hl7-v2-0074-cs\"> </a><a name=\"hchl7-v2-0074-cs\"> </a><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v2-0074</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"hl7-v2-0074-cs-GE\"> </a></td><td>Genetics</td><td>Genetics</td></tr></table></div>"
+  },
+  "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+  "version" : "0.1.0",
+  "name" : "HL7v20074CS",
+  "title" : "HL7 v2 Table 0074 Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "Diagnostic service section ID",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "GE",
+    "display" : "Genetics",
+    "definition" : "Genetics"
+  }]
+}

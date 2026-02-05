@@ -1,0 +1,4113 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html",
+      "version" : "2025.3.20250714",
+      "status" : "active",
+      "name" : "AcquisitionModality",
+      "title" : null,
+      "description" : "Transitive closure of CID 29 AcquisitionModality",
+      "systems" : ["http://dicom.nema.org/resources/ontology/DCM"],
+      "oids" : ["1.2.840.10008.6.1.19"],
+      "sources" : ["1.2.840.10008.6.1.19"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImagingStudy.html" : "Satu Sehat Imaging Study"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/account-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AccountStatus",
+      "title" : "AccountStatus",
+      "description" : "Indicates whether the account is available to be used.",
+      "systems" : ["http://hl7.org/fhir/account-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.726"],
+      "sources" : ["2.16.840.1.113883.4.642.3.726"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAccount.html" : "SatuSehatAccount"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/account-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AccountTypes",
+      "title" : "Account Types",
+      "description" : "This examples value set defines the set of codes that can be used to represent the type of an account.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.728"],
+      "sources" : ["2.16.840.1.113883.4.642.3.728"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAccount.html" : "SatuSehatAccount"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/address-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressType",
+      "title" : "AddressType",
+      "description" : "The type of an address (physical / postal).",
+      "systems" : ["http://hl7.org/fhir/address-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.69"],
+      "sources" : ["2.16.840.1.113883.4.642.3.69"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitioner.html" : "Satu Sehat Practitioner",
+      "StructureDefinition-BirthPlace.html" : "Birth Place",
+      "StructureDefinition-SatuSehatAddress.html" : "Satu Sehat Address",
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/address-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressUse",
+      "title" : "AddressUse",
+      "description" : "The use of an address.",
+      "systems" : ["http://hl7.org/fhir/address-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.67"],
+      "sources" : ["2.16.840.1.113883.4.642.3.67"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitioner.html" : "Satu Sehat Practitioner",
+      "StructureDefinition-BirthPlace.html" : "Birth Place",
+      "StructureDefinition-SatuSehatAddress.html" : "Satu Sehat Address",
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/adjudication",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AdjudicationValueCodes",
+      "title" : "Adjudication Value Codes",
+      "description" : "This value set includes a smattering of Adjudication Value codes which includes codes to indicate the amounts eligible under the plan, the amount of benefit, copays etc.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/adjudication"],
+      "oids" : ["2.16.840.1.113883.4.642.3.596"],
+      "sources" : ["2.16.840.1.113883.4.642.3.596"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/adjudication-error",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Adjudication Error Codes",
+      "title" : "AdjudicationError",
+      "description" : "This value set includes a smattering of adjudication codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/adjudication-error"],
+      "oids" : ["2.16.840.1.113883.4.642.3.39"],
+      "sources" : ["2.16.840.1.113883.4.642.3.39"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/adjudication-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AdjudicationReasonCodes",
+      "title" : "Adjudication Reason Codes",
+      "description" : "This value set includes smattering of Adjudication Reason codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/adjudication-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.598"],
+      "sources" : ["2.16.840.1.113883.4.642.3.598"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administration-method-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTAdministrationMethodCodes",
+      "title" : "SNOMED CT Administration Method Codes",
+      "description" : "This value set includes some method codes from SNOMED CT - provided as an exemplar",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.97"],
+      "sources" : ["2.16.840.1.113883.4.642.3.97"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitioner.html" : "Satu Sehat Practitioner",
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient",
+      "StructureDefinition-SatuSehatRelatedPerson.html" : "Satu Sehat Related Person",
+      "StructureDefinition-SatuSehatFamilyMemberHistory.html" : "Satu Sehat Family Member History"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitioner.html" : "Satu Sehat Practitioner"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCategory",
+      "title" : "AllergyIntoleranceCategory",
+      "description" : "Category of an identified substance associated with allergies or intolerances.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.133"],
+      "sources" : ["2.16.840.1.113883.4.642.3.133"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCriticality",
+      "title" : "AllergyIntoleranceCriticality",
+      "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-criticality"],
+      "oids" : ["2.16.840.1.113883.4.642.3.129"],
+      "sources" : ["2.16.840.1.113883.4.642.3.129"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceType",
+      "title" : "AllergyIntoleranceType",
+      "description" : "Identification of the underlying physiological mechanism for a Reaction Risk.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.131"],
+      "sources" : ["2.16.840.1.113883.4.642.3.131"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceClinicalStatusCodes",
+      "title" : "AllergyIntolerance Clinical Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Clinical Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1372"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1372"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceSubstance/Product,ConditionAndNegationCodes",
+      "title" : "AllergyIntolerance Substance/Product, Condition and Negation Codes",
+      "description" : "This value set includes concept codes for specific substances/pharmaceutical products, allergy or intolerance conditions, and negation/exclusion codes to specify the absence of specific types of allergies or intolerances.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.137"],
+      "sources" : ["2.16.840.1.113883.4.642.3.137"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-verification",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceVerificationStatusCodes",
+      "title" : "AllergyIntolerance Verification Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Verification Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1370"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1370"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/approach-site-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTAnatomicalStructureForAdministrationSiteCodes",
+      "title" : "SNOMED CT Anatomical Structure for Administration Site Codes",
+      "description" : "This value set includes Anatomical Structure codes from SNOMED CT - provided as an exemplar.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.346"],
+      "sources" : ["2.16.840.1.113883.4.642.3.346"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/benefit-network",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "NetworkTypeCodes",
+      "title" : "Network Type Codes",
+      "description" : "This value set includes a smattering of Network type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/benefit-network"],
+      "oids" : ["2.16.840.1.113883.4.642.3.608"],
+      "sources" : ["2.16.840.1.113883.4.642.3.608"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/benefit-term",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "BenefitTermCodes",
+      "title" : "Benefit Term Codes",
+      "description" : "This value set includes a smattering of Benefit Term codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/benefit-term"],
+      "oids" : ["2.16.840.1.113883.4.642.3.612"],
+      "sources" : ["2.16.840.1.113883.4.642.3.612"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/benefit-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "BenefitTypeCodes",
+      "title" : "Benefit Type Codes",
+      "description" : "This value set includes a smattering of Benefit type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/benefit-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.606"],
+      "sources" : ["2.16.840.1.113883.4.642.3.606"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/benefit-unit",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "UnitTypeCodes",
+      "title" : "Unit Type Codes",
+      "description" : "This value set includes a smattering of Unit type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/benefit-unit"],
+      "oids" : ["2.16.840.1.113883.4.642.3.610"],
+      "sources" : ["2.16.840.1.113883.4.642.3.610"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItem.html" : "Satu Sehat Charge Item",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition",
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-SatuSehatImagingStudy.html" : "Satu Sehat Imaging Study",
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure",
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/bodysite-laterality",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Laterality",
+      "title" : "Laterality",
+      "description" : "Laterality: SNOMED-CT concepts for 'left', 'right', and 'bilateral'",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.287"],
+      "sources" : ["2.16.840.1.113883.4.642.3.287"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImagingStudy.html" : "Satu Sehat Imaging Study"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/c80-doc-typecodes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DocumentTypeValueSet",
+      "title" : "Document Type Value Set",
+      "description" : "This is the code specifying the precise type of document (e.g. Pulmonary History and  Physical, Discharge Summary, Ultrasound Report, etc.). The Document Type value set includes all LOINC  values listed in HITSP C80 Table 2-144 Document Class Value Set Definition above used for Document Class,  and all LOINC values whose SCALE is DOC in the LOINC database.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.47"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.47"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/c80-facilitycodes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "FacilityTypeCodeValueSet",
+      "title" : "Facility Type Code Value Set",
+      "description" : "This is the code representing the type of organizational setting where the clinical encounter, service, interaction, or treatment occurred. The value set used for Healthcare Facility Type has been defined by HITSP to be the value set reproduced from HITSP C80 Table 2-147.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.67"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.67"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PracticeSettingCodeValueSet",
+      "title" : "Practice Setting Code Value Set",
+      "description" : "This is the code representing the clinical specialty of the clinician or provider who interacted with, treated, or provided a service to/for the patient. The value set used for clinical specialty has been limited by HITSP to the value set reproduced from HITSP C80 Table 2-149 Clinical Specialty Value Set Definition.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitionerRole.html" : "Satu Sehat Practitioner Role",
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference",
+      "StructureDefinition-SatuSehatHealthcareService.html" : "Satu Sehat Healthcare Service"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityKind",
+      "title" : "Care Plan Activity Kind",
+      "description" : "Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity.",
+      "systems" : ["http://hl7.org/fhir/resource-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.145"],
+      "sources" : ["2.16.840.1.113883.4.642.3.145"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityOutcome",
+      "title" : "Care Plan Activity Outcome",
+      "description" : "Example codes indicating the outcome of a care plan activity. Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.149"],
+      "sources" : ["2.16.840.1.113883.4.642.3.149"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityStatus",
+      "title" : "CarePlanActivityStatus",
+      "description" : "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+      "systems" : ["http://hl7.org/fhir/care-plan-activity-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.146"],
+      "sources" : ["2.16.840.1.113883.4.642.3.146"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanCategory",
+      "title" : "Care Plan Category",
+      "description" : "Example codes indicating the category a care plan falls within.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.148"],
+      "sources" : ["2.16.840.1.113883.4.642.3.148"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanIntent",
+      "title" : "Care Plan Intent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a care plan.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.150"],
+      "sources" : ["2.16.840.1.113883.4.642.3.150"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/chargeitem-billingcodes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ChargeItemCode",
+      "title" : "ChargeItemCode",
+      "description" : "Example set of codes that can be used for billing purposes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/chargeitem-billingcodes"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.848"],
+      "sources" : ["2.16.840.1.113883.4.642.3.848"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItemDefinition.html" : "Satu Sehat Charge Item Definition",
+      "StructureDefinition-SatuSehatChargeItem.html" : "Satu Sehat Charge Item"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/chargeitem-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ChargeItemStatus",
+      "title" : "ChargeItemStatus",
+      "description" : "Codes identifying the lifecycle stage of a ChargeItem.",
+      "systems" : ["http://hl7.org/fhir/chargeitem-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.846"],
+      "sources" : ["2.16.840.1.113883.4.642.3.846"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItem.html" : "Satu Sehat Charge Item"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/claim-careteamrole",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClaimCareTeamRoleCodes",
+      "title" : "Claim Care Team Role Codes",
+      "description" : "This value set includes sample Claim Care Team Role codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/claimcareteamrole"],
+      "oids" : ["2.16.840.1.113883.4.642.3.586"],
+      "sources" : ["2.16.840.1.113883.4.642.3.586"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/claim-exception",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExceptionCodes",
+      "title" : "Exception Codes",
+      "description" : "This value set includes sample Exception codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/claim-exception"],
+      "oids" : ["2.16.840.1.113883.4.642.3.580"],
+      "sources" : ["2.16.840.1.113883.4.642.3.580"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/claim-informationcategory",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClaimInformationCategoryCodes",
+      "title" : "Claim Information Category Codes",
+      "description" : "This value set includes sample Information Category codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/claiminformationcategory"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.582"],
+      "sources" : ["2.16.840.1.113883.4.642.3.582"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/claim-modifiers",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ModifierTypeCodes",
+      "title" : "Modifier type Codes",
+      "description" : "This value set includes sample Modifier type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/modifiers"],
+      "oids" : ["2.16.840.1.113883.4.642.3.536"],
+      "sources" : ["2.16.840.1.113883.4.642.3.536"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityRequest.html" : "Satu Sehat Coverage Eligibility Request",
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response",
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/claim-subtype",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleClaimSubTypeCodes",
+      "title" : "Example Claim SubType Codes",
+      "description" : "This value set includes sample Claim SubType codes which are used to distinguish the claim types for example within type institutional there may be subtypes for emergency services, bed stay and transportation.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-claimsubtype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.566"],
+      "sources" : ["2.16.840.1.113883.4.642.3.566"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/claim-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClaimTypeCodes",
+      "title" : "Claim Type Codes",
+      "description" : "This value set includes Claim Type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/claim-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.558"],
+      "sources" : ["2.16.840.1.113883.4.642.3.558"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/claim-use",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Use",
+      "title" : "Use",
+      "description" : "The purpose of the Claim: predetermination, preauthorization, claim.",
+      "systems" : ["http://hl7.org/fhir/claim-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.544"],
+      "sources" : ["2.16.840.1.113883.4.642.3.544"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDiagnosticReport.html" : "Satu Sehat Diagnostic Report",
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan",
+      "StructureDefinition-SatuSehatGoal.html" : "Satu Sehat Goal",
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance",
+      "StructureDefinition-SatuSehatFamilyMemberHistory.html" : "Satu Sehat Family Member History"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinicalimpression-prognosis",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClinicalImpressionPrognosis",
+      "title" : "Clinical Impression Prognosis",
+      "description" : "Example value set for clinical impression prognosis.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.160"],
+      "sources" : ["2.16.840.1.113883.4.642.3.160"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClinicalImpression.html" : "Satu Sehat Clinical Impression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinicalimpression-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClinicalImpressionStatus",
+      "title" : "Clinical Impression Status",
+      "description" : "Codes that reflect the current state of a clinical impression within its overall lifecycle.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1046"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1046"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClinicalImpression.html" : "Satu Sehat Clinical Impression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/common-tags",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonTags",
+      "title" : "Common Tags",
+      "description" : "Common Tag Codes defined by FHIR project",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/common-tags"],
+      "oids" : ["2.16.840.1.113883.4.642.3.79"],
+      "sources" : ["2.16.840.1.113883.4.642.3.79"],
+      "uses" : {
+      },
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-report.html" : "Genomic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/composition-attestation-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CompositionAttestationMode",
+      "title" : "CompositionAttestationMode",
+      "description" : "The way in which a person authenticated a composition.",
+      "systems" : ["http://hl7.org/fhir/composition-attestation-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.238"],
+      "sources" : ["2.16.840.1.113883.4.642.3.238"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/composition-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CompositionStatus",
+      "title" : "CompositionStatus",
+      "description" : "The workflow/clinical status of the composition.",
+      "systems" : ["http://hl7.org/fhir/composition-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.241"],
+      "sources" : ["2.16.840.1.113883.4.642.3.241"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionCategoryCodes",
+      "title" : "Condition Category Codes",
+      "description" : "Preferred value set for Condition Categories.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.162"],
+      "sources" : ["2.16.840.1.113883.4.642.3.162"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+      "oids" : ["2.16.840.1.113883.4.642.3.164"],
+      "sources" : ["2.16.840.1.113883.4.642.3.164"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/Problem/DiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.161"],
+      "sources" : ["2.16.840.1.113883.4.642.3.161"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatFamilyMemberHistory.html" : "Satu Sehat Family Member History",
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request",
+      "StructureDefinition-SatuSehatMedicationStatement.html" : "Satu Sehat Medication Statement",
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure",
+      "StructureDefinition-SatuSehatClinicalImpression.html" : "Satu Sehat Clinical Impression",
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionOutcomeCodes",
+      "title" : "Condition Outcome Codes",
+      "description" : "Example value set for condition outcomes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.967"],
+      "sources" : ["2.16.840.1.113883.4.642.3.967"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatFamilyMemberHistory.html" : "Satu Sehat Family Member History"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/DiagnosisSeverity",
+      "title" : "Condition/Diagnosis Severity",
+      "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.168"],
+      "sources" : ["2.16.840.1.113883.4.642.3.168"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStage",
+      "title" : "Condition Stage",
+      "description" : "Example value set for stages of cancer and other conditions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.170"],
+      "sources" : ["2.16.840.1.113883.4.642.3.170"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStageType",
+      "title" : "Condition Stage Type",
+      "description" : "Example value set for the type of stages of cancer and other conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.171"],
+      "sources" : ["2.16.840.1.113883.4.642.3.171"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionVerificationStatus",
+      "title" : "ConditionVerificationStatus",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.166"],
+      "sources" : ["2.16.840.1.113883.4.642.3.166"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/consistency-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FluidConsistencyTypeCodes",
+      "title" : "Fluid Consistency Type Codes",
+      "description" : "FluidConsistencyType :  Codes used to represent the consistency of fluids and liquids provided to the patient. This value set includes concepts from [SNOMED CT](http://snomed.info/sct)(US Extension) where concept is a 435681000124103  (Dietary liquid consistency diet (regime/therapy)). It is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.389"],
+      "sources" : ["2.16.840.1.113883.4.642.3.389"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ContactEntityType",
+      "title" : "Contact entity type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/contactentity-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.416"],
+      "sources" : ["2.16.840.1.113883.4.642.3.416"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatOrganization.html" : "Satu Sehat Organization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/coverage-class",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CoverageClassCodes",
+      "title" : "Coverage Class Codes",
+      "description" : "This value set includes Coverage Class codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/coverage-class"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1009"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1009"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverage.html" : "Satu Sehat Coverage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/coverage-copay-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CoverageCopayTypeCodes",
+      "title" : "Coverage Copay Type Codes",
+      "description" : "This value set includes sample Coverage Copayment Type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/coverage-copay-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.527"],
+      "sources" : ["2.16.840.1.113883.4.642.3.527"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverage.html" : "Satu Sehat Coverage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/coverage-financial-exception",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleCoverageFinancialExceptionCodes",
+      "title" : "Example Coverage Financial Exception Codes",
+      "description" : "This value set includes Example Coverage Financial Exception Codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1328"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1328"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverage.html" : "Satu Sehat Coverage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/coverage-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CoverageTypeAndSelf-PayCodes",
+      "title" : "Coverage Type and Self-Pay Codes",
+      "description" : "This value set includes Coverage Type codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/coverage-selfpay",
+        "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.520"],
+      "sources" : ["2.16.840.1.113883.4.642.3.520"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverage.html" : "Satu Sehat Coverage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/coverageeligibilityresponse-ex-auth-support",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CoverageEligibilityResponseAuthSupportCodes",
+      "title" : "CoverageEligibilityResponse Auth Support Codes",
+      "description" : "This value set includes CoverageEligibilityResponse Auth Support codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1393"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1393"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "systems" : ["http://hl7.org/fhir/days-of-week"],
+      "oids" : ["2.16.840.1.113883.4.642.3.512"],
+      "sources" : ["2.16.840.1.113883.4.642.3.512"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitionerRole.html" : "Satu Sehat Practitioner Role",
+      "StructureDefinition-SatuSehatLocation.html" : "Satu Sehat Location",
+      "StructureDefinition-SatuSehatHealthcareService.html" : "Satu Sehat Healthcare Service"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-action",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureDeviceActionCodes",
+      "title" : "Procedure Device Action Codes",
+      "description" : "Example codes indicating the change that happened to the device during the procedure.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.425"],
+      "sources" : ["2.16.840.1.113883.4.642.3.425"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRDeviceTypes",
+      "title" : "FHIR Device Types",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.208"],
+      "sources" : ["2.16.840.1.113883.4.642.3.208"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItem.html" : "Satu Sehat Charge Item",
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnosis-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosisRole",
+      "title" : "DiagnosisRole",
+      "description" : "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diagnosis-role"],
+      "oids" : ["2.16.840.1.113883.4.642.3.49"],
+      "sources" : ["2.16.840.1.113883.4.642.3.49"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter",
+      "StructureDefinition-SatuSehatEpisodeOfCare.html" : "Satu Sehat Episode of Care"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosticReportStatus",
+      "title" : "DiagnosticReportStatus",
+      "description" : "The status of the diagnostic report.",
+      "systems" : ["http://hl7.org/fhir/diagnostic-report-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.235"],
+      "sources" : ["2.16.840.1.113883.4.642.3.235"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDiagnosticReport.html" : "Satu Sehat Diagnostic Report",
+      "StructureDefinition-genomic-report.html" : "Genomic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosticServiceSectionCodes",
+      "title" : "Diagnostic Service Section Codes",
+      "description" : "This value set includes all the codes in HL7 V2 table 0074.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0074"],
+      "oids" : ["2.16.840.1.113883.4.642.3.234"],
+      "sources" : ["2.16.840.1.113883.4.642.3.234"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDiagnosticReport.html" : "Satu Sehat Diagnostic Report",
+      "StructureDefinition-genomic-report.html" : "Genomic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diet-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DietCodes",
+      "title" : "Diet Codes",
+      "description" : "Codes that can be used to indicate the type of food being ordered for a patient. This value set is provided as a suggestive example. It includes codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 182922004 (Dietary regime (regime/therapy))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.385"],
+      "sources" : ["2.16.840.1.113883.4.642.3.385"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/doc-section-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DocumentSectionCodes",
+      "title" : "Document Section Codes",
+      "description" : "Document section codes (LOINC codes used in CCDA sections).",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.237"],
+      "sources" : ["2.16.840.1.113883.4.642.3.237"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/doc-typecodes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRDocumentTypeCodes",
+      "title" : "FHIR Document Type Codes",
+      "description" : "FHIR Document Codes - all LOINC codes where scale type = 'DOC'.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.240"],
+      "sources" : ["2.16.840.1.113883.4.642.3.240"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DocumentClassValueSet",
+      "title" : "Document Class Value Set",
+      "description" : "This is the code specifying the high-level kind of document (e.g. Prescription, Discharge Summary, Report, etc.). Note: Class code for documents comes from LOINC, and is based upon one of the following:The type of service described by the document. It is described at a very high level in Section 7.3 of the LOINC Manual. The type study performed. It was determined by identifying modalities for study reports. The section of the chart where the document is placed. It was determined from the SETs created for Claims Attachment requests.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.46"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/document-reference-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DocumentReferenceStatus",
+      "title" : "DocumentReferenceStatus",
+      "description" : "The status of the document reference.",
+      "systems" : ["http://hl7.org/fhir/document-reference-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.7"],
+      "sources" : ["2.16.840.1.113883.4.642.3.7"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/document-relationship-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DocumentRelationshipType",
+      "title" : "DocumentRelationshipType",
+      "description" : "The type of relationship between documents.",
+      "systems" : ["http://hl7.org/fhir/document-relationship-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.244"],
+      "sources" : ["2.16.840.1.113883.4.642.3.244"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/eligibilityrequest-purpose",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EligibilityRequestPurpose",
+      "title" : "EligibilityRequestPurpose",
+      "description" : "A code specifying the types of information being requested.",
+      "systems" : ["http://hl7.org/fhir/eligibilityrequest-purpose"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1182"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1182"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityRequest.html" : "Satu Sehat Coverage Eligibility Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/eligibilityresponse-purpose",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EligibilityResponsePurpose",
+      "title" : "EligibilityResponsePurpose",
+      "description" : "A code specifying the types of information being requested.",
+      "systems" : ["http://hl7.org/fhir/eligibilityresponse-purpose"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1184"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1184"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AdmitSource",
+      "title" : "Admit source",
+      "description" : "This value set defines a set of codes that can be used to indicate from where the patient came in.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/admit-source"],
+      "oids" : ["2.16.840.1.113883.4.642.3.257"],
+      "sources" : ["2.16.840.1.113883.4.642.3.257"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Diet",
+      "title" : "Diet",
+      "description" : "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diet"],
+      "oids" : ["2.16.840.1.113883.4.642.3.255"],
+      "sources" : ["2.16.840.1.113883.4.642.3.255"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter",
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-discharge-disposition",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DischargeDisposition",
+      "title" : "Discharge disposition",
+      "description" : "This value set defines a set of codes that can be used to where the patient left the hospital.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/discharge-disposition"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.259"],
+      "sources" : ["2.16.840.1.113883.4.642.3.259"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterLocationStatus",
+      "title" : "EncounterLocationStatus",
+      "description" : "The status of the location.",
+      "systems" : ["http://hl7.org/fhir/encounter-location-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.262"],
+      "sources" : ["2.16.840.1.113883.4.642.3.262"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantType",
+      "title" : "Participant type",
+      "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/participant-type",
+        "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.250"],
+      "sources" : ["2.16.840.1.113883.4.642.3.250"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterReasonCodes",
+      "title" : "Encounter Reason Codes",
+      "description" : "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.261"],
+      "sources" : ["2.16.840.1.113883.4.642.3.261"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecialArrangements",
+      "title" : "Special arrangements",
+      "description" : "This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/encounter-special-arrangements"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.253"],
+      "sources" : ["2.16.840.1.113883.4.642.3.253"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecialCourtesy",
+      "title" : "Special courtesy",
+      "description" : "This value set defines a set of codes that can be used to indicate special courtesies provided to the patient.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.252"],
+      "sources" : ["2.16.840.1.113883.4.642.3.252"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterStatus",
+      "title" : "EncounterStatus",
+      "description" : "Current state of the encounter.",
+      "systems" : ["http://hl7.org/fhir/encounter-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.246"],
+      "sources" : ["2.16.840.1.113883.4.642.3.246"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterType",
+      "title" : "Encounter type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.248"],
+      "sources" : ["2.16.840.1.113883.4.642.3.248"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/enteral-route",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EnteralRouteCodes",
+      "title" : "Enteral Route Codes",
+      "description" : "EnteralRouteOfAdministration: Codes specifying the route of administration of enteral formula.  This value set is composed of HL7 V3 codes and is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.394"],
+      "sources" : ["2.16.840.1.113883.4.642.3.394"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/entformula-additive",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EnteralFormulaAdditiveTypeCode",
+      "title" : "Enteral Formula Additive Type Code",
+      "description" : "EnteralFormulaAdditiveType: Codes for the type of modular component such as protein, carbohydrate or fiber to be provided in addition to or mixed with the base formula. This value set is provided as a suggestive example.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/entformula-additive"],
+      "oids" : ["2.16.840.1.113883.4.642.3.392"],
+      "sources" : ["2.16.840.1.113883.4.642.3.392"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/entformula-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EnteralFormulaTypeCodes",
+      "title" : "Enteral Formula Type Codes",
+      "description" : "EnteralFormulaType : Codes for type of enteral formula to be administered to patient.  This value set is composed of SNOMED CT (US Extension) Concepts from SCTID 470581016 (Enteral+supplement feeds hierarchy (product)) and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.391"],
+      "sources" : ["2.16.840.1.113883.4.642.3.391"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/episode-of-care-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EpisodeOfCareStatus",
+      "title" : "EpisodeOfCareStatus",
+      "description" : "The status of the episode of care.",
+      "systems" : ["http://hl7.org/fhir/episode-of-care-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.664"],
+      "sources" : ["2.16.840.1.113883.4.642.3.664"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEpisodeOfCare.html" : "Satu Sehat Episode of Care"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/episodeofcare-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EpisodeOfCareType",
+      "title" : "Episode of care type",
+      "description" : "This example value set defines a set of codes that can be used to express the usage type of an EpisodeOfCare record.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/episodeofcare-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.666"],
+      "sources" : ["2.16.840.1.113883.4.642.3.666"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEpisodeOfCare.html" : "Satu Sehat Episode of Care"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/event-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EventStatus",
+      "title" : "EventStatus",
+      "description" : "Codes identifying the lifecycle stage of an event.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.109"],
+      "sources" : ["2.16.840.1.113883.4.642.3.109"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ex-benefitcategory",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "BenefitCategoryCodes",
+      "title" : "Benefit Category Codes",
+      "description" : "This value set includes examples of Benefit Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-benefitcategory"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1174"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1174"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityRequest.html" : "Satu Sehat Coverage Eligibility Request",
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response",
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ex-diagnosis-on-admission",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleDiagnosisOnAdmissionCodes",
+      "title" : "Example Diagnosis on Admission Codes",
+      "description" : "This value set includes example Diagnosis on Admission codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/ex-diagnosis-on-admission"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1169"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1169"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ex-diagnosisrelatedgroup",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleDiagnosisRelatedGroupCodes",
+      "title" : "Example Diagnosis Related Group Codes",
+      "description" : "This value set includes example Diagnosis Related Group codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.588"],
+      "sources" : ["2.16.840.1.113883.4.642.3.588"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ex-diagnosistype",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleDiagnosisTypeCodes",
+      "title" : "Example Diagnosis Type Codes",
+      "description" : "This value set includes example Diagnosis Type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-diagnosistype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.590"],
+      "sources" : ["2.16.840.1.113883.4.642.3.590"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ex-paymenttype",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExamplePaymentTypeCodes",
+      "title" : "Example Payment Type Codes",
+      "description" : "This value set includes example Payment Type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-paymenttype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.616"],
+      "sources" : ["2.16.840.1.113883.4.642.3.616"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ex-procedure-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleProcedureTypeCodes",
+      "title" : "Example Procedure Type Codes",
+      "description" : "This value set includes example Procedure Type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-procedure-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1387"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1387"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ex-program-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleProgramReasonCodes",
+      "title" : "Example Program Reason Codes",
+      "description" : "This value set includes sample Program Reason Span codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-programcode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.576"],
+      "sources" : ["2.16.840.1.113883.4.642.3.576"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ex-revenue-center",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleRevenueCenterCodes",
+      "title" : "Example Revenue Center Codes",
+      "description" : "This value set includes sample Revenue Center codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-revenue-center"],
+      "oids" : ["2.16.840.1.113883.4.642.3.594"],
+      "sources" : ["2.16.840.1.113883.4.642.3.594"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/fm-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FinancialResourceStatusCodes",
+      "title" : "Financial Resource Status Codes",
+      "description" : "This value set includes Status codes.",
+      "systems" : ["http://hl7.org/fhir/fm-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.592"],
+      "sources" : ["2.16.840.1.113883.4.642.3.592"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPaymentNotice.html" : "Satu Sehat Payment Notice",
+      "StructureDefinition-SatuSehatCoverage.html" : "Satu Sehat Coverage",
+      "StructureDefinition-SatuSehatPaymentReconciliation.html" : "Satu Sehat Payment Reconciliation",
+      "StructureDefinition-SatuSehatCoverageEligibilityRequest.html" : "Satu Sehat Coverage Eligibility Request",
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response",
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/food-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FoodTypeCodes",
+      "title" : "Food Type Codes",
+      "description" : "This value set represents codes for types of foods and is provided as a suggestive example. It include codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 255620007 (Foods (substance)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.384"],
+      "sources" : ["2.16.840.1.113883.4.642.3.384"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/formatcodes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DocumentReferenceFormatCodeSet",
+      "title" : "DocumentReference Format Code Set",
+      "description" : "The value set is defined to be the set of format codes defined by the IHE Technical Framework, and also including additional format codes defined by the    HL7. The value set is listed in HITSP C80 Table 2-153 Format Code Value Set Definition,    with additions published later by IHE as published    at http://wiki.ihe.net/index.php?title=IHE_Format_Codes   and with additions published later by HL7 as published at https://confluence.hl7.org/display/SD/Format+Codes+for+IHE+XDS.   This is the code specifying the technical format of the document. Along with the typeCode,    it should provide sufficient information to allow any potential document consumer to know    if it will be able to process the document. The code shall be sufficiently specific to    ensure processing/display by identifying a document encoding, structure and template. The actual list of codes here is incomplete",
+      "systems" : ["http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"],
+      "oids" : ["1.3.6.1.4.1.19376.1.2.7.1"],
+      "sources" : ["1.3.6.1.4.1.19376.1.2.7.1"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/forms",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Form Codes",
+      "title" : "Forms",
+      "description" : "This value set includes a sample set of Forms codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/forms-codes"],
+      "oids" : ["2.16.840.1.113883.4.642.3.37"],
+      "sources" : ["2.16.840.1.113883.4.642.3.37"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPaymentReconciliation.html" : "Satu Sehat Payment Reconciliation",
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/fundsreserve",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Funds Reservation Codes",
+      "title" : "FundsReserve",
+      "description" : "This value set includes sample funds reservation type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/fundsreserve"],
+      "oids" : ["2.16.840.1.113883.4.642.3.33"],
+      "sources" : ["2.16.840.1.113883.4.642.3.33"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-achievement",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalAchievementStatus",
+      "title" : "Goal achievement status",
+      "description" : "Describes the progression, or lack thereof, towards the goal against the target.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-achievement"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1374"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1374"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatGoal.html" : "Satu Sehat Goal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalCategory",
+      "title" : "Goal category",
+      "description" : "Example codes for grouping goals to use for filtering or presentation.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.275"],
+      "sources" : ["2.16.840.1.113883.4.642.3.275"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatGoal.html" : "Satu Sehat Goal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalPriority",
+      "title" : "Goal priority",
+      "description" : "Indicates the level of importance associated with reaching or sustaining a goal.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.273"],
+      "sources" : ["2.16.840.1.113883.4.642.3.273"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatGoal.html" : "Satu Sehat Goal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-start-event",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalStartEvent",
+      "title" : "Goal start event",
+      "description" : "Identifies types of events that might trigger the start of a goal.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.279"],
+      "sources" : ["2.16.840.1.113883.4.642.3.279"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatGoal.html" : "Satu Sehat Goal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalLifecycleStatus",
+      "title" : "GoalLifecycleStatus",
+      "description" : "Codes that reflect the current state of a goal and whether the goal is still being targeted.",
+      "systems" : ["http://hl7.org/fhir/goal-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.271"],
+      "sources" : ["2.16.840.1.113883.4.642.3.271"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatGoal.html" : "Satu Sehat Goal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/history-absent-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FamilyHistoryAbsentReason",
+      "title" : "FamilyHistoryAbsentReason",
+      "description" : "Codes describing the reason why a family member's history is not available.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/history-absent-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.269"],
+      "sources" : ["2.16.840.1.113883.4.642.3.269"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatFamilyMemberHistory.html" : "Satu Sehat Family Member History"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/history-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FamilyHistoryStatus",
+      "title" : "FamilyHistoryStatus",
+      "description" : "A code that identifies the status of the family history record.",
+      "systems" : ["http://hl7.org/fhir/history-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.267"],
+      "sources" : ["2.16.840.1.113883.4.642.3.267"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatFamilyMemberHistory.html" : "Satu Sehat Family Member History"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/icd-10",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ICD-10Codes",
+      "title" : "ICD-10 Codes",
+      "description" : "This value set includes sample ICD-10 codes.",
+      "systems" : ["http://hl7.org/fhir/sid/icd-10"],
+      "oids" : ["2.16.840.1.113883.4.642.3.531"],
+      "sources" : ["2.16.840.1.113883.4.642.3.531"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItem.html" : "Satu Sehat Charge Item",
+      "StructureDefinition-SatuSehatCoverageEligibilityRequest.html" : "Satu Sehat Coverage Eligibility Request",
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/icd-10-procedures",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ICD-10ProcedureCodes",
+      "title" : "ICD-10 Procedure Codes",
+      "description" : "This value set includes sample ICD-10 Procedure codes.",
+      "systems" : ["http://hl7.org/fhir/sid/ex-icd-10-procedures"],
+      "oids" : ["2.16.840.1.113883.4.642.3.574"],
+      "sources" : ["2.16.840.1.113883.4.642.3.574"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Identifier Type Codes",
+      "title" : "IdentifierType",
+      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+      "oids" : ["2.16.840.1.113883.4.642.3.45"],
+      "sources" : ["2.16.840.1.113883.4.642.3.45"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDiagnosticReport.html" : "Satu Sehat Diagnostic Report",
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition",
+      "StructureDefinition-SatuSehatClinicalImpression.html" : "Satu Sehat Clinical Impression",
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDiagnosticReport.html" : "Satu Sehat Diagnostic Report",
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition",
+      "StructureDefinition-SatuSehatClinicalImpression.html" : "Satu Sehat Clinical Impression",
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/imagingstudy-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImagingStudyStatus",
+      "title" : "ImagingStudyStatus",
+      "description" : "The status of the ImagingStudy.",
+      "systems" : ["http://hl7.org/fhir/imagingstudy-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.990"],
+      "sources" : ["2.16.840.1.113883.4.642.3.990"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImagingStudy.html" : "Satu Sehat Imaging Study"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-function",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationFunctionCodes",
+      "title" : "Immunization Function Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the function a practitioner or organization may play in the immunization event. This value set is provided as a suggestive example.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0443"],
+      "oids" : ["2.16.840.1.113883.4.642.3.995"],
+      "sources" : ["2.16.840.1.113883.4.642.3.995"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-funding-source",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationFundingSource",
+      "title" : "Immunization Funding Source",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the vaccine administered. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/immunization-funding-source"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.293"],
+      "sources" : ["2.16.840.1.113883.4.642.3.293"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-origin",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationOriginCodes",
+      "title" : "Immunization Origin Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the data when the report of the immunization event is not based on information from the person, entity or organization who administered the vaccine. This value set is provided as a suggestive example.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-origin"],
+      "oids" : ["2.16.840.1.113883.4.642.3.296"],
+      "sources" : ["2.16.840.1.113883.4.642.3.296"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-program-eligibility",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationProgramEligibility",
+      "title" : "Immunization Program Eligibility",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the patient's eligibility for a vaccination program. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/immunization-program-eligibility"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.291"],
+      "sources" : ["2.16.840.1.113883.4.642.3.291"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationReasonCodes",
+      "title" : "Immunization Reason Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was administered. This value set is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.290"],
+      "sources" : ["2.16.840.1.113883.4.642.3.290"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-route",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationRouteCodes",
+      "title" : "Immunization Route Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the administrative routes used during vaccination. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.289"],
+      "sources" : ["2.16.840.1.113883.4.642.3.289"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CodesForImmunizationSiteOfAdministration",
+      "title" : "Codes for Immunization Site of Administration",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the body site where the vaccination occurred. This value set is provided as a suggestive example.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActSite"],
+      "oids" : ["2.16.840.1.113883.4.642.3.288"],
+      "sources" : ["2.16.840.1.113883.4.642.3.288"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationStatusCodes",
+      "title" : "Immunization Status Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the current status of the administered dose of vaccine.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.295"],
+      "sources" : ["2.16.840.1.113883.4.642.3.295"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-status-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationStatusReasonCodes",
+      "title" : "Immunization Status Reason Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was not administered. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.992"],
+      "sources" : ["2.16.840.1.113883.4.642.3.992"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationSubpotentReason",
+      "title" : "Immunization Subpotent Reason",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose is considered to be subpotent. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/immunization-subpotent-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.993"],
+      "sources" : ["2.16.840.1.113883.4.642.3.993"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-target-disease",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImmunizationTargetDiseaseCodes",
+      "title" : "Immunization Target Disease Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the disease that the dose is being administered against. This value set is provided as a suggestive example and includes the SNOMED CT concepts from the 64572001 (Disease) hierarchy.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1047"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1047"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/investigation-sets",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "InvestigationType",
+      "title" : "Investigation Type",
+      "description" : "Example value set for investigation type.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.157"],
+      "sources" : ["2.16.840.1.113883.4.642.3.157"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClinicalImpression.html" : "Satu Sehat Clinical Impression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/invoice-priceComponentType",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "InvoicePriceComponentType",
+      "title" : "InvoicePriceComponentType",
+      "description" : "Codes indicating the kind of the price component.",
+      "systems" : ["http://hl7.org/fhir/invoice-priceComponentType"],
+      "oids" : ["2.16.840.1.113883.4.642.3.868"],
+      "sources" : ["2.16.840.1.113883.4.642.3.868"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItemDefinition.html" : "Satu Sehat Charge Item Definition",
+      "StructureDefinition-SatuSehatInvoice.html" : "Satu Sehat Invoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/invoice-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "InvoiceStatus",
+      "title" : "InvoiceStatus",
+      "description" : "Codes identifying the lifecycle stage of an Invoice.",
+      "systems" : ["http://hl7.org/fhir/invoice-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.866"],
+      "sources" : ["2.16.840.1.113883.4.642.3.866"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatInvoice.html" : "Satu Sehat Invoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/iso3166-1-2",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Iso3166-1-2",
+      "title" : "Iso 3166 Part 1: 2 Letter Codes",
+      "description" : "This value set defines the ISO 3166 Part 1 2-letter codes",
+      "systems" : ["urn:iso:std:iso:3166"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthPlace.html" : "Birth Place"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/issue-severity",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IssueSeverity",
+      "title" : "IssueSeverity",
+      "description" : "How the issue affects the success of the action.",
+      "systems" : ["http://hl7.org/fhir/issue-severity"],
+      "oids" : ["2.16.840.1.113883.4.642.3.408"],
+      "sources" : ["2.16.840.1.113883.4.642.3.408"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatOperationOutcome.html" : "Satu Sehat Operation Outcome"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/issue-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IssueType",
+      "title" : "IssueType",
+      "description" : "A code that describes the type of issue.",
+      "systems" : ["http://hl7.org/fhir/issue-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.410"],
+      "sources" : ["2.16.840.1.113883.4.642.3.410"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatOperationOutcome.html" : "Satu Sehat Operation Outcome"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/item-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireItemType",
+      "title" : "QuestionnaireItemType",
+      "description" : "Distinguishes groups from questions and display text and indicates data type for questions.",
+      "systems" : ["http://hl7.org/fhir/item-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.444"],
+      "sources" : ["2.16.840.1.113883.4.642.3.444"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/jurisdiction",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Jurisdiction ValueSet",
+      "title" : "Jurisdiction",
+      "description" : "This value set defines a base set of codes for country, country subdivision and region    for indicating where a resource is intended to be used.   \r\n   \r\n   Note: The codes for countries and country subdivisions are taken from    [ISO 3166](https://www.iso.org/iso-3166-country-codes.html)    while the codes for \"supra-national\" regions are from    [UN Standard country or area codes for statistical use (M49)](http://unstats.un.org/unsd/methods/m49/m49.htm).",
+      "systems" : [
+        "http://unstats.un.org/unsd/methods/m49/m49.htm",
+        "urn:iso:std:iso:3166",
+        "urn:iso:std:iso:3166:-2"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.48"],
+      "sources" : ["2.16.840.1.113883.4.642.3.48"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItemDefinition.html" : "Satu Sehat Charge Item Definition",
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItem.html" : "Satu Sehat Charge Item",
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization",
+      "StructureDefinition-SatuSehatClinicalImpression.html" : "Satu Sehat Clinical Impression",
+      "StructureDefinition-SatuSehatPaymentNotice.html" : "Satu Sehat Payment Notice",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition",
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen",
+      "StructureDefinition-SatuSehatLocation.html" : "Satu Sehat Location",
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration",
+      "StructureDefinition-SatuSehatSubstance.html" : "Satu Sehat Substance",
+      "StructureDefinition-SatuSehatHealthcareService.html" : "Satu Sehat Healthcare Service",
+      "StructureDefinition-SatuSehatMedicationStatement.html" : "Satu Sehat Medication Statement",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition",
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-SatuSehatAccount.html" : "SatuSehatAccount",
+      "StructureDefinition-SatuSehatChargeItemDefinition.html" : "Satu Sehat Charge Item Definition",
+      "StructureDefinition-SatuSehatList.html" : "Satu Sehat List",
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance",
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure",
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire",
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation",
+      "StructureDefinition-SatuSehatMedication.html" : "Satu Sehat Medication",
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-SatuSehatRelatedPerson.html" : "Satu Sehat Related Person",
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request",
+      "StructureDefinition-SatuSehatDiagnosticReport.html" : "Satu Sehat Diagnostic Report",
+      "StructureDefinition-SatuSehatOrganization.html" : "Satu Sehat Organization",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatCoverage.html" : "Satu Sehat Coverage",
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter",
+      "StructureDefinition-SatuSehatEpisodeOfCare.html" : "Satu Sehat Episode of Care",
+      "StructureDefinition-SatuSehatPaymentReconciliation.html" : "Satu Sehat Payment Reconciliation",
+      "StructureDefinition-SatuSehatRiskAssessment.html" : "Satu Sehat Risk Assessment",
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan",
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference",
+      "StructureDefinition-SatuSehatGoal.html" : "Satu Sehat Goal",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-SatuSehatPractitioner.html" : "Satu Sehat Practitioner",
+      "StructureDefinition-SatuSehatTask.html" : "Satu Sehat Task",
+      "StructureDefinition-SatuSehatQuestionnaireResponse.html" : "Satu Sehat Questionnaire Response",
+      "StructureDefinition-SatuSehatOperationOutcome.html" : "Satu Sehat Operation Outcome",
+      "StructureDefinition-genomic-report.html" : "Genomic Report",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response",
+      "StructureDefinition-SatuSehatFamilyMemberHistory.html" : "Satu Sehat Family Member History",
+      "StructureDefinition-SatuSehatPractitionerRole.html" : "Satu Sehat Practitioner Role",
+      "StructureDefinition-SatuSehatCoverageEligibilityRequest.html" : "Satu Sehat Coverage Eligibility Request",
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order",
+      "StructureDefinition-SatuSehatImagingStudy.html" : "Satu Sehat Imaging Study",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-SatuSehatInvoice.html" : "Satu Sehat Invoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "systems" : ["http://hl7.org/fhir/link-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.423"],
+      "sources" : ["2.16.840.1.113883.4.642.3.423"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListEmptyReasons",
+      "title" : "List Empty Reasons",
+      "description" : "General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/list-empty-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.322"],
+      "sources" : ["2.16.840.1.113883.4.642.3.322"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatList.html" : "Satu Sehat List",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-example-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleUseCodesForList",
+      "title" : "Example Use Codes for List",
+      "description" : "Example use codes for the List resource - typical kinds of use.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/list-example-use-codes"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.316"],
+      "sources" : ["2.16.840.1.113883.4.642.3.316"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatList.html" : "Satu Sehat List"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-item-flag",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PatientMedicineChangeTypes",
+      "title" : "Patient Medicine Change Types",
+      "description" : "Example Item Flags for the List Resource. In this case, these are the kind of flags that would be used on a medication list at the end of a consultation.",
+      "systems" : ["urn:oid:1.2.36.1.2001.1001.101.104.16592"],
+      "oids" : ["2.16.840.1.113883.4.642.3.320"],
+      "sources" : ["2.16.840.1.113883.4.642.3.320"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatList.html" : "Satu Sehat List"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListMode",
+      "title" : "ListMode",
+      "description" : "The processing mode that applies to this list.",
+      "systems" : ["http://hl7.org/fhir/list-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.318"],
+      "sources" : ["2.16.840.1.113883.4.642.3.318"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatList.html" : "Satu Sehat List",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-order",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListOrderCodes",
+      "title" : "List Order Codes",
+      "description" : "Base values for the order of the items in a list resource.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/list-order"],
+      "oids" : ["2.16.840.1.113883.4.642.3.324"],
+      "sources" : ["2.16.840.1.113883.4.642.3.324"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatList.html" : "Satu Sehat List",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListStatus",
+      "title" : "ListStatus",
+      "description" : "The current state of the list.",
+      "systems" : ["http://hl7.org/fhir/list-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.326"],
+      "sources" : ["2.16.840.1.113883.4.642.3.326"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatList.html" : "Satu Sehat List"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationMode",
+      "title" : "LocationMode",
+      "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+      "systems" : ["http://hl7.org/fhir/location-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.330"],
+      "sources" : ["2.16.840.1.113883.4.642.3.330"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatLocation.html" : "Satu Sehat Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-physical-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationType",
+      "title" : "Location type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/location-physical-type"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.328"],
+      "sources" : ["2.16.840.1.113883.4.642.3.328"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter",
+      "StructureDefinition-SatuSehatLocation.html" : "Satu Sehat Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationStatus",
+      "title" : "LocationStatus",
+      "description" : "Indicates whether the location is still in use.",
+      "systems" : ["http://hl7.org/fhir/location-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.332"],
+      "sources" : ["2.16.840.1.113883.4.642.3.332"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatLocation.html" : "Satu Sehat Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ManifestationAndSymptomCodes",
+      "title" : "Manifestation and Symptom Codes",
+      "description" : "Example value set for Manifestation and Symptom codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.169"],
+      "sources" : ["2.16.840.1.113883.4.642.3.169"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Marital Status Codes",
+      "title" : "MaritalStatus",
+      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.29"],
+      "sources" : ["2.16.840.1.113883.4.642.3.29"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/med-admin-perform-function",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Performer Function Codes",
+      "title" : "Medication administration  performer  function  codes",
+      "description" : "MedicationAdministration Performer Function Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/med-admin-perform-function"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.349"],
+      "sources" : ["2.16.840.1.113883.4.642.3.349"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-admin-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Category Codes",
+      "title" : "Medication administration  category  codes",
+      "description" : "MedicationAdministration Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-admin-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.347"],
+      "sources" : ["2.16.840.1.113883.4.642.3.347"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-admin-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Status Codes",
+      "title" : "Medication administration  status  codes",
+      "description" : "MedicationAdministration Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-admin-status"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.340"],
+      "sources" : ["2.16.840.1.113883.4.642.3.340"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationAsNeededReasonCodes",
+      "title" : "SNOMED CT Medication As Needed Reason Codes",
+      "description" : "This value set includes all clinical findings from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.96"],
+      "sources" : ["2.16.840.1.113883.4.642.3.96"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationCodes",
+      "title" : "SNOMED CT Medication Codes",
+      "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.375"],
+      "sources" : ["2.16.840.1.113883.4.642.3.375"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedication.html" : "Satu Sehat Medication",
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration",
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan",
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request",
+      "StructureDefinition-SatuSehatMedicationStatement.html" : "Satu Sehat Medication Statement",
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-form-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTFormCodes",
+      "title" : "SNOMED CT Form Codes",
+      "description" : "This value set includes all dose form codes from SNOMED CT - provided as an exemplar.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.374"],
+      "sources" : ["2.16.840.1.113883.4.642.3.374"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedication.html" : "Satu Sehat Medication"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication usage category codes",
+      "title" : "Medication usage category codes",
+      "description" : "Medication Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.370"],
+      "sources" : ["2.16.840.1.113883.4.642.3.370"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationStatement.html" : "Satu Sehat Medication Statement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication Status Codes",
+      "title" : "Medication  status  codes",
+      "description" : "Medication Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medication-statement-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.367"],
+      "sources" : ["2.16.840.1.113883.4.642.3.367"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationStatement.html" : "Satu Sehat Medication Statement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication Status Codes",
+      "title" : "Medication  status  codes",
+      "description" : "Medication Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medication-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.376"],
+      "sources" : ["2.16.840.1.113883.4.642.3.376"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedication.html" : "Satu Sehat Medication"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationDispense Category Codes",
+      "title" : "Medication dispense  category  codes",
+      "description" : "MedicationDispense Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1314"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1314"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-performer-function",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationDispense Performer Function Codes",
+      "title" : "Medication dispense  performer  function  codes",
+      "description" : "MedicationDispense Performer Function Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1318"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1318"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationDispense Status Codes",
+      "title" : "Medication dispense  status  codes",
+      "description" : "MedicationDispense Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationdispense-status"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1312"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1312"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-status-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationDispense Status Reason Codes",
+      "title" : "Medication dispense  status  reason  codes",
+      "description" : "MedicationDispense Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1316"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1316"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Category Codes",
+      "title" : "Medication request  category  codes",
+      "description" : "MedicationRequest Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1322"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1322"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-course-of-therapy",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Course of Therapy Codes",
+      "title" : "Medication request  course of  therapy  codes",
+      "description" : "MedicationRequest Course of Therapy Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1326"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1326"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Intent",
+      "title" : "Medication request  intent",
+      "description" : "MedicationRequest Intent Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1321"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1321"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationrequest Status",
+      "title" : "Medicationrequest  status",
+      "description" : "MedicationRequest Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1320"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1320"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Status Reason Codes",
+      "title" : "Medication request  status  reason  codes",
+      "description" : "MedicationRequest Status Reason Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1324"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1324"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/missing-tooth-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MissingToothReasonCodes",
+      "title" : "Missing Tooth Reason Codes",
+      "description" : "This value set includes sample Missing Tooth Reason codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/missingtoothreason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.534"],
+      "sources" : ["2.16.840.1.113883.4.642.3.534"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/modified-foodtype",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TextureModifiedFoodTypeCodes",
+      "title" : "Texture Modified Food Type Codes",
+      "description" : "TextureModifiedFoodType: Codes for types of foods that are texture-modified. This value set is composed SNOMED CT Concepts from SCTID 255620007 Foods (substance) and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.388"],
+      "sources" : ["2.16.840.1.113883.4.642.3.388"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/name-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "systems" : ["http://hl7.org/fhir/name-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.65"],
+      "sources" : ["2.16.840.1.113883.4.642.3.65"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitioner.html" : "Satu Sehat Practitioner",
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/narrative-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "NarrativeStatus",
+      "title" : "NarrativeStatus",
+      "description" : "The status of a resource narrative.",
+      "systems" : ["http://hl7.org/fhir/narrative-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.55"],
+      "sources" : ["2.16.840.1.113883.4.642.3.55"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/note-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "NoteType",
+      "title" : "NoteType",
+      "description" : "The presentation types of notes.",
+      "systems" : ["http://hl7.org/fhir/note-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.15"],
+      "sources" : ["2.16.840.1.113883.4.642.3.15"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPaymentReconciliation.html" : "Satu Sehat Payment Reconciliation",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/nutrient-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "NutrientModifierCodes",
+      "title" : "Nutrient Modifier Codes",
+      "description" : "NutrientModifier :  Codes for types of nutrients that are being modified such as carbohydrate or sodium.  This value set includes codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 226355009 (Nutrients(substance)), and the concepts for Sodium, Potassium and Fluid. This is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.386"],
+      "sources" : ["2.16.840.1.113883.4.642.3.386"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "uses" : {
+      },
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-SatuSehatGoal.html" : "Satu Sehat Goal",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.400"],
+      "sources" : ["2.16.840.1.113883.4.642.3.400"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatRiskAssessment.html" : "Satu Sehat Risk Assessment",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/operation-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "OperationOutcomeCodes",
+      "title" : "Operation Outcome Codes",
+      "description" : "Operation Outcome codes used by FHIR test servers (see Implementation file translations.xml)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/operation-outcome"],
+      "oids" : ["2.16.840.1.113883.4.642.3.412"],
+      "sources" : ["2.16.840.1.113883.4.642.3.412"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatOperationOutcome.html" : "Satu Sehat Operation Outcome"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/organization-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "OrganizationType",
+      "title" : "Organization type",
+      "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/organization-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.414"],
+      "sources" : ["2.16.840.1.113883.4.642.3.414"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatOrganization.html" : "Satu Sehat Organization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participant-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantRoles",
+      "title" : "Participant Roles",
+      "description" : "Roles of participants that may be included in a care team.  Defined as: Is a Person, Healthcare professional (occupation) or Healthcare related organization (qualifier value).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.152"],
+      "sources" : ["2.16.840.1.113883.4.642.3.152"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PatientContactRelationship",
+      "title" : "Patient Contact Relationship ",
+      "description" : "The nature of the relationship between the patient and the contact person.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPatient.html" : "Satu Sehat Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/payeetype",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Claim Payee Type Codes",
+      "title" : "PayeeType",
+      "description" : "This value set includes sample Payee Type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/payeetype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.31"],
+      "sources" : ["2.16.840.1.113883.4.642.3.31"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/payment-adjustment-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PaymentAdjustmentReasonCodes",
+      "title" : "Payment Adjustment Reason Codes",
+      "description" : "This value set includes smattering of Payment Adjustment Reason codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/payment-adjustment-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.600"],
+      "sources" : ["2.16.840.1.113883.4.642.3.600"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/payment-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PaymentStatusCodes",
+      "title" : "Payment Status Codes",
+      "description" : "This value set includes a sample set of Payment Status codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/paymentstatus"],
+      "oids" : ["2.16.840.1.113883.4.642.3.643"],
+      "sources" : ["2.16.840.1.113883.4.642.3.643"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPaymentNotice.html" : "Satu Sehat Payment Notice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/payment-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PaymentTypeCodes",
+      "title" : "Payment Type Codes",
+      "description" : "This value set includes sample Payment Type codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/payment-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.641"],
+      "sources" : ["2.16.840.1.113883.4.642.3.641"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPaymentReconciliation.html" : "Satu Sehat Payment Reconciliation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedurePerformerRoleCodes",
+      "title" : "Procedure Performer Role Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.433"],
+      "sources" : ["2.16.840.1.113883.4.642.3.433"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatTask.html" : "Satu Sehat Task",
+      "StructureDefinition-SatuSehatChargeItem.html" : "Satu Sehat Charge Item",
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request",
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/practitioner-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PractitionerRole",
+      "title" : "Practitioner role",
+      "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/practitioner-role",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.439"],
+      "sources" : ["2.16.840.1.113883.4.642.3.439"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitionerRole.html" : "Satu Sehat Practitioner Role"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCategoryCodes(SNOMEDCT)",
+      "title" : "Procedure Category Codes (SNOMED CT)",
+      "description" : "Procedure Category code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.430"],
+      "sources" : ["2.16.840.1.113883.4.642.3.430"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan",
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureFollowUpCodes(SNOMEDCT)",
+      "title" : "Procedure Follow up Codes (SNOMED CT)",
+      "description" : "Procedure follow up codes: A selection of SNOMED CT codes relevant to procedure follow up.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.429"],
+      "sources" : ["2.16.840.1.113883.4.642.3.429"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ProcedureNotPerformedReason(SNOMED-CT)",
+      "title" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "description" : "Situation codes describing the reason that a procedure, which might otherwise be expected, was not performed, or a procedure that was started and was not completed. Consists of SNOMED CT codes, children of procedure contraindicated (183932001), procedure discontinued (416406003), procedure not done (416237000), procedure not indicated (428119001), procedure not offered (416064006), procedure not wanted (416432009), procedure refused (183944003), and procedure stopped (394908001).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.431"],
+      "sources" : ["2.16.840.1.113883.4.642.3.431"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureOutcomeCodes(SNOMEDCT)",
+      "title" : "Procedure Outcome Codes (SNOMED CT)",
+      "description" : "Procedure Outcome code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.428"],
+      "sources" : ["2.16.840.1.113883.4.642.3.428"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureReasonCodes",
+      "title" : "Procedure Reason Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.432"],
+      "sources" : ["2.16.840.1.113883.4.642.3.432"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-SatuSehatImagingStudy.html" : "Satu Sehat Imaging Study",
+      "StructureDefinition-SatuSehatProcedure.html" : "Satu Sehat Procedure",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/process-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcessPriorityCodes",
+      "title" : "Process Priority Codes",
+      "description" : "This value set includes the financial processing priority codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/processpriority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.552"],
+      "sources" : ["2.16.840.1.113883.4.642.3.552"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityRequest.html" : "Satu Sehat Coverage Eligibility Request",
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/program",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Program",
+      "title" : "Program",
+      "description" : "This value set defines an example set of codes that could be can be used to classify groupings of service-types/specialties.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/program"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1383"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1383"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatHealthcareService.html" : "Satu Sehat Healthcare Service"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/provider-qualification",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleProviderQualificationCodes",
+      "title" : "Example Provider Qualification Codes",
+      "description" : "This value set includes sample Provider Qualification codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/ex-providerqualification"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.570"],
+      "sources" : ["2.16.840.1.113883.4.642.3.570"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/publication-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PublicationStatus",
+      "title" : "PublicationStatus",
+      "description" : "The lifecycle status of an artifact.",
+      "systems" : ["http://hl7.org/fhir/publication-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatChargeItemDefinition.html" : "Satu Sehat Charge Item Definition",
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-answers",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireAnswerCodes",
+      "title" : "Questionnaire Answer Codes",
+      "description" : "Example list of codes for answers to questions. (Not complete or necessarily appropriate.)",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.446"],
+      "sources" : ["2.16.840.1.113883.4.642.3.446"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatQuestionnaireResponse.html" : "Satu Sehat Questionnaire Response",
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-answers-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireResponseStatus",
+      "title" : "QuestionnaireResponseStatus",
+      "description" : "Lifecycle status of the questionnaire response.",
+      "systems" : ["http://hl7.org/fhir/questionnaire-answers-status"],
+      "oids" : ["required"],
+      "sources" : ["required"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatQuestionnaireResponse.html" : "Satu Sehat Questionnaire Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-enable-behavior",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EnableWhenBehavior",
+      "title" : "EnableWhenBehavior",
+      "description" : "Controls how multiple enableWhen values are interpreted -  whether all or any must be true.",
+      "systems" : ["http://hl7.org/fhir/questionnaire-enable-behavior"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1007"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1007"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-enable-operator",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireItemOperator",
+      "title" : "QuestionnaireItemOperator",
+      "description" : "The criteria by which a question is enabled.",
+      "systems" : ["http://hl7.org/fhir/questionnaire-enable-operator"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1005"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1005"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-questions",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireQuestionCodes",
+      "title" : "Questionnaire Question Codes",
+      "description" : "Example list of codes for questions and groups of questions. (Not necessarily complete or appropriate.)",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.443"],
+      "sources" : ["2.16.840.1.113883.4.642.3.443"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceSeverity",
+      "title" : "AllergyIntoleranceSeverity",
+      "description" : "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
+      "systems" : ["http://hl7.org/fhir/reaction-event-severity"],
+      "oids" : ["2.16.840.1.113883.4.642.3.135"],
+      "sources" : ["2.16.840.1.113883.4.642.3.135"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reason-medication-given-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ReasonMedicationGivenCodes",
+      "title" : "Reason Medication Given Codes",
+      "description" : "This value set is provided as an example. The value set to instantiate this attribute should be drawn from a robust terminology code system that consists of or contains concepts to support the medication process.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/reason-medication-given"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.344"],
+      "sources" : ["2.16.840.1.113883.4.642.3.344"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reason-medication-not-given-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTReasonMedicationNotGivenCodes",
+      "title" : "SNOMED CT Reason Medication Not Given Codes",
+      "description" : "This value set includes all medication refused, medication not administered, and non-administration of necessary drug or medicine codes from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.342"],
+      "sources" : ["2.16.840.1.113883.4.642.3.342"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTDrugTherapyStatusCodes",
+      "title" : "SNOMED CT Drug Therapy Status codes ",
+      "description" : "This value set includes some taken and not taken reason codes from SNOMED CT - provided as an exemplar",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.369"],
+      "sources" : ["2.16.840.1.113883.4.642.3.369"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationStatement.html" : "Satu Sehat Medication Statement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-SatuSehatObservation.html" : "Satu Sehat Observation",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-tb-lineage-observation.html" : "TB Lineage Observation",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-base.html" : "Genomic Base",
+      "StructureDefinition-variant.html" : "Variant",
+      "StructureDefinition-tb-phenotype-observation.html" : "TB Phenotype Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/related-claim-relationship",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleRelatedClaimRelationshipCodes",
+      "title" : "Example Related Claim Relationship Codes",
+      "description" : "This value set includes sample Related Claim Relationship codes.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.568"],
+      "sources" : ["2.16.840.1.113883.4.642.3.568"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PatientRelationshipType",
+      "title" : "Patient relationship type",
+      "description" : "A set of codes that can be used to indicate the relationship between a Patient and a Related Person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://terminology.hl7.org/CodeSystem/v2-0131"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.449"],
+      "sources" : ["2.16.840.1.113883.4.642.3.449"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatRelatedPerson.html" : "Satu Sehat Related Person"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/remittance-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClaimProcessingCodes",
+      "title" : "Claim Processing Codes",
+      "description" : "This value set includes Claim Processing Outcome codes.",
+      "systems" : ["http://hl7.org/fhir/remittance-outcome"],
+      "oids" : ["2.16.840.1.113883.4.642.3.13"],
+      "sources" : ["2.16.840.1.113883.4.642.3.13"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPaymentReconciliation.html" : "Satu Sehat Payment Reconciliation",
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/report-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCDiagnosticReportCodes",
+      "title" : "LOINC Diagnostic Report Codes",
+      "description" : "This value set includes LOINC codes that relate to Diagnostic Observations.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.233"],
+      "sources" : ["2.16.840.1.113883.4.642.3.233"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDiagnosticReport.html" : "Satu Sehat Diagnostic Report",
+      "StructureDefinition-genomic-report.html" : "Genomic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestIntent",
+      "title" : "RequestIntent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.113"],
+      "sources" : ["2.16.840.1.113883.4.642.3.113"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestPriority",
+      "title" : "Request priority",
+      "description" : "The clinical priority of a diagnostic order.",
+      "systems" : ["http://hl7.org/fhir/request-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.115"],
+      "sources" : ["2.16.840.1.113883.4.642.3.115"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-SatuSehatTask.html" : "Satu Sehat Task",
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.111"],
+      "sources" : ["2.16.840.1.113883.4.642.3.111"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-SatuSehatCarePlan.html" : "Satu Sehat Care Plan",
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/resource-types",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ResourceType",
+      "title" : "ResourceType",
+      "description" : "One of the resource types defined as part of this version of FHIR.",
+      "systems" : ["http://hl7.org/fhir/resource-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.27"],
+      "sources" : ["2.16.840.1.113883.4.642.3.27"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDiagnosticReport.html" : "Satu Sehat Diagnostic Report",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition",
+      "StructureDefinition-SatuSehatQuestionnaire.html" : "Satu Sehat Questionnaire",
+      "StructureDefinition-SatuSehatClinicalImpression.html" : "Satu Sehat Clinical Impression",
+      "StructureDefinition-SatuSehatCondition.html" : "Satu Sehat Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/risk-probability",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RiskProbability",
+      "title" : "Risk Probability",
+      "description" : "Codes representing the likelihood of a particular outcome in a risk assessment.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/risk-probability"],
+      "oids" : ["2.16.840.1.113883.4.642.3.450"],
+      "sources" : ["2.16.840.1.113883.4.642.3.450"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatRiskAssessment.html" : "Satu Sehat Risk Assessment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/route-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTRouteCodes",
+      "title" : "SNOMED CT Route Codes",
+      "description" : "This value set includes all Route codes from SNOMED CT - provided as an exemplar.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.98"],
+      "sources" : ["2.16.840.1.113883.4.642.3.98"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationAdministration.html" : "Satu Sehat Medication Administration",
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/security-labels",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "All Security Labels",
+      "title" : "SecurityLabels",
+      "description" : "A single value set for all security labels defined by FHIR.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "http://terminology.hl7.org/CodeSystem/v3-ActUSPrivacyLaw",
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.47"],
+      "sources" : ["2.16.840.1.113883.4.642.3.47"],
+      "uses" : {
+      },
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-genomic-report.html" : "Genomic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/series-performer-function",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ImagingStudySeriesPerformerFunction",
+      "title" : "ImagingStudy series performer function",
+      "description" : "Performer function of an agent in an imaging study series",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationType"],
+      "oids" : ["2.16.840.1.113883.4.642.3.989"],
+      "sources" : ["2.16.840.1.113883.4.642.3.989"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImagingStudy.html" : "Satu Sehat Imaging Study"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceCategory",
+      "title" : "Service category",
+      "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.516"],
+      "sources" : ["2.16.840.1.113883.4.642.3.516"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatHealthcareService.html" : "Satu Sehat Healthcare Service"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-place",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleServicePlaceCodes",
+      "title" : "Example Service Place Codes",
+      "description" : "This value set includes a smattering of Service Place codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-serviceplace"],
+      "oids" : ["2.16.840.1.113883.4.642.3.564"],
+      "sources" : ["2.16.840.1.113883.4.642.3.564"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-provision-conditions",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceProvisionConditions",
+      "title" : "ServiceProvisionConditions",
+      "description" : "The code(s) that detail the conditions under which the healthcare service is available/offered.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/service-provision-conditions"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.514"],
+      "sources" : ["2.16.840.1.113883.4.642.3.514"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatHealthcareService.html" : "Satu Sehat Healthcare Service"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-referral-method",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ReferralMethod",
+      "title" : "ReferralMethod",
+      "description" : "The methods of referral can be used when referring to a specific HealthCareService resource.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/service-referral-method"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.510"],
+      "sources" : ["2.16.840.1.113883.4.642.3.510"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatHealthcareService.html" : "Satu Sehat Healthcare Service"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceType",
+      "title" : "Service type",
+      "description" : "This value set defines an example set of codes of service-types.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.518"],
+      "sources" : ["2.16.840.1.113883.4.642.3.518"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter",
+      "StructureDefinition-SatuSehatHealthcareService.html" : "Satu Sehat Healthcare Service"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-uscls",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "USCLSCodes",
+      "title" : "USCLS Codes",
+      "description" : "This value set includes a smattering of USCLS codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-USCLS"],
+      "oids" : ["2.16.840.1.113883.4.642.3.542"],
+      "sources" : ["2.16.840.1.113883.4.642.3.542"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverageEligibilityRequest.html" : "Satu Sehat Coverage Eligibility Request",
+      "StructureDefinition-SatuSehatCoverageEligibilityResponse.html" : "Satu Sehat Coverage Eligibility Response",
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceRequestCategoryCodes",
+      "title" : "Service Request Category Codes",
+      "description" : "An example value set of SNOMED CT concepts that can classify a requested service",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.434"],
+      "sources" : ["2.16.840.1.113883.4.642.3.434"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceRequestOrderDetailsCodes",
+      "title" : "Service Request Order Details Codes",
+      "description" : "An example value set of Codified order entry details concepts.  These concepts only make sense in the context of what is being ordered.  This example is for a patient ventilation order",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.435"],
+      "sources" : ["2.16.840.1.113883.4.642.3.435"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/specimen-collection-method",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRSpecimenCollectionMethod",
+      "title" : "FHIR Specimen Collection Method",
+      "description" : " This example value set defines a set of codes that can be used to indicate the method by which a specimen was collected.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.468"],
+      "sources" : ["2.16.840.1.113883.4.642.3.468"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/specimen-container-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecimenContainerType",
+      "title" : "Specimen Container Type",
+      "description" : "Checks on the patient prior specimen collection. All SNOMED CT concepts descendants of 706041008 |Device for body fluid and tissue collection/transfer/processing (physical object)|",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.470"],
+      "sources" : ["2.16.840.1.113883.4.642.3.470"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/specimen-processing-procedure",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecimenProcessingProcedure",
+      "title" : "Specimen processing procedure",
+      "description" : "The technique that is used to perform the process or preserve the specimen.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0373"],
+      "oids" : ["2.16.840.1.113883.4.642.3.469"],
+      "sources" : ["2.16.840.1.113883.4.642.3.469"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/specimen-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecimenStatus",
+      "title" : "SpecimenStatus",
+      "description" : "Codes providing the status/availability of a specimen.",
+      "systems" : ["http://hl7.org/fhir/specimen-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.471"],
+      "sources" : ["2.16.840.1.113883.4.642.3.471"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/subscriber-relationship",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SubscriberRelationshipCodes",
+      "title" : "SubscriberPolicyholder Relationship Codes",
+      "description" : "This value set includes codes for the relationship between the Subscriber and the Beneficiary (insured/covered party/patient).",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/subscriber-relationship"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1385"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1385"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatCoverage.html" : "Satu Sehat Coverage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/substance-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SubstanceCategoryCodes",
+      "title" : "Substance Category Codes",
+      "description" : "Substance category codes",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/substance-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.476"],
+      "sources" : ["2.16.840.1.113883.4.642.3.476"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSubstance.html" : "Satu Sehat Substance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/substance-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SubstanceCode",
+      "title" : "Substance Code",
+      "description" : "This value set contains concept codes for specific substances. It includes codes from [SNOMED](http://snomed.info/sct) where concept is-a 105590001 (Substance (substance)) and where concept is-a 373873005 (Pharmaceutical / biologic product (product))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.473"],
+      "sources" : ["2.16.840.1.113883.4.642.3.473"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSubstance.html" : "Satu Sehat Substance",
+      "StructureDefinition-SatuSehatAllergyIntolerance.html" : "Satu Sehat Allergy Intolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/substance-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRSubstanceStatus",
+      "title" : "FHIRSubstanceStatus",
+      "description" : "A code to indicate if the substance is actively used.",
+      "systems" : ["http://hl7.org/fhir/substance-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.474"],
+      "sources" : ["2.16.840.1.113883.4.642.3.474"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSubstance.html" : "Satu Sehat Substance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/supplement-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SupplementTypeCodes",
+      "title" : "Supplement Type Codes",
+      "description" : "SupplementType :  Codes for nutritional supplements to be provided to the patient. This value set is composed of SNOMED CT (US Extension) Concepts from SCTID 470581016 (Enteral+supplement feeds hierarchy (product)) and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.390"],
+      "sources" : ["2.16.840.1.113883.4.642.3.390"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/surface",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SurfaceCodes",
+      "title" : "Surface Codes",
+      "description" : "This value set includes a smattering of FDI tooth surface codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/FDI-surface"],
+      "oids" : ["2.16.840.1.113883.4.642.3.546"],
+      "sources" : ["2.16.840.1.113883.4.642.3.546"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-code",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "TaskCode",
+      "title" : "Task Codes",
+      "description" : "Codes indicating the type of action that is expected to be performed",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/task-code"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1396"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatTask.html" : "Satu Sehat Task"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TaskIntent",
+      "title" : "TaskIntent",
+      "description" : "Distinguishes whether the task is a proposal, plan or full order.",
+      "systems" : [
+        "http://hl7.org/fhir/request-intent",
+        "http://hl7.org/fhir/task-intent"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1240"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1240"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatTask.html" : "Satu Sehat Task"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TaskStatus",
+      "title" : "TaskStatus",
+      "description" : "The current status of the task.",
+      "systems" : ["http://hl7.org/fhir/task-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.790"],
+      "sources" : ["2.16.840.1.113883.4.642.3.790"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatTask.html" : "Satu Sehat Task"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/texture-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TextureModifierCodes",
+      "title" : "Texture Modifier Codes",
+      "description" : "TextureModifier: Codes for food consistency types or texture modifications to apply to foods. This value set is composed of SNOMED CT (US Extension and Core) Concepts from SCTID 229961002 Food consistency types (substance) hierarchy and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.387"],
+      "sources" : ["2.16.840.1.113883.4.642.3.387"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatNutritionOrder.html" : "Satu Sehat Nutrition Order"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/tooth",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "OralSiteCodes",
+      "title" : "Oral Site Codes",
+      "description" : "This value set includes a smattering of FDI oral site codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/ex-tooth"],
+      "oids" : ["2.16.840.1.113883.4.642.3.540"],
+      "sources" : ["2.16.840.1.113883.4.642.3.540"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim",
+      "StructureDefinition-SatuSehatClaimResponse.html" : "Satu Sehat Claim Response"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/vaccine-code",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "VaccineAdministeredValueSet",
+      "title" : "Vaccine Administered Value Set",
+      "description" : "This identifies the vaccine substance administered - CVX codes.",
+      "systems" : ["urn:oid:1.2.36.1.2001.1005.17", "http://hl7.org/fhir/sid/cvx"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.22"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.22"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatImmunization.html" : "Satu Sehat Immunization"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSReAdmissionIndicator",
+      "title" : "hl7VS-re-admissionIndicator",
+      "description" : "Value Set of codes which are used to specify that a patient is being re-admitted to a healthcare facility from which they were discharged, and indicates the circumstances around such re-admission.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0092"],
+      "oids" : ["2.16.840.1.113883.21.40"],
+      "sources" : ["2.16.840.1.113883.21.40"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0116",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSBedStatus",
+      "title" : "hl7VS-bedStatus",
+      "description" : "Value Set of codes that specify the state of a bed in an inpatient setting, and is used to determine if a patient may be assigned to it or not.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0116"],
+      "oids" : ["2.16.840.1.113883.21.51"],
+      "sources" : ["2.16.840.1.113883.21.51"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatLocation.html" : "Satu Sehat Location"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0371",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSAdditivePreservative",
+      "title" : "hl7VS-additivePreservative",
+      "description" : "Concepts specifying any additive introduced to the specimen before or at the time of collection.  These additives may be introduced in order to preserve, maintain or enhance the particular nature or component of the specimen.  Used in Version 2 messaging in the SPM segment.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0371"],
+      "oids" : ["2.16.840.1.113883.21.245"],
+      "sources" : ["2.16.840.1.113883.21.245"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0487",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSSpecimenType",
+      "title" : "hl7VS-specimenType",
+      "description" : "Concepts that describe the precise nature of an entity that may be used as the source material for an observation.  This is one of two code systems that are used instead of table 0070 (code system xxxx) which conflated specimen types and specimen collection methods.   Used in Version 2 messaging in the SPM segment.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0487"],
+      "oids" : ["2.16.840.1.113883.21.327"],
+      "sources" : ["2.16.840.1.113883.21.327"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0493",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSSpecimenCondition",
+      "title" : "hl7VS-specimenCondition",
+      "description" : "Concepts of modes or states of being that describe the nature of a specimen.  Used in Version 2 messaging in the SPM segment.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0493"],
+      "oids" : ["2.16.840.1.113883.21.333"],
+      "sources" : ["2.16.840.1.113883.21.333"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0916",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSRelevantClincialInformation",
+      "title" : "hl7VS-relevantClincialInformation",
+      "description" : "Value Set of codes that specify additional clinical information about the patient or specimen to report the supporting and/or suspected diagnosis and clinical findings on requests for interpreted diagnostic studies.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0916"],
+      "oids" : ["2.16.840.1.113883.21.440"],
+      "sources" : ["2.16.840.1.113883.21.440"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatSpecimen.html" : "Satu Sehat Specimen"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-2.7-0360",
+      "version" : "0360",
+      "status" : "active",
+      "name" : "v2.0360.2.7",
+      "title" : "v2 table 0360, Version 2.7",
+      "description" : "FHIR Value set/code system definition for HL7 v2 table 0360 ver 2.9 ( Degree/License/Certificate)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0360|2.7"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatPractitioner.html" : "Satu Sehat Practitioner"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActCode",
+      "title" : "v3 Code System ActCode",
+      "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.  Constraints:\r\nThe kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems.  The coding system will depend on the class of Act, such as LOINC for observations, etc. Conceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure. Act.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatDocumentReference.html" : "Satu Sehat Document Reference",
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActEncounterCode",
+      "title" : "ActEncounterCode",
+      "description" : "Domain provides codes that qualify the ActEncounterClass (ENC)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.1.11.13955"],
+      "sources" : ["2.16.840.1.113883.1.11.13955"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActIncidentCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActIncidentCode",
+      "title" : "ActIncidentCode",
+      "description" : "Set of codes indicating the type of incident or accident.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.1.11.16508"],
+      "sources" : ["2.16.840.1.113883.1.11.16508"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatClaim.html" : "Satu Sehat Claim"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActPharmacySupplyType",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActPharmacySupplyType",
+      "title" : "ActPharmacySupplyType",
+      "description" : "Identifies types of dispensing events",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.1.11.16208"],
+      "sources" : ["2.16.840.1.113883.1.11.16208"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActPriority",
+      "title" : "ActPriority",
+      "description" : "A code or set of codes (e.g., for routine, emergency,) specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.\r\n\r\n*Discussion:* This attribute is used in orders to indicate the ordered priority, and in event documentation it indicates the actual priority used to perform the act. In definition mood it indicates the available priorities.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActPriority"],
+      "oids" : ["2.16.840.1.113883.1.11.16866"],
+      "sources" : ["2.16.840.1.113883.1.11.16866"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatEncounter.html" : "Satu Sehat Encounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActSubstanceAdminSubstitutionCode",
+      "title" : "ActSubstanceAdminSubstitutionCode",
+      "description" : "***No description***",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.16621"],
+      "sources" : ["2.16.840.1.113883.1.11.16621"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request",
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
+      "version" : "2014-03-26",
+      "status" : "active",
+      "name" : "v3.ConfidentialityClassification",
+      "title" : "V3 Value SetConfidentialityClassification",
+      "description" : " Set of codes used to value Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain \"Confidentiality\".",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Confidentiality"],
+      "oids" : ["2.16.840.1.113883.1.11.10228"],
+      "sources" : ["2.16.840.1.113883.1.11.10228"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatComposition.html" : "Satu Sehat Composition"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-FamilyMember",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "FamilyMember",
+      "title" : "FamilyMember",
+      "description" : "A relationship between two people characterizing their \"familial\" relationship",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.19579"],
+      "sources" : ["2.16.840.1.113883.1.11.19579"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatFamilyMemberHistory.html" : "Satu Sehat Family Member History"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ReligiousAffiliation",
+      "title" : "ReligiousAffiliation",
+      "description" : "Assigment of spiritual faith affiliation",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.19185"],
+      "sources" : ["2.16.840.1.113883.1.11.19185"],
+      "uses" : {
+      },
+      "StructureDefinition-Religion.html" : "religion"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ServiceDeliveryLocationRoleType",
+      "title" : "ServiceDeliveryLocationRoleType",
+      "description" : "A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.17660"],
+      "sources" : ["2.16.840.1.113883.1.11.17660"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatServiceRequest.html" : "Satu Sehat Service Request",
+      "StructureDefinition-SatuSehatLocation.html" : "Satu Sehat Location",
+      "StructureDefinition-genomics-service-request.html" : "Genomics Service Request"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "SubstanceAdminSubstitutionReason",
+      "title" : "SubstanceAdminSubstitutionReason",
+      "description" : "***No description***",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActReason"],
+      "oids" : ["2.16.840.1.113883.1.11.19377"],
+      "sources" : ["2.16.840.1.113883.1.11.19377"],
+      "uses" : {
+      },
+      "StructureDefinition-SatuSehatMedicationRequest.html" : "Satu Sehat Medication Request",
+      "StructureDefinition-SatuSehatMedicationDispense.html" : "Satu Sehat Medication Dispense"
+    },
+    {
+      "url" : "https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AntimicrobialResistanceVS",
+      "title" : "Antimicrobial Resistance ValueSet",
+      "description" : "Comprehensive value set for antimicrobial resistance testing including drugs, antibiotics, susceptibility results, and resistance patterns",
+      "systems" : ["http://loinc.org", "http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-amrphenotype.html" : "AMR Phenotype",
+      "StructureDefinition-genomic-report.html" : "Genomic Report"
+    },
+    {
+      "url" : "https://fhir.gsilab.id//ValueSet/hgvs-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "HGVSVS",
+      "title" : "Human Genome Variation Society (HGVS) Nomenclature",
+      "description" : "HGVS-nomenclature is used to report and exchange information regarding variants found in DNA, RNA and protein sequences and serves as an international standard. (source: varnomen.hgvs.org)",
+      "systems" : ["http://varnomen.hgvs.org"],
+      "uses" : {
+      },
+      "StructureDefinition-protein-variant.html" : "Protein Variant",
+      "StructureDefinition-gene-variant.html" : "Gene Variant",
+      "StructureDefinition-dna-variant.html" : "DNA Variant",
+      "StructureDefinition-variant.html" : "Variant"
+    },
+    {
+      "url" : "https://fhir.gsilab.id//ValueSet/tbd-codes-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TBDCodesVS",
+      "title" : "To Be Determined Value Set",
+      "description" : "Value Set for codes yet to be defined in LOINC",
+      "systems" : [
+        "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hl7-v2-0074-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hl7-v2-0074-cs</b></p><a name="hl7-v2-0074-cs"> </a><a name="hchl7-v2-0074-cs"> </a><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v2-0074</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">GE<a name="hl7-v2-0074-cs-GE"> </a></td><td>Genetics</td><td>Genetics</td></tr></table></div>
+  </text>
+  <url value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+  <version value="0.1.0"/>
+  <name value="HL7v20074CS"/>
+  <title value="HL7 v2 Table 0074 Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-05T14:03:15+07:00"/>
+  <publisher value="Diana Wijayanti"/>
+  <contact>
+    <name value="Diana Wijayanti"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/hi-dinanti"/>
+    </telecom>
+  </contact>
+  <description value="Diagnostic service section ID"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="GE"/>
+    <display value="Genetics"/>
+    <definition value="Genetics"/>
+  </concept>
+</CodeSystem>

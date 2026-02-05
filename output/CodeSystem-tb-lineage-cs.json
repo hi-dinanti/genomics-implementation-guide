@@ -1,0 +1,26 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "tb-lineage-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tb-lineage-cs</b></p><a name=\"tb-lineage-cs\"> </a><a name=\"hctb-lineage-cs\"> </a><p>This case-sensitive code system <code>http://tb-lineage.org</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
+  },
+  "url" : "http://tb-lineage.org",
+  "version" : "0.1.0",
+  "name" : "TBLineageCS",
+  "title" : "TB Lineage Codes",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "Codes for tuberculosis lineages",
+  "caseSensitive" : true,
+  "content" : "complete"
+}

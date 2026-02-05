@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ucum-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ucum-cs</b></p><a name="ucum-cs"> </a><a name="hcucum-cs"> </a><p>This case-sensitive code system <code>http://unitsofmeasure.org</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr></table></div>
+  </text>
+  <url value="http://unitsofmeasure.org"/>
+  <version value="0.1.0"/>
+  <name value="UCUMCS"/>
+  <title value="UCUM Units"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-05T14:03:15+07:00"/>
+  <publisher value="Diana Wijayanti"/>
+  <contact>
+    <name value="Diana Wijayanti"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/hi-dinanti"/>
+    </telecom>
+  </contact>
+  <description value="Unified Code for Units of Measure"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+</CodeSystem>

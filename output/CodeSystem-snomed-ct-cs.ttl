@@ -1,0 +1,89 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.gsilab.id/CodeSystem/snomed-ct-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "snomed-ct-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem snomed-ct-cs</b></p><a name=\"snomed-ct-cs\"> </a><a name=\"hcsnomed-ct-cs\"> </a><p>This case-sensitive code system <code>http://snomed.info/sct</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">108252007<a name=\"snomed-ct-cs-108252007\"> </a></td><td>Laboratory procedure</td><td>Laboratory procedure</td></tr><tr><td style=\"white-space:nowrap\">413852006<a name=\"snomed-ct-cs-413852006\"> </a></td><td>Ciprofloxacin resistant tuberculosis</td><td>Ciprofloxacin resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">414146004<a name=\"snomed-ct-cs-414146004\"> </a></td><td>Ethambutol resistant tuberculosis</td><td>Ethambutol resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">414149006<a name=\"snomed-ct-cs-414149006\"> </a></td><td>Ethionamide resistant tuberculosis</td><td>Ethionamide resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">414546009<a name=\"snomed-ct-cs-414546009\"> </a></td><td>Isoniazid resistant tuberculosis</td><td>Isoniazid resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">415222009<a name=\"snomed-ct-cs-415222009\"> </a></td><td>Pyrazinamide resistant tuberculosis</td><td>Pyrazinamide resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">415345001<a name=\"snomed-ct-cs-415345001\"> </a></td><td>Rifampicin resistant tuberculosis</td><td>Rifampicin resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">415622003<a name=\"snomed-ct-cs-415622003\"> </a></td><td>Streptomycin resistant tuberculosis</td><td>Streptomycin resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">710106005<a name=\"snomed-ct-cs-710106005\"> </a></td><td>Extensively drug resistant tuberculosis</td><td>Extensively drug resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">423092005<a name=\"snomed-ct-cs-423092005\"> </a></td><td>Multidrug resistant tuberculosis</td><td>Multidrug resistant tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">1098201000112100<a name=\"snomed-ct-cs-1098201000112100\"> </a></td><td>Carbapenemase-producing Klebsiella pneumoniae</td><td>Carbapenemase-producing Klebsiella pneumoniae</td></tr><tr><td style=\"white-space:nowrap\">714315002<a name=\"snomed-ct-cs-714315002\"> </a></td><td>Multidrug-resistant Klebsiella pneumoniae</td><td>Multidrug-resistant Klebsiella pneumoniae</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+     fhir:l <http://snomed.info/sct>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SNOMEDCTCS"] ; # 
+  fhir:title [ fhir:v "SNOMED CT Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-05T14:03:15+07:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Diana Wijayanti"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Diana Wijayanti" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://github.com/hi-dinanti" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "SNOMED Clinical Terms codes"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "12"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "108252007" ] ;
+     fhir:display [ fhir:v "Laboratory procedure" ] ;
+     fhir:definition [ fhir:v "Laboratory procedure" ]
+  ] [
+     fhir:code [ fhir:v "413852006" ] ;
+     fhir:display [ fhir:v "Ciprofloxacin resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Ciprofloxacin resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "414146004" ] ;
+     fhir:display [ fhir:v "Ethambutol resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Ethambutol resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "414149006" ] ;
+     fhir:display [ fhir:v "Ethionamide resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Ethionamide resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "414546009" ] ;
+     fhir:display [ fhir:v "Isoniazid resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Isoniazid resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "415222009" ] ;
+     fhir:display [ fhir:v "Pyrazinamide resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Pyrazinamide resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "415345001" ] ;
+     fhir:display [ fhir:v "Rifampicin resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Rifampicin resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "415622003" ] ;
+     fhir:display [ fhir:v "Streptomycin resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Streptomycin resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "710106005" ] ;
+     fhir:display [ fhir:v "Extensively drug resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Extensively drug resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "423092005" ] ;
+     fhir:display [ fhir:v "Multidrug resistant tuberculosis" ] ;
+     fhir:definition [ fhir:v "Multidrug resistant tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "1098201000112100" ] ;
+     fhir:display [ fhir:v "Carbapenemase-producing Klebsiella pneumoniae" ] ;
+     fhir:definition [ fhir:v "Carbapenemase-producing Klebsiella pneumoniae" ]
+  ] [
+     fhir:code [ fhir:v "714315002" ] ;
+     fhir:display [ fhir:v "Multidrug-resistant Klebsiella pneumoniae" ] ;
+     fhir:definition [ fhir:v "Multidrug-resistant Klebsiella pneumoniae" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

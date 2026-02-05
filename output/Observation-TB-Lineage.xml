@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="TB-Lineage"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <tag>
+      <system value="http://terminology.kemkes.go.id/sp"/>
+      <code value="genomics"/>
+      <display value="Genomics"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Mycobacterial Lineage: lineage4.7 (Euro-American)</div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+      <display value="Laboratory"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <code value="GE"/>
+      <display value="Genetics"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="614-8"/>
+      <display value="Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping"/>
+    </coding>
+  </code>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://tb-lineage.org"/>
+      <code value="lineage4.7"/>
+      <display value="TB Lineage lineage4.7"/>
+    </coding>
+    <text value="Lineage lineage4.7"/>
+  </valueCodeableConcept>
+</Observation>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="loinc-codes-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem loinc-codes-cs</b></p><a name="loinc-codes-cs"> </a><a name="hcloinc-codes-cs"> </a><p>This case-sensitive code system <code>http://loinc.org</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">69548-6<a name="loinc-codes-cs-69548-6"> </a></td><td>Genetic variant assessment</td><td>Genetic variant assessment</td></tr><tr><td style="white-space:nowrap">LA9633-4<a name="loinc-codes-cs-LA9633-4"> </a></td><td>Present</td><td>Present</td></tr><tr><td style="white-space:nowrap">81290-9<a name="loinc-codes-cs-81290-9"> </a></td><td>Genomic DNA change (gHGVS)</td><td>Genomic DNA change (gHGVS)</td></tr><tr><td style="white-space:nowrap">48004-6<a name="loinc-codes-cs-48004-6"> </a></td><td>DNA change (c.HGVS)</td><td>DNA change (c.HGVS)</td></tr><tr><td style="white-space:nowrap">48005-3<a name="loinc-codes-cs-48005-3"> </a></td><td>Protein (Amino Acid) Change - pHGVS</td><td>Protein (Amino Acid) Change - pHGVS</td></tr><tr><td style="white-space:nowrap">48013-7<a name="loinc-codes-cs-48013-7"> </a></td><td>Genomic reference sequence [ID]</td><td>Genomic reference sequence [ID]</td></tr><tr><td style="white-space:nowrap">51958-7<a name="loinc-codes-cs-51958-7"> </a></td><td>Transcript reference sequence [ID]</td><td>Transcript reference sequence [ID]</td></tr><tr><td style="white-space:nowrap">82121-5<a name="loinc-codes-cs-82121-5"> </a></td><td>Allelic read depth</td><td>Allelic read depth</td></tr><tr><td style="white-space:nowrap">81254-5<a name="loinc-codes-cs-81254-5"> </a></td><td>Variant exact start-end</td><td>Variant exact start-end</td></tr><tr><td style="white-space:nowrap">92252-6<a name="loinc-codes-cs-92252-6"> </a></td><td>Microorganism molecular resistance panel by Molecular genetics method</td><td/></tr><tr><td style="white-space:nowrap">89484-0<a name="loinc-codes-cs-89484-0"> </a></td><td>Amikacin [Susceptibility] by Genotype method</td><td>Amikacin [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">89481-6<a name="loinc-codes-cs-89481-6"> </a></td><td>Gentamicin [Susceptibility] by Genotype method</td><td>Gentamicin [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">18996-9<a name="loinc-codes-cs-18996-9"> </a></td><td>Tobramycin [Susceptibility]</td><td>Tobramycin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">89482-4<a name="loinc-codes-cs-89482-4"> </a></td><td>Kanamycin [Susceptibility] by Genotype method</td><td>Kanamycin [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">32373-3<a name="loinc-codes-cs-32373-3"> </a></td><td>Arbekacin [Susceptibility]</td><td>Arbekacin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18979-5<a name="loinc-codes-cs-18979-5"> </a></td><td>Sisomicin [Susceptibility]</td><td>Sisomicin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">32381-6<a name="loinc-codes-cs-32381-6"> </a></td><td>Isepamicin [Susceptibility]</td><td>Isepamicin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">96114-4<a name="loinc-codes-cs-96114-4"> </a></td><td>Streptomycin [Susceptibility] by Genotype method</td><td>Streptomycin [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">18980-3<a name="loinc-codes-cs-18980-3"> </a></td><td>Spectinomycin [Susceptibility]</td><td>Spectinomycin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18861-5<a name="loinc-codes-cs-18861-5"> </a></td><td>Amoxicillin [Susceptibility]</td><td>Amoxicillin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18862-3<a name="loinc-codes-cs-18862-3"> </a></td><td>Amoxicillin+Clavulanate [Susceptibility]</td><td>Amoxicillin+Clavulanate [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18864-9<a name="loinc-codes-cs-18864-9"> </a></td><td>Ampicillin [Susceptibility]</td><td>Ampicillin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18868-0<a name="loinc-codes-cs-18868-0"> </a></td><td>Aztreonam [Susceptibility]</td><td>Aztreonam [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18879-7<a name="loinc-codes-cs-18879-7"> </a></td><td>Cefepime [Susceptibility]</td><td>Cefepime [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18886-2<a name="loinc-codes-cs-18886-2"> </a></td><td>Cefotaxime [Susceptibility]</td><td>Cefotaxime [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18888-8<a name="loinc-codes-cs-18888-8"> </a></td><td>cefOXitin [Susceptibility]</td><td>cefOXitin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18893-8<a name="loinc-codes-cs-18893-8"> </a></td><td>cefTAZidime [Susceptibility]</td><td>cefTAZidime [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18895-3<a name="loinc-codes-cs-18895-3"> </a></td><td>cefTRIAXone [Susceptibility]</td><td>cefTRIAXone [Susceptibility]</td></tr><tr><td style="white-space:nowrap">35802-8<a name="loinc-codes-cs-35802-8"> </a></td><td>Ertapenem [Susceptibility]</td><td>Ertapenem [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18932-4<a name="loinc-codes-cs-18932-4"> </a></td><td>Imipenem [Susceptibility]</td><td>Imipenem [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18943-1<a name="loinc-codes-cs-18943-1"> </a></td><td>Meropenem [Susceptibility]</td><td>Meropenem [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18969-6<a name="loinc-codes-cs-18969-6"> </a></td><td>Piperacillin [Susceptibility]</td><td>Piperacillin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18970-4<a name="loinc-codes-cs-18970-4"> </a></td><td>Piperacillin+Tazobactam [Susceptibility]</td><td>Piperacillin+Tazobactam [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18994-4<a name="loinc-codes-cs-18994-4"> </a></td><td>Ticarcillin [Susceptibility]</td><td>Ticarcillin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18995-1<a name="loinc-codes-cs-18995-1"> </a></td><td>Ticarcillin+Clavulanate [Susceptibility]</td><td>Ticarcillin+Clavulanate [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18900-1<a name="loinc-codes-cs-18900-1"> </a></td><td>Cephalothin [Susceptibility]</td><td>Cephalothin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">25596-8<a name="loinc-codes-cs-25596-8"> </a></td><td>Fosfomycin [Susceptibility]</td><td>Fosfomycin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18903-5<a name="loinc-codes-cs-18903-5"> </a></td><td>Chloramphenicol [Susceptibility]</td><td>Chloramphenicol [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18906-8<a name="loinc-codes-cs-18906-8"> </a></td><td>Ciprofloxacin [Susceptibility]</td><td>Ciprofloxacin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18985-2<a name="loinc-codes-cs-18985-2"> </a></td><td>Sulfamethoxazole [Susceptibility]</td><td>Sulfamethoxazole [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18917-5<a name="loinc-codes-cs-18917-5"> </a></td><td>Doxycycline [Susceptibility]</td><td>Doxycycline [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18993-6<a name="loinc-codes-cs-18993-6"> </a></td><td>Tetracycline [Susceptibility]</td><td>Tetracycline [Susceptibility]</td></tr><tr><td style="white-space:nowrap">18997-7<a name="loinc-codes-cs-18997-7"> </a></td><td>Trimethoprim [Susceptibility]</td><td>Trimethoprim [Susceptibility]</td></tr><tr><td style="white-space:nowrap">89487-3<a name="loinc-codes-cs-89487-3"> </a></td><td>Fluoroquinolone [Susceptibility] by Genotype method</td><td>Fluoroquinolone [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">88462-7<a name="loinc-codes-cs-88462-7"> </a></td><td>Carbapenem [Susceptibility]</td><td>Carbapenem [Susceptibility]</td></tr><tr><td style="white-space:nowrap">89486-5<a name="loinc-codes-cs-89486-5"> </a></td><td>Mycobacterial susceptibility panel Qualitative by Genotype method</td><td>Mycobacterial susceptibility panel Qualitative by Genotype method</td></tr><tr><td style="white-space:nowrap">614-8<a name="loinc-codes-cs-614-8"> </a></td><td>Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping</td><td>Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping</td></tr><tr><td style="white-space:nowrap">89489-9<a name="loinc-codes-cs-89489-9"> </a></td><td>rifAMPin [Susceptibility] by Genotype method</td><td>rifAMPin [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">89488-1<a name="loinc-codes-cs-89488-1"> </a></td><td>Isoniazid [Susceptibility] by Genotype method</td><td>Isoniazid [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">89491-5<a name="loinc-codes-cs-89491-5"> </a></td><td>Ethambutol [Susceptibility] by Genotype method</td><td>Ethambutol [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">92242-7<a name="loinc-codes-cs-92242-7"> </a></td><td>Pyrazinamide [Susceptibility] by Genotype method</td><td>Pyrazinamide [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">96112-8<a name="loinc-codes-cs-96112-8"> </a></td><td>Moxifloxacin [Susceptibility] by Genotype method</td><td>Moxifloxacin [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">20629-2<a name="loinc-codes-cs-20629-2"> </a></td><td>levoFLOXacin [Susceptibility]</td><td>levoFLOXacin [Susceptibility]</td></tr><tr><td style="white-space:nowrap">96107-8<a name="loinc-codes-cs-96107-8"> </a></td><td>Bedaquiline [Susceptibility] by Genotype method</td><td>Bedaquiline [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">96109-4<a name="loinc-codes-cs-96109-4"> </a></td><td>Delamanid [Susceptibility] by Genotype method</td><td>Delamanid [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">93850-6<a name="loinc-codes-cs-93850-6"> </a></td><td>Pretomanid [Susceptibility]</td><td>Pretomanid [Susceptibility]</td></tr><tr><td style="white-space:nowrap">96111-0<a name="loinc-codes-cs-96111-0"> </a></td><td>Linezolid [Susceptibility] by Genotype method</td><td>Linezolid [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">89483-2<a name="loinc-codes-cs-89483-2"> </a></td><td>Capreomycin [Susceptibility] by Genotype method</td><td>Capreomycin [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">96108-6<a name="loinc-codes-cs-96108-6"> </a></td><td>Clofazimine [Susceptibility] by Genotype method</td><td>Clofazimine [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">96110-2<a name="loinc-codes-cs-96110-2"> </a></td><td>Ethionamide [Susceptibility] by Genotype method</td><td>Ethionamide [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">23629-9<a name="loinc-codes-cs-23629-9"> </a></td><td>Para aminosalicylate [Susceptibility]</td><td>Para aminosalicylate [Susceptibility]</td></tr><tr><td style="white-space:nowrap">103959-3<a name="loinc-codes-cs-103959-3"> </a></td><td>cycloSERINE [Susceptibility] by Genotype method</td><td>cycloSERINE [Susceptibility] by Genotype method</td></tr><tr><td style="white-space:nowrap">LA24225-7<a name="loinc-codes-cs-LA24225-7"> </a></td><td>Susceptible</td><td>Susceptible</td></tr><tr><td style="white-space:nowrap">LA6676-6<a name="loinc-codes-cs-LA6676-6"> </a></td><td>Resistant</td><td>Resistant</td></tr><tr><td style="white-space:nowrap">81247-9<a name="loinc-codes-cs-81247-9"> </a></td><td>Master HL7 genetic variant reporting panel</td><td>Master HL7 genetic variant reporting panel</td></tr></table></div>
+  </text>
+  <url value="http://loinc.org"/>
+  <version value="0.1.0"/>
+  <name value="LOINCCodesCS"/>
+  <title value="LOINC Codes Collection"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-05T14:03:15+07:00"/>
+  <publisher value="Diana Wijayanti"/>
+  <contact>
+    <name value="Diana Wijayanti"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/hi-dinanti"/>
+    </telecom>
+  </contact>
+  <description value="Collection of LOINC codes used in the system"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="65"/>
+  <concept>
+    <code value="69548-6"/>
+    <display value="Genetic variant assessment"/>
+    <definition value="Genetic variant assessment"/>
+  </concept>
+  <concept>
+    <code value="LA9633-4"/>
+    <display value="Present"/>
+    <definition value="Present"/>
+  </concept>
+  <concept>
+    <code value="81290-9"/>
+    <display value="Genomic DNA change (gHGVS)"/>
+    <definition value="Genomic DNA change (gHGVS)"/>
+  </concept>
+  <concept>
+    <code value="48004-6"/>
+    <display value="DNA change (c.HGVS)"/>
+    <definition value="DNA change (c.HGVS)"/>
+  </concept>
+  <concept>
+    <code value="48005-3"/>
+    <display value="Protein (Amino Acid) Change - pHGVS"/>
+    <definition value="Protein (Amino Acid) Change - pHGVS"/>
+  </concept>
+  <concept>
+    <code value="48013-7"/>
+    <display value="Genomic reference sequence [ID]"/>
+    <definition value="Genomic reference sequence [ID]"/>
+  </concept>
+  <concept>
+    <code value="51958-7"/>
+    <display value="Transcript reference sequence [ID]"/>
+    <definition value="Transcript reference sequence [ID]"/>
+  </concept>
+  <concept>
+    <code value="82121-5"/>
+    <display value="Allelic read depth"/>
+    <definition value="Allelic read depth"/>
+  </concept>
+  <concept>
+    <code value="81254-5"/>
+    <display value="Variant exact start-end"/>
+    <definition value="Variant exact start-end"/>
+  </concept>
+  <concept>
+    <code value="92252-6"/>
+    <display value="Microorganism molecular resistance panel by Molecular genetics method"/>
+  </concept>
+  <concept>
+    <code value="89484-0"/>
+    <display value="Amikacin [Susceptibility] by Genotype method"/>
+    <definition value="Amikacin [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="89481-6"/>
+    <display value="Gentamicin [Susceptibility] by Genotype method"/>
+    <definition value="Gentamicin [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="18996-9"/>
+    <display value="Tobramycin [Susceptibility]"/>
+    <definition value="Tobramycin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="89482-4"/>
+    <display value="Kanamycin [Susceptibility] by Genotype method"/>
+    <definition value="Kanamycin [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="32373-3"/>
+    <display value="Arbekacin [Susceptibility]"/>
+    <definition value="Arbekacin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18979-5"/>
+    <display value="Sisomicin [Susceptibility]"/>
+    <definition value="Sisomicin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="32381-6"/>
+    <display value="Isepamicin [Susceptibility]"/>
+    <definition value="Isepamicin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="96114-4"/>
+    <display value="Streptomycin [Susceptibility] by Genotype method"/>
+    <definition value="Streptomycin [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="18980-3"/>
+    <display value="Spectinomycin [Susceptibility]"/>
+    <definition value="Spectinomycin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18861-5"/>
+    <display value="Amoxicillin [Susceptibility]"/>
+    <definition value="Amoxicillin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18862-3"/>
+    <display value="Amoxicillin+Clavulanate [Susceptibility]"/>
+    <definition value="Amoxicillin+Clavulanate [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18864-9"/>
+    <display value="Ampicillin [Susceptibility]"/>
+    <definition value="Ampicillin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18868-0"/>
+    <display value="Aztreonam [Susceptibility]"/>
+    <definition value="Aztreonam [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18879-7"/>
+    <display value="Cefepime [Susceptibility]"/>
+    <definition value="Cefepime [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18886-2"/>
+    <display value="Cefotaxime [Susceptibility]"/>
+    <definition value="Cefotaxime [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18888-8"/>
+    <display value="cefOXitin [Susceptibility]"/>
+    <definition value="cefOXitin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18893-8"/>
+    <display value="cefTAZidime [Susceptibility]"/>
+    <definition value="cefTAZidime [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18895-3"/>
+    <display value="cefTRIAXone [Susceptibility]"/>
+    <definition value="cefTRIAXone [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="35802-8"/>
+    <display value="Ertapenem [Susceptibility]"/>
+    <definition value="Ertapenem [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18932-4"/>
+    <display value="Imipenem [Susceptibility]"/>
+    <definition value="Imipenem [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18943-1"/>
+    <display value="Meropenem [Susceptibility]"/>
+    <definition value="Meropenem [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18969-6"/>
+    <display value="Piperacillin [Susceptibility]"/>
+    <definition value="Piperacillin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18970-4"/>
+    <display value="Piperacillin+Tazobactam [Susceptibility]"/>
+    <definition value="Piperacillin+Tazobactam [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18994-4"/>
+    <display value="Ticarcillin [Susceptibility]"/>
+    <definition value="Ticarcillin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18995-1"/>
+    <display value="Ticarcillin+Clavulanate [Susceptibility]"/>
+    <definition value="Ticarcillin+Clavulanate [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18900-1"/>
+    <display value="Cephalothin [Susceptibility]"/>
+    <definition value="Cephalothin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="25596-8"/>
+    <display value="Fosfomycin [Susceptibility]"/>
+    <definition value="Fosfomycin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18903-5"/>
+    <display value="Chloramphenicol [Susceptibility]"/>
+    <definition value="Chloramphenicol [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18906-8"/>
+    <display value="Ciprofloxacin [Susceptibility]"/>
+    <definition value="Ciprofloxacin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18985-2"/>
+    <display value="Sulfamethoxazole [Susceptibility]"/>
+    <definition value="Sulfamethoxazole [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18917-5"/>
+    <display value="Doxycycline [Susceptibility]"/>
+    <definition value="Doxycycline [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18993-6"/>
+    <display value="Tetracycline [Susceptibility]"/>
+    <definition value="Tetracycline [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="18997-7"/>
+    <display value="Trimethoprim [Susceptibility]"/>
+    <definition value="Trimethoprim [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="89487-3"/>
+    <display value="Fluoroquinolone [Susceptibility] by Genotype method"/>
+    <definition value="Fluoroquinolone [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="88462-7"/>
+    <display value="Carbapenem [Susceptibility]"/>
+    <definition value="Carbapenem [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="89486-5"/>
+    <display value="Mycobacterial susceptibility panel Qualitative by Genotype method"/>
+    <definition value="Mycobacterial susceptibility panel Qualitative by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="614-8"/>
+    <display value="Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping"/>
+    <definition value="Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping"/>
+  </concept>
+  <concept>
+    <code value="89489-9"/>
+    <display value="rifAMPin [Susceptibility] by Genotype method"/>
+    <definition value="rifAMPin [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="89488-1"/>
+    <display value="Isoniazid [Susceptibility] by Genotype method"/>
+    <definition value="Isoniazid [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="89491-5"/>
+    <display value="Ethambutol [Susceptibility] by Genotype method"/>
+    <definition value="Ethambutol [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="92242-7"/>
+    <display value="Pyrazinamide [Susceptibility] by Genotype method"/>
+    <definition value="Pyrazinamide [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="96112-8"/>
+    <display value="Moxifloxacin [Susceptibility] by Genotype method"/>
+    <definition value="Moxifloxacin [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="20629-2"/>
+    <display value="levoFLOXacin [Susceptibility]"/>
+    <definition value="levoFLOXacin [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="96107-8"/>
+    <display value="Bedaquiline [Susceptibility] by Genotype method"/>
+    <definition value="Bedaquiline [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="96109-4"/>
+    <display value="Delamanid [Susceptibility] by Genotype method"/>
+    <definition value="Delamanid [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="93850-6"/>
+    <display value="Pretomanid [Susceptibility]"/>
+    <definition value="Pretomanid [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="96111-0"/>
+    <display value="Linezolid [Susceptibility] by Genotype method"/>
+    <definition value="Linezolid [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="89483-2"/>
+    <display value="Capreomycin [Susceptibility] by Genotype method"/>
+    <definition value="Capreomycin [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="96108-6"/>
+    <display value="Clofazimine [Susceptibility] by Genotype method"/>
+    <definition value="Clofazimine [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="96110-2"/>
+    <display value="Ethionamide [Susceptibility] by Genotype method"/>
+    <definition value="Ethionamide [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="23629-9"/>
+    <display value="Para aminosalicylate [Susceptibility]"/>
+    <definition value="Para aminosalicylate [Susceptibility]"/>
+  </concept>
+  <concept>
+    <code value="103959-3"/>
+    <display value="cycloSERINE [Susceptibility] by Genotype method"/>
+    <definition value="cycloSERINE [Susceptibility] by Genotype method"/>
+  </concept>
+  <concept>
+    <code value="LA24225-7"/>
+    <display value="Susceptible"/>
+    <definition value="Susceptible"/>
+  </concept>
+  <concept>
+    <code value="LA6676-6"/>
+    <display value="Resistant"/>
+    <definition value="Resistant"/>
+  </concept>
+  <concept>
+    <code value="81247-9"/>
+    <display value="Master HL7 genetic variant reporting panel"/>
+    <definition value="Master HL7 genetic variant reporting panel"/>
+  </concept>
+</CodeSystem>

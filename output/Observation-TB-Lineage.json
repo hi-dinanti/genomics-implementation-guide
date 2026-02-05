@@ -1,0 +1,46 @@
+{
+  "resourceType" : "Observation",
+  "id" : "TB-Lineage",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/Observation"],
+    "tag" : [{
+      "system" : "http://terminology.kemkes.go.id/sp",
+      "code" : "genomics",
+      "display" : "Genomics"
+    }]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Mycobacterial Lineage: lineage4.7 (Euro-American)</div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "laboratory",
+      "display" : "Laboratory"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "code" : "GE",
+      "display" : "Genetics"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "614-8",
+      "display" : "Mycobacterial strain [Type] in Isolate by Mycobacterial subtyping"
+    }]
+  },
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://tb-lineage.org",
+      "code" : "lineage4.7",
+      "display" : "TB Lineage lineage4.7"
+    }],
+    "text" : "Lineage lineage4.7"
+  }
+}

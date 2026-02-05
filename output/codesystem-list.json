@@ -1,0 +1,100 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/sid/icd-10",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ICD10",
+      "title" : "ICD-10 Codes (2010)",
+      "description" : "Set of ICD-10 Codes (2010) used in SATUSEHAT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/sid/icd-9-cm",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ICD9CM",
+      "title" : "ICD-9-CM Codes (2010)",
+      "description" : "Set of ICD-9-CM Codes (2010) used in SATUSEHAT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TbdCodesCS",
+      "title" : "To Be Determined Codes",
+      "description" : "To Be Determined codes from Genomics Reporting"
+    },
+    {
+      "url" : "http://loinc.org",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LOINCCodesCS",
+      "title" : "LOINC Codes Collection",
+      "description" : "Collection of LOINC codes used in the system"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTCS",
+      "title" : "SNOMED CT Codes",
+      "description" : "SNOMED Clinical Terms codes"
+    },
+    {
+      "url" : "http://tb-lineage.org",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TBLineageCS",
+      "title" : "TB Lineage Codes",
+      "description" : "Codes for tuberculosis lineages"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "HL7ObservationCategoryCS",
+      "title" : "HL7 Observation Category Codes",
+      "description" : "HL7 Observation Category codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "HL7v20074CS",
+      "title" : "HL7 v2 Table 0074 Codes",
+      "description" : "Diagnostic service section ID"
+    },
+    {
+      "url" : "http://terminology.kemkes.go.id/sp",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "KemkesObservationCategoryCS",
+      "title" : "Kemkes Observation Category Codes",
+      "description" : "Codes for observation categories from Indonesian Ministry of Health terminology"
+    },
+    {
+      "url" : "http://unitsofmeasure.org",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "UCUMCS",
+      "title" : "UCUM Units",
+      "description" : "Unified Code for Units of Measure"
+    },
+    {
+      "url" : "http://www.ncbi.nlm.nih.gov/refseq",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "NCBIRefSeqCS",
+      "title" : "NCBI RefSeq Codes",
+      "description" : "NCBI Reference Sequence codes"
+    },
+    {
+      "url" : "https://terminology.kemkes.go.id/CodeSystem/episodeofcare-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "KemkesEpisodeOfCareTypeCS",
+      "title" : "Kemkes Episode of Care Type Codes",
+      "description" : "Episode of care type codes from Indonesian Ministry of Health"
+    }
+  ]
+}

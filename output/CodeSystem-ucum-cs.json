@@ -1,0 +1,26 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ucum-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ucum-cs</b></p><a name=\"ucum-cs\"> </a><a name=\"hcucum-cs\"> </a><p>This case-sensitive code system <code>http://unitsofmeasure.org</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
+  },
+  "url" : "http://unitsofmeasure.org",
+  "version" : "0.1.0",
+  "name" : "UCUMCS",
+  "title" : "UCUM Units",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "Unified Code for Units of Measure",
+  "caseSensitive" : true,
+  "content" : "complete"
+}

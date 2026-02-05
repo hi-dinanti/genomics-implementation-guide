@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="kemkes-observation-category-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem kemkes-observation-category-cs</b></p><a name="kemkes-observation-category-cs"> </a><a name="hckemkes-observation-category-cs"> </a><p>This case-sensitive code system <code>http://terminology.kemkes.go.id/sp</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">genomics<a name="kemkes-observation-category-cs-genomics"> </a></td><td>Genomics</td><td>Genomics</td></tr><tr><td style="white-space:nowrap">SP000678<a name="kemkes-observation-category-cs-SP000678"> </a></td><td>Klebsiella pneumoniae capsular type [Identifier] by genomic analysis</td><td>Klebsiella pneumoniae capsular type [Identifier] by genomic analysis</td></tr></table></div>
+  </text>
+  <url value="http://terminology.kemkes.go.id/sp"/>
+  <version value="0.1.0"/>
+  <name value="KemkesObservationCategoryCS"/>
+  <title value="Kemkes Observation Category Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-05T14:03:15+07:00"/>
+  <publisher value="Diana Wijayanti"/>
+  <contact>
+    <name value="Diana Wijayanti"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/hi-dinanti"/>
+    </telecom>
+  </contact>
+  <description value="Codes for observation categories from Indonesian Ministry of Health terminology"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="genomics"/>
+    <display value="Genomics"/>
+    <definition value="Genomics"/>
+  </concept>
+  <concept>
+    <code value="SP000678"/>
+    <display value="Klebsiella pneumoniae capsular type [Identifier] by genomic analysis"/>
+    <definition value="Klebsiella pneumoniae capsular type [Identifier] by genomic analysis"/>
+  </concept>
+</CodeSystem>

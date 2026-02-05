@@ -1,0 +1,856 @@
+[
+  {
+    "id" : "ICD10",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/sid/icd-10",
+    "version" : "0.1.0",
+    "name" : "ICD10"
+  },
+  {
+    "id" : "ICD9CM",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/sid/icd-9-cm",
+    "version" : "0.1.0",
+    "name" : "ICD9CM"
+  },
+  {
+    "id" : "tbd-codes-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs",
+    "version" : "0.1.0",
+    "name" : "TbdCodesCS"
+  },
+  {
+    "id" : "loinc-codes-cs",
+    "type" : "CodeSystem",
+    "url" : "http://loinc.org",
+    "version" : "0.1.0",
+    "name" : "LOINCCodesCS"
+  },
+  {
+    "id" : "snomed-ct-cs",
+    "type" : "CodeSystem",
+    "url" : "http://snomed.info/sct",
+    "version" : "0.1.0",
+    "name" : "SNOMEDCTCS"
+  },
+  {
+    "id" : "tb-lineage-cs",
+    "type" : "CodeSystem",
+    "url" : "http://tb-lineage.org",
+    "version" : "0.1.0",
+    "name" : "TBLineageCS"
+  },
+  {
+    "id" : "hl7-observation-category-cs",
+    "type" : "CodeSystem",
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "0.1.0",
+    "name" : "HL7ObservationCategoryCS"
+  },
+  {
+    "id" : "hl7-v2-0074-cs",
+    "type" : "CodeSystem",
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "version" : "0.1.0",
+    "name" : "HL7v20074CS"
+  },
+  {
+    "id" : "kemkes-observation-category-cs",
+    "type" : "CodeSystem",
+    "url" : "http://terminology.kemkes.go.id/sp",
+    "version" : "0.1.0",
+    "name" : "KemkesObservationCategoryCS"
+  },
+  {
+    "id" : "ucum-cs",
+    "type" : "CodeSystem",
+    "url" : "http://unitsofmeasure.org",
+    "version" : "0.1.0",
+    "name" : "UCUMCS"
+  },
+  {
+    "id" : "ncbi-refseq-cs",
+    "type" : "CodeSystem",
+    "url" : "http://www.ncbi.nlm.nih.gov/refseq",
+    "version" : "0.1.0",
+    "name" : "NCBIRefSeqCS"
+  },
+  {
+    "id" : "amrphenotype",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/amrphenotype",
+    "version" : "0.1.0",
+    "name" : "AMRPhenotype"
+  },
+  {
+    "id" : "dna-variant",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/dna-variant",
+    "version" : "0.1.0",
+    "name" : "DNAVariant"
+  },
+  {
+    "id" : "gene-variant",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/gene-variant",
+    "version" : "0.1.0",
+    "name" : "GeneticVariant"
+  },
+  {
+    "id" : "genomic-base",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/genomic-base",
+    "version" : "0.1.0",
+    "name" : "GenomicBase"
+  },
+  {
+    "id" : "genomic-report",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/genomic-report",
+    "version" : "0.1.0",
+    "name" : "GenomicReport"
+  },
+  {
+    "id" : "genomics-service-request",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/genomics-service-request",
+    "version" : "0.1.0",
+    "name" : "GenomicsServiceRequest"
+  },
+  {
+    "id" : "protein-variant",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/protein-variant",
+    "version" : "0.1.0",
+    "name" : "ProteinVariant"
+  },
+  {
+    "id" : "tb-lineage-observation",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/tb-lineage-observation",
+    "version" : "0.1.0",
+    "name" : "TBLineageObservation"
+  },
+  {
+    "id" : "tb-phenotype-observation",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/tb-phenotype-observation",
+    "version" : "0.1.0",
+    "name" : "TBPhenotypeObservation"
+  },
+  {
+    "id" : "variant",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.gsilab.id//StructureDefinition/variant",
+    "version" : "0.1.0",
+    "name" : "Variant"
+  },
+  {
+    "id" : "antimicrobial-resistance-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs",
+    "version" : "0.1.0",
+    "name" : "AntimicrobialResistanceVS"
+  },
+  {
+    "id" : "hgvs-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.gsilab.id//ValueSet/hgvs-vs",
+    "version" : "0.1.0",
+    "name" : "HGVSVS"
+  },
+  {
+    "id" : "tbd-codes-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.gsilab.id//ValueSet/tbd-codes-vs",
+    "version" : "0.1.0",
+    "name" : "TBDCodesVS"
+  },
+  {
+    "id" : "hl7.fhir.r4.id.gsilab",
+    "type" : "ImplementationGuide",
+    "url" : "https://fhir.gsilab.id/ImplementationGuide/hl7.fhir.r4.id.gsilab",
+    "version" : "0.1.0",
+    "name" : "gsilab"
+  },
+  {
+    "id" : "SatuSehatAccount",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Account",
+    "version" : "0.1.0",
+    "name" : "SatuSehatAccount"
+  },
+  {
+    "id" : "SatuSehatAddress",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Address",
+    "version" : "0.1.0",
+    "name" : "SatuSehatAddress"
+  },
+  {
+    "id" : "AdministrativeCode",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/AdministrativeCode",
+    "version" : "0.1.0",
+    "name" : "AdministrativeCode"
+  },
+  {
+    "id" : "SatuSehatAllergyIntolerance",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/AllergyIntolerance",
+    "version" : "0.1.0",
+    "name" : "SatuSehatAllergyIntolerance"
+  },
+  {
+    "id" : "BillingStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/BillingStatus",
+    "version" : "0.1.0",
+    "name" : "BillingStatus"
+  },
+  {
+    "id" : "SatuSehatCarePlan",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/CarePlan",
+    "version" : "0.1.0",
+    "name" : "SatuSehatCarePlan"
+  },
+  {
+    "id" : "SatuSehatChargeItem",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ChargeItem",
+    "version" : "0.1.0",
+    "name" : "SatuSehatChargeItem"
+  },
+  {
+    "id" : "SatuSehatChargeItemDefinition",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ChargeItemDefinition",
+    "version" : "0.1.0",
+    "name" : "SatuSehatChargeItemDefinition"
+  },
+  {
+    "id" : "ChargeItemResponse",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ChargeItemResponse",
+    "version" : "0.1.0",
+    "name" : "ChargeItemResponse"
+  },
+  {
+    "id" : "SatuSehatClaim",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Claim",
+    "version" : "0.1.0",
+    "name" : "SatuSehatClaim"
+  },
+  {
+    "id" : "SatuSehatClaimResponse",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ClaimResponse",
+    "version" : "0.1.0",
+    "name" : "SatuSehatClaimResponse"
+  },
+  {
+    "id" : "SatuSehatClinicalImpression",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ClinicalImpression",
+    "version" : "0.1.0",
+    "name" : "SatuSehatClinicalImpression"
+  },
+  {
+    "id" : "CollectorOrganization",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/CollectorOrganization",
+    "version" : "0.1.0",
+    "name" : "CollectorOrganization"
+  },
+  {
+    "id" : "SatuSehatComposition",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Composition",
+    "version" : "0.1.0",
+    "name" : "SatuSehatComposition"
+  },
+  {
+    "id" : "SatuSehatCondition",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Condition",
+    "version" : "0.1.0",
+    "name" : "SatuSehatCondition"
+  },
+  {
+    "id" : "ConditionHistory",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ConditionHistory",
+    "version" : "0.1.0",
+    "name" : "ConditionHistory"
+  },
+  {
+    "id" : "SatuSehatCoverage",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Coverage",
+    "version" : "0.1.0",
+    "name" : "SatuSehatCoverage"
+  },
+  {
+    "id" : "SatuSehatCoverageEligibilityRequest",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/CoverageEligibilityRequest",
+    "version" : "0.1.0",
+    "name" : "SatuSehatCoverageEligibilityRequest"
+  },
+  {
+    "id" : "SatuSehatCoverageEligibilityResponse",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/CoverageEligibilityResponse",
+    "version" : "0.1.0",
+    "name" : "SatuSehatCoverageEligibilityResponse"
+  },
+  {
+    "id" : "SatuSehatDiagnosticReport",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/DiagnosticReport",
+    "version" : "0.1.0",
+    "name" : "SatuSehatDiagnosticReport"
+  },
+  {
+    "id" : "SatuSehatDocumentReference",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/DocumentReference",
+    "version" : "0.1.0",
+    "name" : "SatuSehatDocumentReference"
+  },
+  {
+    "id" : "DocumentStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/DocumentStatus",
+    "version" : "0.1.0",
+    "name" : "DocumentStatus"
+  },
+  {
+    "id" : "Education",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Education",
+    "version" : "0.1.0",
+    "name" : "Education"
+  },
+  {
+    "id" : "EligibilityStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/EligibilityStatus",
+    "version" : "0.1.0",
+    "name" : "EligibilityStatus"
+  },
+  {
+    "id" : "SatuSehatEncounter",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Encounter",
+    "version" : "0.1.0",
+    "name" : "SatuSehatEncounter"
+  },
+  {
+    "id" : "SatuSehatEpisodeOfCare",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/EpisodeOfCare",
+    "version" : "0.1.0",
+    "name" : "SatuSehatEpisodeOfCare"
+  },
+  {
+    "id" : "ExcessPolicyClass",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ExcessPolicyClass",
+    "version" : "0.1.0",
+    "name" : "ExcessPolicyClass"
+  },
+  {
+    "id" : "ExcessStatement",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ExcessStatement",
+    "version" : "0.1.0",
+    "name" : "ExcessStatement"
+  },
+  {
+    "id" : "SatuSehatFamilyMemberHistory",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/FamilyMemberHistory",
+    "version" : "0.1.0",
+    "name" : "SatuSehatFamilyMemberHistory"
+  },
+  {
+    "id" : "SatuSehatGoal",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Goal",
+    "version" : "0.1.0",
+    "name" : "SatuSehatGoal"
+  },
+  {
+    "id" : "SatuSehatHealthcareService",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/HealthcareService",
+    "version" : "0.1.0",
+    "name" : "SatuSehatHealthcareService"
+  },
+  {
+    "id" : "SatuSehatImagingStudy",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ImagingStudy",
+    "version" : "0.1.0",
+    "name" : "SatuSehatImagingStudy"
+  },
+  {
+    "id" : "SatuSehatImmunization",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Immunization",
+    "version" : "0.1.0",
+    "name" : "SatuSehatImmunization"
+  },
+  {
+    "id" : "SatuSehatInvoice",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Invoice",
+    "version" : "0.1.0",
+    "name" : "SatuSehatInvoice"
+  },
+  {
+    "id" : "SatuSehatList",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/List",
+    "version" : "0.1.0",
+    "name" : "SatuSehatList"
+  },
+  {
+    "id" : "SatuSehatLocation",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Location",
+    "version" : "0.1.0",
+    "name" : "SatuSehatLocation"
+  },
+  {
+    "id" : "SatuSehatMedication",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Medication",
+    "version" : "0.1.0",
+    "name" : "SatuSehatMedication"
+  },
+  {
+    "id" : "SatuSehatMedicationAdministration",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationAdministration",
+    "version" : "0.1.0",
+    "name" : "SatuSehatMedicationAdministration"
+  },
+  {
+    "id" : "SatuSehatMedicationDispense",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationDispense",
+    "version" : "0.1.0",
+    "name" : "SatuSehatMedicationDispense"
+  },
+  {
+    "id" : "SatuSehatMedicationRequest",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationRequest",
+    "version" : "0.1.0",
+    "name" : "SatuSehatMedicationRequest"
+  },
+  {
+    "id" : "SatuSehatMedicationStatement",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationStatement",
+    "version" : "0.1.0",
+    "name" : "SatuSehatMedicationStatement"
+  },
+  {
+    "id" : "MedicationType",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationType",
+    "version" : "0.1.0",
+    "name" : "MedicationType"
+  },
+  {
+    "id" : "SatuSehatNutritionOrder",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/NutritionOrder",
+    "version" : "0.1.0",
+    "name" : "SatuSehatNutritionOrder"
+  },
+  {
+    "id" : "SatuSehatObservation",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Observation",
+    "version" : "0.1.0",
+    "name" : "SatuSehatObservation"
+  },
+  {
+    "id" : "SatuSehatOperationOutcome",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/OperationOutcome",
+    "version" : "0.1.0",
+    "name" : "SatuSehatOperationOutcome"
+  },
+  {
+    "id" : "SatuSehatOrganization",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Organization",
+    "version" : "0.1.0",
+    "name" : "SatuSehatOrganization"
+  },
+  {
+    "id" : "SatuSehatPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient",
+    "version" : "0.1.0",
+    "name" : "SatuSehatPatient"
+  },
+  {
+    "id" : "SatuSehatPaymentNotice",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/PaymentNotice",
+    "version" : "0.1.0",
+    "name" : "SatuSehatPaymentNotice"
+  },
+  {
+    "id" : "SatuSehatPaymentReconciliation",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/PaymentReconciliation",
+    "version" : "0.1.0",
+    "name" : "SatuSehatPaymentReconciliation"
+  },
+  {
+    "id" : "PolicyClass",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/PolicyClass",
+    "version" : "0.1.0",
+    "name" : "PolicyClass"
+  },
+  {
+    "id" : "SatuSehatPractitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Practitioner",
+    "version" : "0.1.0",
+    "name" : "SatuSehatPractitioner"
+  },
+  {
+    "id" : "SatuSehatPractitionerRole",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/PractitionerRole",
+    "version" : "0.1.0",
+    "name" : "SatuSehatPractitionerRole"
+  },
+  {
+    "id" : "PrimaryCareProvider",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/PrimaryCareProvider",
+    "version" : "0.1.0",
+    "name" : "PrimaryCareProvider"
+  },
+  {
+    "id" : "SatuSehatProcedure",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Procedure",
+    "version" : "0.1.0",
+    "name" : "SatuSehatProcedure"
+  },
+  {
+    "id" : "PurificationDecision",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/PurificationDecision",
+    "version" : "0.1.0",
+    "name" : "PurificationDecision"
+  },
+  {
+    "id" : "SatuSehatQuestionnaire",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Questionnaire",
+    "version" : "0.1.0",
+    "name" : "SatuSehatQuestionnaire"
+  },
+  {
+    "id" : "SatuSehatQuestionnaireResponse",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/QuestionnaireResponse",
+    "version" : "0.1.0",
+    "name" : "SatuSehatQuestionnaireResponse"
+  },
+  {
+    "id" : "ReceivedPerson",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ReceivedPerson",
+    "version" : "0.1.0",
+    "name" : "ReceivedPerson"
+  },
+  {
+    "id" : "SatuSehatRelatedPerson",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/RelatedPerson",
+    "version" : "0.1.0",
+    "name" : "SatuSehatRelatedPerson"
+  },
+  {
+    "id" : "SatuSehatRiskAssessment",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/RiskAssessment",
+    "version" : "0.1.0",
+    "name" : "SatuSehatRiskAssessment"
+  },
+  {
+    "id" : "ServiceClass",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ServiceClass",
+    "version" : "0.1.0",
+    "name" : "ServiceClass"
+  },
+  {
+    "id" : "SatuSehatServiceRequest",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/ServiceRequest",
+    "version" : "0.1.0",
+    "name" : "SatuSehatServiceRequest"
+  },
+  {
+    "id" : "SatuSehatSpecimen",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Specimen",
+    "version" : "0.1.0",
+    "name" : "SatuSehatSpecimen"
+  },
+  {
+    "id" : "SatuSehatSubstance",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Substance",
+    "version" : "0.1.0",
+    "name" : "SatuSehatSubstance"
+  },
+  {
+    "id" : "SatuSehatTask",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/Task",
+    "version" : "0.1.0",
+    "name" : "SatuSehatTask"
+  },
+  {
+    "id" : "TotalPrice",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/TotalPrice",
+    "version" : "0.1.0",
+    "name" : "TotalPrice"
+  },
+  {
+    "id" : "TransportedPerson",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedPerson",
+    "version" : "0.1.0",
+    "name" : "TransportedPerson"
+  },
+  {
+    "id" : "TransportedTime",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedTime",
+    "version" : "0.1.0",
+    "name" : "TransportedTime"
+  },
+  {
+    "id" : "UnitPrice",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/UnitPrice",
+    "version" : "0.1.0",
+    "name" : "UnitPrice"
+  },
+  {
+    "id" : "billingStatusIdentifier",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusIdentifier",
+    "version" : "0.1.0",
+    "name" : "BillingStatusIdentifier"
+  },
+  {
+    "id" : "billingStatusInsurer",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusInsurer",
+    "version" : "0.1.0",
+    "name" : "BillingStatusInsurer"
+  },
+  {
+    "id" : "billingStatusRecipient",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusRecipient",
+    "version" : "0.1.0",
+    "name" : "BillingStatusRecipient"
+  },
+  {
+    "id" : "billingStatusRequest",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusRequest",
+    "version" : "0.1.0",
+    "name" : "BillingStatusRequest"
+  },
+  {
+    "id" : "billingStatusStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusStatus",
+    "version" : "0.1.0",
+    "name" : "BillingStatusStatus"
+  },
+  {
+    "id" : "billingStatusSubject",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/billingStatusSubject",
+    "version" : "0.1.0",
+    "name" : "BillingStatusSubject"
+  },
+  {
+    "id" : "CitizenshipStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/citizenshipStatus",
+    "version" : "0.1.0",
+    "name" : "CitizenshipStatus"
+  },
+  {
+    "id" : "city",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/city",
+    "version" : "0.1.0",
+    "name" : "CityExtension"
+  },
+  {
+    "id" : "district",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/district",
+    "version" : "0.1.0",
+    "name" : "DistrictExtension"
+  },
+  {
+    "id" : "BirthPlace",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-birthPlace",
+    "version" : "0.1.0",
+    "name" : "BirthPlace"
+  },
+  {
+    "id" : "BirthTime",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-birthTime",
+    "version" : "0.1.0",
+    "name" : "BirthTime"
+  },
+  {
+    "id" : "Citizenship",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-citizenship",
+    "version" : "0.1.0",
+    "name" : "Citizenship"
+  },
+  {
+    "id" : "Disability",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-disability",
+    "version" : "0.1.0",
+    "name" : "Disability"
+  },
+  {
+    "id" : "Religion",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/patient-religion",
+    "version" : "0.1.0",
+    "name" : "Religion"
+  },
+  {
+    "id" : "province",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/province",
+    "version" : "0.1.0",
+    "name" : "ProvinceExtension"
+  },
+  {
+    "id" : "claimResponse",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-claim-response",
+    "version" : "0.1.0",
+    "name" : "PurificationDecisionClaimResponse"
+  },
+  {
+    "id" : "created",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-created",
+    "version" : "0.1.0",
+    "name" : "PurificationDecisionCreated"
+  },
+  {
+    "id" : "identifier",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-identifier",
+    "version" : "0.1.0",
+    "name" : "PurificationDecisionIdentifier"
+  },
+  {
+    "id" : "insurer",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-insurer",
+    "version" : "0.1.0",
+    "name" : "PurificationDecisionInsurer"
+  },
+  {
+    "id" : "provider",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-provider",
+    "version" : "0.1.0",
+    "name" : "PurificationDecisionProvider"
+  },
+  {
+    "id" : "status",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/purification-decision-status",
+    "version" : "0.1.0",
+    "name" : "PurificationDecisionStatus"
+  },
+  {
+    "id" : "rt",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/rt",
+    "version" : "0.1.0",
+    "name" : "RtExtension"
+  },
+  {
+    "id" : "rw",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/rw",
+    "version" : "0.1.0",
+    "name" : "RwExtension"
+  },
+  {
+    "id" : "statusAssigner",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/statusAssigner",
+    "version" : "0.1.0",
+    "name" : "StatusAssignerExtension"
+  },
+  {
+    "id" : "statusCode",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/statusCode",
+    "version" : "0.1.0",
+    "name" : "StatusCodeExtension"
+  },
+  {
+    "id" : "statusTime",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/statusTime",
+    "version" : "0.1.0",
+    "name" : "StatusTimeExtension"
+  },
+  {
+    "id" : "village",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.kemkes.go.id/r4/StructureDefinition/village",
+    "version" : "0.1.0",
+    "name" : "VillageExtension"
+  },
+  {
+    "id" : "kemkes-episode-of-care-type-cs",
+    "type" : "CodeSystem",
+    "url" : "https://terminology.kemkes.go.id/CodeSystem/episodeofcare-type",
+    "version" : "0.1.0",
+    "name" : "KemkesEpisodeOfCareTypeCS"
+  }
+]

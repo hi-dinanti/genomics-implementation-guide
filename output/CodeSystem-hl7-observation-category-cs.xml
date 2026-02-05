@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hl7-observation-category-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hl7-observation-category-cs</b></p><a name="hl7-observation-category-cs"> </a><a name="hchl7-observation-category-cs"> </a><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/observation-category</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">laboratory<a name="hl7-observation-category-cs-laboratory"> </a></td><td>Laboratory</td><td>Laboratory</td></tr></table></div>
+  </text>
+  <url value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+  <version value="0.1.0"/>
+  <name value="HL7ObservationCategoryCS"/>
+  <title value="HL7 Observation Category Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-05T14:03:15+07:00"/>
+  <publisher value="Diana Wijayanti"/>
+  <contact>
+    <name value="Diana Wijayanti"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/hi-dinanti"/>
+    </telecom>
+  </contact>
+  <description value="HL7 Observation Category codes"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="laboratory"/>
+    <display value="Laboratory"/>
+    <definition value="Laboratory"/>
+  </concept>
+</CodeSystem>

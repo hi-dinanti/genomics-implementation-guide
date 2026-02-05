@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="kemkes-episode-of-care-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem kemkes-episode-of-care-type-cs</b></p><a name="kemkes-episode-of-care-type-cs"> </a><a name="hckemkes-episode-of-care-type-cs"> </a><p>This case-sensitive code system <code>https://terminology.kemkes.go.id/CodeSystem/episodeofcare-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">TB-SO<a name="kemkes-episode-of-care-type-cs-TB-SO"> </a></td><td>Tuberkulosis Sensitif Obat</td><td>Tuberkulosis Sensitif Obat</td></tr><tr><td style="white-space:nowrap">TB-RO<a name="kemkes-episode-of-care-type-cs-TB-RO"> </a></td><td>Tuberkulosis Resisten Obat</td><td>Tuberkulosis Resisten Obat</td></tr></table></div>
+  </text>
+  <url value="https://terminology.kemkes.go.id/CodeSystem/episodeofcare-type"/>
+  <version value="0.1.0"/>
+  <name value="KemkesEpisodeOfCareTypeCS"/>
+  <title value="Kemkes Episode of Care Type Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-05T14:03:15+07:00"/>
+  <publisher value="Diana Wijayanti"/>
+  <contact>
+    <name value="Diana Wijayanti"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/hi-dinanti"/>
+    </telecom>
+  </contact>
+  <description value="Episode of care type codes from Indonesian Ministry of Health"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="TB-SO"/>
+    <display value="Tuberkulosis Sensitif Obat"/>
+    <definition value="Tuberkulosis Sensitif Obat"/>
+  </concept>
+  <concept>
+    <code value="TB-RO"/>
+    <display value="Tuberkulosis Resisten Obat"/>
+    <definition value="Tuberkulosis Resisten Obat"/>
+  </concept>
+</CodeSystem>

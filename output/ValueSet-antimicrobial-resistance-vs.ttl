@@ -1,0 +1,689 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.gsilab.id/ValueSet/antimicrobial-resistance-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "antimicrobial-resistance-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet antimicrobial-resistance-vs</b></p><a name=\"antimicrobial-resistance-vs\"> </a><a name=\"hcantimicrobial-resistance-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89484-0\">89484-0</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89481-6\">89481-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18996-9\">18996-9</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89482-4\">89482-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-32373-3\">32373-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18979-5\">18979-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-32381-6\">32381-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96114-4\">96114-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18980-3\">18980-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18861-5\">18861-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18862-3\">18862-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18864-9\">18864-9</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18868-0\">18868-0</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18879-7\">18879-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18886-2\">18886-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18888-8\">18888-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18893-8\">18893-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18895-3\">18895-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-35802-8\">35802-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18932-4\">18932-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18943-1\">18943-1</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18969-6\">18969-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18970-4\">18970-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18994-4\">18994-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18995-1\">18995-1</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18900-1\">18900-1</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-25596-8\">25596-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18903-5\">18903-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18906-8\">18906-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18985-2\">18985-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18917-5\">18917-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18993-6\">18993-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18997-7\">18997-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89487-3\">89487-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-88462-7\">88462-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89486-5\">89486-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-614-8\">614-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89489-9\">89489-9</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89488-1\">89488-1</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89491-5\">89491-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-92242-7\">92242-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96112-8\">96112-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-20629-2\">20629-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96107-8\">96107-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96109-4\">96109-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-93850-6\">93850-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96111-0\">96111-0</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89483-2\">89483-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96108-6\">96108-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96110-2\">96110-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-23629-9\">23629-9</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-103959-3\">103959-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-LA24225-7\">LA24225-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-LA6676-6\">LA6676-6</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-413852006\">413852006</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414146004\">414146004</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414149006\">414149006</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414546009\">414546009</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415222009\">415222009</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415345001\">415345001</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415622003\">415622003</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-710106005\">710106005</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-423092005\">423092005</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-1098201000112100\">1098201000112100</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-714315002\">714315002</a></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs"^^xsd:anyURI ;
+     fhir:l <https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AntimicrobialResistanceVS"] ; # 
+  fhir:title [ fhir:v "Antimicrobial Resistance ValueSet"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-02-05T14:03:15+07:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Diana Wijayanti"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Diana Wijayanti" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://github.com/hi-dinanti" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Comprehensive value set for antimicrobial resistance testing including drugs, antibiotics, susceptibility results, and resistance patterns"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89484-0" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89481-6" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18996-9" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89482-4" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "32373-3" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18979-5" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "32381-6" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "96114-4" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18980-3" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18861-5" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18862-3" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18864-9" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18868-0" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18879-7" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18886-2" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18888-8" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18893-8" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18895-3" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "35802-8" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18932-4" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18943-1" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18969-6" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18970-4" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18994-4" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18995-1" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18900-1" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "25596-8" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18903-5" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18906-8" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18985-2" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18917-5" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18993-6" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "18997-7" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89487-3" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "88462-7" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89486-5" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "614-8" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89489-9" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89488-1" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89491-5" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "92242-7" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "96112-8" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "20629-2" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "96107-8" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "96109-4" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "93850-6" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "96111-0" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "89483-2" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "96108-6" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "96110-2" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "23629-9" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "103959-3" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "LA24225-7" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "LA6676-6" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "413852006" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "414146004" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "414149006" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "414546009" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "415222009" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "415345001" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "415622003" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "710106005" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "423092005" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "1098201000112100" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "code" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "714315002" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

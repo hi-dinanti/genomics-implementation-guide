@@ -1,0 +1,37 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "kemkes-episode-of-care-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem kemkes-episode-of-care-type-cs</b></p><a name=\"kemkes-episode-of-care-type-cs\"> </a><a name=\"hckemkes-episode-of-care-type-cs\"> </a><p>This case-sensitive code system <code>https://terminology.kemkes.go.id/CodeSystem/episodeofcare-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">TB-SO<a name=\"kemkes-episode-of-care-type-cs-TB-SO\"> </a></td><td>Tuberkulosis Sensitif Obat</td><td>Tuberkulosis Sensitif Obat</td></tr><tr><td style=\"white-space:nowrap\">TB-RO<a name=\"kemkes-episode-of-care-type-cs-TB-RO\"> </a></td><td>Tuberkulosis Resisten Obat</td><td>Tuberkulosis Resisten Obat</td></tr></table></div>"
+  },
+  "url" : "https://terminology.kemkes.go.id/CodeSystem/episodeofcare-type",
+  "version" : "0.1.0",
+  "name" : "KemkesEpisodeOfCareTypeCS",
+  "title" : "Kemkes Episode of Care Type Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "Episode of care type codes from Indonesian Ministry of Health",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "TB-SO",
+    "display" : "Tuberkulosis Sensitif Obat",
+    "definition" : "Tuberkulosis Sensitif Obat"
+  },
+  {
+    "code" : "TB-RO",
+    "display" : "Tuberkulosis Resisten Obat",
+    "definition" : "Tuberkulosis Resisten Obat"
+  }]
+}

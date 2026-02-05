@@ -1,0 +1,111 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.gsilab.id/CodeSystem/tbd-codes-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "tbd-codes-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tbd-codes-cs</b></p><a name=\"tbd-codes-cs\"> </a><a name=\"hctbd-codes-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"tbd-codes-cs-GE\"> </a></td><td>Genetics</td><td>Genetics</td></tr><tr><td style=\"white-space:nowrap\">associated-therapy<a name=\"tbd-codes-cs-associated-therapy\"> </a></td><td>Associated Therapy</td><td>The non-medication therapy (procedure) associated with this implication.</td></tr><tr><td style=\"white-space:nowrap\">molecular-consequence<a name=\"tbd-codes-cs-molecular-consequence\"> </a></td><td>Molecular Consequence</td><td>The calculated or observed effect of a DNA variant on its downstream transcript and, if applicable, ensuing protein sequence.</td></tr><tr><td style=\"white-space:nowrap\">feature-consequence<a name=\"tbd-codes-cs-feature-consequence\"> </a></td><td>Feature Consequence</td><td>The structural implications of a variant (e.g. the variant disrupts a regulatory region, the variant is an inframe insertion).</td></tr><tr><td style=\"white-space:nowrap\">diagnostic-implication<a name=\"tbd-codes-cs-diagnostic-implication\"> </a></td><td>Diagnostic Implication</td><td>An observation linking a genomic finding with a knowledge base, providing context that may aid in diagnosing a patient with a particular phenotype or condition.</td></tr><tr><td style=\"white-space:nowrap\">therapeutic-implication<a name=\"tbd-codes-cs-therapeutic-implication\"> </a></td><td>Therapeutic Implication</td><td>An observation linking a genomic finding with a knowledge base, providing potential evidence of an interaction with a specified medication or non-medicinal therapy. Ramifications may include alterations in drug metabolism (or pharmacokinetics) that determine the concentration of the drug, prodrug, and/or break-down products over time; alterations in drug efficacy (or pharmacodynamics) that determine how effective a drug is at a given concentration; alterations that alter the risk of adverse drug events, or other types of implications that indicate altered responsiveness to other types of therapies.</td></tr><tr><td style=\"white-space:nowrap\">genomic-annotation<a name=\"tbd-codes-cs-genomic-annotation\"> </a></td><td>Genomic Annotation</td><td>Profile for communicating the genome annotation derived from a genomic finding. Annotations are obtained from different databases (Clinvar,gnomad3,thousandgenomes etc.). NOTE: The bound Annotation Module value set is extensible. New annotation programs are being developed and old programs are being upodated/revised, meaning some annotation modules are outside the value set.</td></tr><tr><td style=\"white-space:nowrap\">functional-effect<a name=\"tbd-codes-cs-functional-effect\"> </a></td><td>Functional Effect</td><td>The effect of a variant on downstream biological products or pathways (from Sequence Ontology).</td></tr><tr><td style=\"white-space:nowrap\">conclusion-string<a name=\"tbd-codes-cs-conclusion-string\"> </a></td><td>Conclusion Text</td><td>Clinical conclusion (interpretation) of the observation.</td></tr><tr><td style=\"white-space:nowrap\">condition-inheritance<a name=\"tbd-codes-cs-condition-inheritance\"> </a></td><td>Condition Inheritance</td><td>The transmission pattern of the condition/phenotype in a pedigree.</td></tr><tr><td style=\"white-space:nowrap\">variant-confidence-status<a name=\"tbd-codes-cs-variant-confidence-status\"> </a></td><td>Variant Confidence Status</td><td>The confidence of a true positive variant call.</td></tr><tr><td style=\"white-space:nowrap\">repeat-motif<a name=\"tbd-codes-cs-repeat-motif\"> </a></td><td>Repeat Expansion Motif</td><td>Nucleotides of a repeat expansion motif.</td></tr><tr><td style=\"white-space:nowrap\">repeat-number<a name=\"tbd-codes-cs-repeat-number\"> </a></td><td>Number of Repeat Expansions</td><td>Number of repeats of a repeat expansion.</td></tr><tr><td style=\"white-space:nowrap\">biomarker-category<a name=\"tbd-codes-cs-biomarker-category\"> </a></td><td>A characterization of a given biomarker observation.</td><td/></tr><tr><td style=\"white-space:nowrap\">protein-ref-seq<a name=\"tbd-codes-cs-protein-ref-seq\"> </a></td><td>An identifier for the protein reference sequence.</td><td/></tr><tr><td style=\"white-space:nowrap\">conservation-score<a name=\"tbd-codes-cs-conservation-score\"> </a></td><td>Conservation Score</td><td>The conservation score calculated</td></tr><tr><td style=\"white-space:nowrap\">annotation-pipeline<a name=\"tbd-codes-cs-annotation-pipeline\"> </a></td><td>Annotation Pipeline</td><td>The name of the data pipeline that processed the genomic data file</td></tr><tr><td style=\"white-space:nowrap\">knowledge-base<a name=\"tbd-codes-cs-knowledge-base\"> </a></td><td>Knowledge Base</td><td>The database from which the annotation is derived</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TbdCodesCS"] ; # 
+  fhir:title [ fhir:v "To Be Determined Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-02-05T14:03:15+07:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Diana Wijayanti"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Diana Wijayanti" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://github.com/hi-dinanti" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "To Be Determined codes from Genomics Reporting"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "18"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "GE" ] ;
+     fhir:display [ fhir:v "Genetics" ] ;
+     fhir:definition [ fhir:v "Genetics" ]
+  ] [
+     fhir:code [ fhir:v "associated-therapy" ] ;
+     fhir:display [ fhir:v "Associated Therapy" ] ;
+     fhir:definition [ fhir:v "The non-medication therapy (procedure) associated with this implication." ]
+  ] [
+     fhir:code [ fhir:v "molecular-consequence" ] ;
+     fhir:display [ fhir:v "Molecular Consequence" ] ;
+     fhir:definition [ fhir:v "The calculated or observed effect of a DNA variant on its downstream transcript and, if applicable, ensuing protein sequence." ]
+  ] [
+     fhir:code [ fhir:v "feature-consequence" ] ;
+     fhir:display [ fhir:v "Feature Consequence" ] ;
+     fhir:definition [ fhir:v "The structural implications of a variant (e.g. the variant disrupts a regulatory region, the variant is an inframe insertion)." ]
+  ] [
+     fhir:code [ fhir:v "diagnostic-implication" ] ;
+     fhir:display [ fhir:v "Diagnostic Implication" ] ;
+     fhir:definition [ fhir:v "An observation linking a genomic finding with a knowledge base, providing context that may aid in diagnosing a patient with a particular phenotype or condition." ]
+  ] [
+     fhir:code [ fhir:v "therapeutic-implication" ] ;
+     fhir:display [ fhir:v "Therapeutic Implication" ] ;
+     fhir:definition [ fhir:v "An observation linking a genomic finding with a knowledge base, providing potential evidence of an interaction with a specified medication or non-medicinal therapy. Ramifications may include alterations in drug metabolism (or pharmacokinetics) that determine the concentration of the drug, prodrug, and/or break-down products over time; alterations in drug efficacy (or pharmacodynamics) that determine how effective a drug is at a given concentration; alterations that alter the risk of adverse drug events, or other types of implications that indicate altered responsiveness to other types of therapies." ]
+  ] [
+     fhir:code [ fhir:v "genomic-annotation" ] ;
+     fhir:display [ fhir:v "Genomic Annotation" ] ;
+     fhir:definition [ fhir:v "Profile for communicating the genome annotation derived from a genomic finding. Annotations are obtained from different databases (Clinvar,gnomad3,thousandgenomes etc.). NOTE: The bound Annotation Module value set is extensible. New annotation programs are being developed and old programs are being upodated/revised, meaning some annotation modules are outside the value set." ]
+  ] [
+     fhir:code [ fhir:v "functional-effect" ] ;
+     fhir:display [ fhir:v "Functional Effect" ] ;
+     fhir:definition [ fhir:v "The effect of a variant on downstream biological products or pathways (from Sequence Ontology)." ]
+  ] [
+     fhir:code [ fhir:v "conclusion-string" ] ;
+     fhir:display [ fhir:v "Conclusion Text" ] ;
+     fhir:definition [ fhir:v "Clinical conclusion (interpretation) of the observation." ]
+  ] [
+     fhir:code [ fhir:v "condition-inheritance" ] ;
+     fhir:display [ fhir:v "Condition Inheritance" ] ;
+     fhir:definition [ fhir:v "The transmission pattern of the condition/phenotype in a pedigree." ]
+  ] [
+     fhir:code [ fhir:v "variant-confidence-status" ] ;
+     fhir:display [ fhir:v "Variant Confidence Status" ] ;
+     fhir:definition [ fhir:v "The confidence of a true positive variant call." ]
+  ] [
+     fhir:code [ fhir:v "repeat-motif" ] ;
+     fhir:display [ fhir:v "Repeat Expansion Motif" ] ;
+     fhir:definition [ fhir:v "Nucleotides of a repeat expansion motif." ]
+  ] [
+     fhir:code [ fhir:v "repeat-number" ] ;
+     fhir:display [ fhir:v "Number of Repeat Expansions" ] ;
+     fhir:definition [ fhir:v "Number of repeats of a repeat expansion." ]
+  ] [
+     fhir:code [ fhir:v "biomarker-category" ] ;
+     fhir:display [ fhir:v "A characterization of a given biomarker observation." ]
+  ] [
+     fhir:code [ fhir:v "protein-ref-seq" ] ;
+     fhir:display [ fhir:v "An identifier for the protein reference sequence." ]
+  ] [
+     fhir:code [ fhir:v "conservation-score" ] ;
+     fhir:display [ fhir:v "Conservation Score" ] ;
+     fhir:definition [ fhir:v "The conservation score calculated" ]
+  ] [
+     fhir:code [ fhir:v "annotation-pipeline" ] ;
+     fhir:display [ fhir:v "Annotation Pipeline" ] ;
+     fhir:definition [ fhir:v "The name of the data pipeline that processed the genomic data file" ]
+  ] [
+     fhir:code [ fhir:v "knowledge-base" ] ;
+     fhir:display [ fhir:v "Knowledge Base" ] ;
+     fhir:definition [ fhir:v "The database from which the annotation is derived" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

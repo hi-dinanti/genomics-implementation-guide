@@ -1,0 +1,545 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "antimicrobial-resistance-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet antimicrobial-resistance-vs</b></p><a name=\"antimicrobial-resistance-vs\"> </a><a name=\"hcantimicrobial-resistance-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89484-0\">89484-0</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89481-6\">89481-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18996-9\">18996-9</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89482-4\">89482-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-32373-3\">32373-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18979-5\">18979-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-32381-6\">32381-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96114-4\">96114-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18980-3\">18980-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18861-5\">18861-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18862-3\">18862-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18864-9\">18864-9</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18868-0\">18868-0</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18879-7\">18879-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18886-2\">18886-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18888-8\">18888-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18893-8\">18893-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18895-3\">18895-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-35802-8\">35802-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18932-4\">18932-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18943-1\">18943-1</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18969-6\">18969-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18970-4\">18970-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18994-4\">18994-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18995-1\">18995-1</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18900-1\">18900-1</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-25596-8\">25596-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18903-5\">18903-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18906-8\">18906-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18985-2\">18985-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18917-5\">18917-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18993-6\">18993-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-18997-7\">18997-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89487-3\">89487-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-88462-7\">88462-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89486-5\">89486-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-614-8\">614-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89489-9\">89489-9</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89488-1\">89488-1</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89491-5\">89491-5</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-92242-7\">92242-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96112-8\">96112-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-20629-2\">20629-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96107-8\">96107-8</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96109-4\">96109-4</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-93850-6\">93850-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96111-0\">96111-0</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-89483-2\">89483-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96108-6\">96108-6</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-96110-2\">96110-2</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-23629-9\">23629-9</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-103959-3\">103959-3</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-LA24225-7\">LA24225-7</a></li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-loinc-codes-cs.html#loinc-codes-cs-LA6676-6\">LA6676-6</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-413852006\">413852006</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414146004\">414146004</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414149006\">414149006</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-414546009\">414546009</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415222009\">415222009</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415345001\">415345001</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-415622003\">415622003</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-710106005\">710106005</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-423092005\">423092005</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-1098201000112100\">1098201000112100</a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span> where code  = <a href=\"CodeSystem-snomed-ct-cs.html#snomed-ct-cs-714315002\">714315002</a></li></ul></div>"
+  },
+  "url" : "https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs",
+  "version" : "0.1.0",
+  "name" : "AntimicrobialResistanceVS",
+  "title" : "Antimicrobial Resistance ValueSet",
+  "status" : "draft",
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "Comprehensive value set for antimicrobial resistance testing including drugs, antibiotics, susceptibility results, and resistance patterns",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89484-0"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89481-6"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18996-9"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89482-4"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "32373-3"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18979-5"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "32381-6"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "96114-4"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18980-3"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18861-5"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18862-3"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18864-9"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18868-0"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18879-7"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18886-2"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18888-8"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18893-8"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18895-3"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "35802-8"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18932-4"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18943-1"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18969-6"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18970-4"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18994-4"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18995-1"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18900-1"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "25596-8"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18903-5"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18906-8"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18985-2"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18917-5"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18993-6"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "18997-7"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89487-3"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "88462-7"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89486-5"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "614-8"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89489-9"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89488-1"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89491-5"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "92242-7"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "96112-8"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "20629-2"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "96107-8"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "96109-4"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "93850-6"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "96111-0"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "89483-2"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "96108-6"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "96110-2"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "23629-9"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "103959-3"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "LA24225-7"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "LA6676-6"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "413852006"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "414146004"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "414149006"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "414546009"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "415222009"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "415345001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "415622003"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "710106005"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "423092005"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "1098201000112100"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "code",
+        "op" : "=",
+        "value" : "714315002"
+      }]
+    }]
+  }
+}

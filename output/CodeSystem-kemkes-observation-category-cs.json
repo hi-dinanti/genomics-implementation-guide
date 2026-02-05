@@ -1,0 +1,37 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "kemkes-observation-category-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem kemkes-observation-category-cs</b></p><a name=\"kemkes-observation-category-cs\"> </a><a name=\"hckemkes-observation-category-cs\"> </a><p>This case-sensitive code system <code>http://terminology.kemkes.go.id/sp</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">genomics<a name=\"kemkes-observation-category-cs-genomics\"> </a></td><td>Genomics</td><td>Genomics</td></tr><tr><td style=\"white-space:nowrap\">SP000678<a name=\"kemkes-observation-category-cs-SP000678\"> </a></td><td>Klebsiella pneumoniae capsular type [Identifier] by genomic analysis</td><td>Klebsiella pneumoniae capsular type [Identifier] by genomic analysis</td></tr></table></div>"
+  },
+  "url" : "http://terminology.kemkes.go.id/sp",
+  "version" : "0.1.0",
+  "name" : "KemkesObservationCategoryCS",
+  "title" : "Kemkes Observation Category Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-05T14:03:15+07:00",
+  "publisher" : "Diana Wijayanti",
+  "contact" : [{
+    "name" : "Diana Wijayanti",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/hi-dinanti"
+    }]
+  }],
+  "description" : "Codes for observation categories from Indonesian Ministry of Health terminology",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "genomics",
+    "display" : "Genomics",
+    "definition" : "Genomics"
+  },
+  {
+    "code" : "SP000678",
+    "display" : "Klebsiella pneumoniae capsular type [Identifier] by genomic analysis",
+    "definition" : "Klebsiella pneumoniae capsular type [Identifier] by genomic analysis"
+  }]
+}

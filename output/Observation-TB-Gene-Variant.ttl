@@ -1,0 +1,165 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.gsilab.id/Observation/TB-Gene-Variant> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TB-Gene-Variant"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://fhir.gsilab.id//StructureDefinition/variant"^^xsd:anyURI ;
+       fhir:l <https://fhir.gsilab.id//StructureDefinition/variant>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant>
+     ] ) ;
+     fhir:tag ( [
+       fhir:system [
+         fhir:v "http://terminology.kemkes.go.id/sp"^^xsd:anyURI ;
+         fhir:l <http://terminology.kemkes.go.id/sp>
+       ] ;
+       fhir:code [ fhir:v "genomics" ] ;
+       fhir:display [ fhir:v "Genomics" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation TB-Gene-Variant</b></p><a name=\"TB-Gene-Variant\"> </a><a name=\"hcTB-Gene-Variant\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-variant.html\">Variant</a>, <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.r4.id.core@0.1.0&amp;canonical=http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant\">http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant</a></p><p style=\"margin-bottom: 0px\">Tag: Genomics (Details: Kemkes Observation Category Codes code genomics = 'Genomics')</p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span>, <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 GE}\">Genetics</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 69548-6}\">Genetic variant assessment</span></p><p><b>value</b>: <span title=\"Codes:{http://loinc.org LA9633-4}\">Present</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 81290-9}\">Genomic DNA change (gHGVS)</span></p><p><b>value</b>: <span title=\"Codes:{https://varnomen.hgvs.org NC_000962.3:g.4013T>C}\">NC_000962.3:g.4013T&gt;C</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://www.ncbi.nlm.nih.gov/refseq NC_000962.3}\">NC_000962.3</span></p><p><b>value</b>: <span title=\"Codes:{http://www.ncbi.nlm.nih.gov/refseq NC_000962.3}\">Mycobacterium tuberculosis H37Rv, complete genome</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 82121-5}\">Allelic read depth</span></p><p><b>value</b>: 190 reads per base pair<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code[1] = '[1]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 81254-5}\">Variant exact start-end</span></p><p><b>value</b>: 4013-?</p></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
+       fhir:code [ fhir:v "laboratory" ] ;
+       fhir:display [ fhir:v "Laboratory" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
+       ] ;
+       fhir:code [ fhir:v "GE" ] ;
+       fhir:display [ fhir:v "Genetics" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:69548-6 ;
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:code [ fhir:v "69548-6" ] ;
+       fhir:display [ fhir:v "Genetic variant assessment" ]
+     ] )
+  ] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       a loinc:LA9633-4 ;
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:code [ fhir:v "LA9633-4" ] ;
+       fhir:display [ fhir:v "Present" ]
+     ] ) ;
+     fhir:text [ fhir:v "Present" ]
+  ] ; # 
+  fhir:component ( [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:81290-9 ;
+         fhir:system [
+           fhir:v "http://loinc.org"^^xsd:anyURI ;
+           fhir:l <http://loinc.org>
+         ] ;
+         fhir:code [ fhir:v "81290-9" ] ;
+         fhir:display [ fhir:v "Genomic DNA change (gHGVS)" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "https://varnomen.hgvs.org"^^xsd:anyURI ;
+           fhir:l <https://varnomen.hgvs.org>
+         ] ;
+         fhir:code [ fhir:v "NC_000962.3:g.4013T>C" ] ;
+         fhir:display [ fhir:v "NC_000962.3:g.4013T>C" ]
+       ] )
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://www.ncbi.nlm.nih.gov/refseq"^^xsd:anyURI ;
+           fhir:l <http://www.ncbi.nlm.nih.gov/refseq>
+         ] ;
+         fhir:code [ fhir:v "NC_000962.3" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://www.ncbi.nlm.nih.gov/refseq"^^xsd:anyURI ;
+           fhir:l <http://www.ncbi.nlm.nih.gov/refseq>
+         ] ;
+         fhir:code [ fhir:v "NC_000962.3" ] ;
+         fhir:display [ fhir:v "Mycobacterium tuberculosis H37Rv, complete genome" ]
+       ] )
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:82121-5 ;
+         fhir:system [
+           fhir:v "http://loinc.org"^^xsd:anyURI ;
+           fhir:l <http://loinc.org>
+         ] ;
+         fhir:code [ fhir:v "82121-5" ] ;
+         fhir:display [ fhir:v "Allelic read depth" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "190"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "reads per base pair" ] ;
+       fhir:system [
+         fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
+         fhir:l <http://unitsofmeasure.org>
+       ] ;
+       fhir:code [ fhir:v "[1]" ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:81254-5 ;
+         fhir:system [
+           fhir:v "http://loinc.org"^^xsd:anyURI ;
+           fhir:l <http://loinc.org>
+         ] ;
+         fhir:code [ fhir:v "81254-5" ] ;
+         fhir:display [ fhir:v "Variant exact start-end" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Range ;
+       fhir:low [
+         fhir:value [ fhir:v "4013"^^xsd:decimal ]
+       ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

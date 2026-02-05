@@ -1,0 +1,396 @@
+# TB Drug Susceptibility Panel Example - FHIR Implementation Guide Genomics Reporting (Draft) v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **TB Drug Susceptibility Panel Example**
+
+## Example Observation: TB Drug Susceptibility Panel Example
+
+Mycobacterial susceptibility panel for ERR2706911
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Observation",
+  "id" : "TB-Drug-Panel",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/Observation"]
+  },
+  "status" : "final",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory",
+          "display" : "Laboratory"
+        }
+      ]
+    },
+    {
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code" : "GE",
+          "display" : "Genetics"
+        }
+      ]
+    }
+  ],
+  "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "89486-5",
+        "display" : "Mycobacterial susceptibility panel Qualitative by Genotype method"
+      }
+    ]
+  },
+  "component" : [
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "89489-9",
+            "display" : "rifAMPin [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "89488-1",
+            "display" : "Isoniazid [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA6676-6",
+            "display" : "Resistant"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "89491-5",
+            "display" : "Ethambutol [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "92242-7",
+            "display" : "Pyrazinamide [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "96112-8",
+            "display" : "Moxifloxacin [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "20629-2",
+            "display" : "levoFLOXacin [Susceptibility]"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "96107-8",
+            "display" : "Bedaquiline [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "96109-4",
+            "display" : "Delamanid [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "93850-6",
+            "display" : "Pretomanid [Susceptibility]"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "96114-4",
+            "display" : "Streptomycin [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "89484-0",
+            "display" : "Amikacin [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "89482-4",
+            "display" : "Kanamycin [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "89483-2",
+            "display" : "Capreomycin [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "96108-6",
+            "display" : "Clofazimine [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "96110-2",
+            "display" : "Ethionamide [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "96111-0",
+            "display" : "Linezolid [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    },
+    {
+      "code" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "103959-3",
+            "display" : "cycloSERINE [Susceptibility] by Genotype method"
+          }
+        ]
+      },
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://loinc.org",
+            "code" : "LA24225-7",
+            "display" : "Susceptible"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+```

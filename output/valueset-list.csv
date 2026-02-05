@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+https://fhir.gsilab.id//ValueSet/antimicrobial-resistance-vs,0.1.0,draft,,AntimicrobialResistanceVS,Antimicrobial Resistance ValueSet,"Comprehensive value set for antimicrobial resistance testing including drugs, antibiotics, susceptibility results, and resistance patterns",,"Internal"
+https://fhir.gsilab.id//ValueSet/hgvs-vs,0.1.0,draft,,HGVSVS,Human Genome Variation Society (HGVS) Nomenclature,"HGVS-nomenclature is used to report and exchange information regarding variants found in DNA, RNA and protein sequences and serves as an international standard. (source: varnomen.hgvs.org)",,"Other"
+https://fhir.gsilab.id//ValueSet/tbd-codes-vs,0.1.0,draft,,TBDCodesVS,To Be Determined Value Set,"Value Set for codes yet to be defined in LOINC",,"Internal"
